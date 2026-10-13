@@ -1,8 +1,8 @@
-@props(['service', 'sizes' => '(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw'])
+@props(['service', 'wide' => false, 'sizes' => '(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw'])
 
 <article {{ $attributes->class(['group relative']) }} data-reveal>
     <a href="{{ route('services.show', $service) }}" class="block">
-        <div class="relative aspect-[4/5] overflow-hidden rounded-sm bg-sand-light">
+        <div @class(['relative overflow-hidden rounded-sm bg-sand-light', 'aspect-[4/5] sm:aspect-[21/9]' => $wide, 'aspect-[4/5]' => ! $wide])>
             <x-picture :media="$service->heroMedia" :sizes="$sizes" class="absolute inset-0"
                        imgClass="h-full w-full object-cover transition duration-[1.2s] ease-[var(--ease-soft)] group-hover:scale-105" />
             <div class="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/10 to-transparent"></div>

@@ -10,7 +10,9 @@
 
     <div class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         @foreach ($data['services'] as $service)
-            <x-card.service :service="$service" />
+            {{-- A single leftover card in the last row becomes a full-width banner. --}}
+            @php $wide = $loop->last && $loop->count % 3 === 1 && $loop->count > 1; @endphp
+            <x-card.service :service="$service" :wide="$wide" @class(['sm:col-span-2 lg:col-span-3' => $wide]) />
         @endforeach
     </div>
 </x-section>

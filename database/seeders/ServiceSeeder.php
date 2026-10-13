@@ -202,7 +202,7 @@ class ServiceSeeder extends Seeder
             'short_description' => 'Feature walls with real character — wallpaper, timber and fluted panelling, stone, mirrors and art — designed to add depth, texture and personality to any room.',
             'hero_title' => 'Creative Wall Decor & Wallpaper Services',
             'hero_description' => 'Walls are the largest canvas in your home. We transform them with wallpaper, panelling, decorative finishes and art to give every room a distinctive character.',
-            'hero' => 'gold-geometric-wall-panels',
+            'hero' => 'timber-panelled-living-room-art',
             'intro' => '<p>Few decorative changes are as transformative as rethinking the walls. A well-chosen wallpaper, a run of fluted timber panels or a book-matched stone feature can give a room instant architecture and identity. Our wall decor service helps you choose the right treatment for each space and integrate it naturally into the wider scheme.</p><p>We consider how walls are seen — from the doorway, from the sofa, from the bed — and select treatments that create focus where it matters. Media walls, headboard walls, dining room features and entrance halls are all opportunities for something special, while quieter textures and paint finishes keep supporting walls calm.</p><p>Art and mirrors complete the picture. We advise on scale, framing and hanging heights, curate gallery walls and position mirrors to reflect light and views, so every wall in the room contributes to a balanced whole.</p>',
             'included' => [
                 ['Feature wall design', 'Concepts for media walls, headboard walls and dining features tailored to each room.'],
@@ -238,7 +238,7 @@ class ServiceSeeder extends Seeder
                 ['Panelling, light and dimension', '<p>Three-dimensional wall treatments bring architecture to otherwise plain rooms. Fluted or wave-profile panels catch the light differently throughout the day, while integrated LED lighting behind or within the panels can turn a wall into a soft, glowing backdrop in the evening.</p><p>We help you select profiles, finishes and lighting temperatures that suit the room\'s proportions, and coordinate with installers so joints, edges and switches are resolved neatly.</p>', 'backlit-3d-wave-wall'],
                 ['Upholstered and tufted walls', '<p>In bedrooms, dressing rooms and snugs, upholstered wall panels add luxurious softness and help absorb sound. Diamond-tufted, channelled or simple padded panels in velvet, linen or bouclé create a cocooning backdrop that pairs beautifully with statement lighting and polished accents.</p>', 'tufted-wall-crystal-chandelier-bedroom'],
             ],
-            'gallery' => ['marble-tv-wall-living-room', 'walnut-tv-wall-living-room', 'timber-panelled-living-room-art', 'dining-room-sculptural-mirrors', 'bedroom-fluted-wall-light-sculpture'],
+            'gallery' => ['marble-tv-wall-living-room', 'walnut-tv-wall-living-room', 'gold-geometric-wall-panels', 'dining-room-sculptural-mirrors', 'bedroom-fluted-wall-light-sculpture'],
             'related' => ['living-room-decoration', 'lighting-ceiling-decor', 'home-accessories-styling'],
         ],
 

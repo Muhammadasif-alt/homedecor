@@ -19,7 +19,9 @@ Alpine.start();
 const revealables = [...document.querySelectorAll('[data-reveal]')];
 const reveal = (el) => el.classList.add('is-visible');
 
-if (! ('IntersectionObserver' in window)) {
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+if (reducedMotion || ! ('IntersectionObserver' in window)) {
     revealables.forEach(reveal);
 } else {
     const observer = new IntersectionObserver((entries) => {

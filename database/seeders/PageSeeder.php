@@ -88,7 +88,7 @@ class PageSeeder extends Seeder
                     ['type' => 'testimonials', 'eyebrow' => 'Kind words', 'heading' => 'What our clients say', 'data' => ['limit' => 3]],
                     ['type' => 'blog', 'eyebrow' => 'Journal', 'heading' => 'Decor ideas & inspiration', 'body' => 'Practical advice and ideas for creating a home you love.', 'data' => ['limit' => 3]],
                     ['type' => 'faqs', 'eyebrow' => 'FAQs', 'heading' => 'Frequently asked questions', 'data' => ['scope' => 'home']],
-                    ['type' => 'cta', 'eyebrow' => 'Let\'s begin', 'heading' => 'Ready to transform your home?', 'body' => 'Tell us about your space and what you would like to change. We will help you shape the next step.', 'media' => 'timber-panelled-living-room-art', 'data' => ['buttons' => self::CTA_BUTTONS]],
+                    ['type' => 'cta', 'eyebrow' => 'Let\'s begin', 'heading' => 'Ready to transform your home?', 'body' => 'Tell us about your space and what you would like to change. We will help you shape the next step.', 'media' => 'living-room-pearl-chandelier-garden', 'data' => ['buttons' => self::CTA_BUTTONS]],
                 ],
             ],
 
