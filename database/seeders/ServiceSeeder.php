@@ -82,6 +82,7 @@ class ServiceSeeder extends Seeder
                 ['Bedside & reading lighting', 'Pendants, wall lights and dimmable lamps positioned for reading and winding down.'],
                 ['Storage planning', 'Wardrobes, chests and bedside storage arranged to keep surfaces clear and the room tranquil.'],
                 ['Bedding & textiles', 'Layered bedding, throws, rugs and curtains selected for comfort, texture and light control.'],
+                ['Artwork & final styling', 'Art, mirrors and bedside accessories placed to finish the room in a calm, personal way.'],
             ],
             'styles' => [
                 ['Serene Neutral', 'Ivory, oatmeal and stone tones with soft textures for a calm, hotel-like retreat.'],
@@ -126,6 +127,7 @@ class ServiceSeeder extends Seeder
                 ['Bar & dining seating', 'Stools, chairs and banquettes chosen for comfort, height and easy cleaning.'],
                 ['Open shelving styling', 'Curated arrangements of ceramics, glassware, cookbooks and plants.'],
                 ['Kitchen–dining connection', 'Rugs, lighting and furniture that tie the kitchen into adjoining living and dining areas.'],
+                ['Blinds & window dressing', 'Easy-clean blinds or café curtains that control light without getting in the way of cooking.'],
             ],
             'styles' => [
                 ['Clean Handleless', 'Seamless white or grey cabinetry, crisp stone surfaces and minimal visual noise.'],
@@ -169,6 +171,7 @@ class ServiceSeeder extends Seeder
                 ['Bathroom lighting', 'Mirror, niche and ambient lighting for both practical grooming and relaxed bathing.'],
                 ['Finish & tile direction', 'Wall and floor finishes chosen for texture, tone and easy upkeep.'],
                 ['Textiles & accessories', 'Towels, bath mats, plants and vessels that soften and personalise the space.'],
+                ['Storage & organisation', 'Niches, shelves and baskets that keep essentials to hand and countertops clear.'],
             ],
             'styles' => [
                 ['Warm Spa', 'Oak or walnut vanities, natural stone tones and soft, warm lighting.'],
@@ -258,6 +261,7 @@ class ServiceSeeder extends Seeder
                 ['Curtain & blind design', 'Heading styles, lengths, layering and blind types for every window shape.'],
                 ['Tracks, poles & motorisation', 'Discreet ceiling tracks, decorative poles and optional motorised systems.'],
                 ['Professional fitting', 'Installation and dressing so curtains hang and fold beautifully from day one.'],
+                ['Care & aftercare advice', 'Cleaning and care guidance so fabrics, linings and mechanisms stay looking their best.'],
             ],
             'styles' => [
                 ['Floor-to-Ceiling Sheers', 'Light, airy layers that soften glazing and blur the line between inside and out.'],
@@ -346,6 +350,7 @@ class ServiceSeeder extends Seeder
                 ['Ceiling detail design', 'Cove, recess and coffer concepts with integrated LED lighting.'],
                 ['Lamps & wall lights', 'Table, floor and wall lights that add warmth at eye level.'],
                 ['Dimming & control advice', 'Recommendations for dimmers, scenes and colour temperature.'],
+                ['Art & shelf lighting', 'Picture lights and shelf lighting that highlight artwork, joinery and displays.'],
             ],
             'styles' => [
                 ['Sculptural Modern', 'Ring, linear and organic-form fittings that act as art pieces.'],

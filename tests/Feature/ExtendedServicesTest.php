@@ -54,6 +54,8 @@ class ExtendedServicesTest extends TestCase
         foreach (Service::all() as $service) {
             $count = count($service->styles);
             $this->assertTrue($count === 4 || $count % 3 === 0, "{$service->slug} has {$count} styles");
+            // "What's included" is always 3 across.
+            $this->assertSame(0, count($service->included) % 3, "{$service->slug} has ".count($service->included).' included items');
         }
     }
 
