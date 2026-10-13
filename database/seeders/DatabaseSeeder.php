@@ -27,5 +27,8 @@ class DatabaseSeeder extends Seeder
         if (class_exists(BlogPostSeeder::class)) {
             $this->call(BlogPostSeeder::class);
         }
+
+        // Runs last: links the new services to existing projects and articles.
+        $this->call(ExtendedServiceSeeder::class);
     }
 }

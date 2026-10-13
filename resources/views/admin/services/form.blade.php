@@ -83,6 +83,9 @@
                                           :selected="$editing ? $service->related->pluck('id')->all() : []" />
                     <x-admin.multi-select name="projects" label="Linked portfolio projects" :options="$projectOptions"
                                           :selected="$editing ? $service->projects->pluck('id')->all() : []" empty="No projects yet." />
+                    <x-admin.multi-select name="articles" label="Related articles" :options="$articleOptions"
+                                          :selected="$editing ? $service->articles->pluck('id')->all() : []" empty="No articles yet."
+                                          hint="Shown as “Further reading” on the service page, with any article whose main service is this one." />
                 </div>
             </x-admin.card>
 

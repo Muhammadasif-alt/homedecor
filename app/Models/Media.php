@@ -23,6 +23,8 @@ class Media extends Model
         'process' => 'Process / Planning',
         'construction' => 'Construction & Finishing',
         'outdoor' => 'Outdoor & Landscape',
+        'kids' => 'Kids & Nursery',
+        'seasonal' => 'Seasonal & Holiday',
         'before-after' => 'Before & After',
         'gallery' => 'Gallery / Portfolio',
     ];

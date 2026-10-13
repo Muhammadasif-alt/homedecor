@@ -16,9 +16,9 @@ class ServiceSeeder extends Seeder
 {
     use SeedsMedia;
 
-    private const TITLE_SUFFIX = ' | Home Decor Studio';
+    protected const TITLE_SUFFIX = ' | Home Decor Studio';
 
-    private const FEATURED_COUNT = 6;
+    protected const FEATURED_COUNT = 6;
 
     private const SERVICES = [
         'living-room-decoration' => [
@@ -482,7 +482,7 @@ class ServiceSeeder extends Seeder
         }
     }
 
-    private function upsertService(string $slug, array $data, int $order): Service
+    protected function upsertService(string $slug, array $data, int $order): Service
     {
         return Service::withTrashed()->updateOrCreate(['slug' => $slug], [
             'name' => $data['name'],
@@ -507,7 +507,7 @@ class ServiceSeeder extends Seeder
         ]);
     }
 
-    private function syncSections(Service $service, array $sections): void
+    protected function syncSections(Service $service, array $sections): void
     {
         $service->sections()->delete();
 
@@ -515,13 +515,13 @@ class ServiceSeeder extends Seeder
             $service->sections()->create([
                 'heading' => $heading,
                 'body' => $body,
-                'media_id' => $this->media($mediaSlug),
+                'media_id' => $mediaSlug ? $this->media($mediaSlug) : null, // text-only blocks are allowed
                 'sort_order' => $i + 1,
             ]);
         }
     }
 
-    private function syncGallery(Service $service, array $slugs): void
+    protected function syncGallery(Service $service, array $slugs): void
     {
         $sync = [];
         foreach (array_values($slugs) as $i => $slug) {
@@ -531,7 +531,7 @@ class ServiceSeeder extends Seeder
     }
 
     /** @param  array<int, array{0: string, 1: string}>  $pairs */
-    private function pairs(array $pairs): array
+    protected function pairs(array $pairs): array
     {
         return array_map(fn (array $p) => ['title' => $p[0], 'text' => $p[1]], $pairs);
     }

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Requests\Admin\ServiceRequest;
+use App\Models\BlogPost;
 use App\Models\Faq;
 use App\Models\Project;
 use App\Models\Service;
@@ -48,7 +49,7 @@ class ServiceController extends ResourceController
 
     public function edit(Service $service): View
     {
-        $service->load(['sections', 'gallery', 'related:id', 'projects:id']);
+        $service->load(['sections', 'gallery', 'related:id', 'projects:id', 'articles:id']);
 
         return $this->form($service);
     }
@@ -76,6 +77,7 @@ class ServiceController extends ResourceController
             'service' => $service,
             'serviceOptions' => Service::ordered()->whereKeyNot($service->id ?? 0)->pluck('name', 'id'),
             'projectOptions' => Project::ordered()->pluck('title', 'id'),
+            'articleOptions' => BlogPost::orderBy('title')->pluck('title', 'id'),
             'faqCount' => $service->exists ? Faq::where('service_id', $service->id)->count() : 0,
         ]);
     }
@@ -100,5 +102,8 @@ class ServiceController extends ResourceController
         );
         $service->related()->sync($request->ids('related'));
         $service->projects()->sync($request->ids('projects'));
+        $service->articles()->sync(
+            collect($request->ids('articles'))->mapWithKeys(fn ($id, $i) => [$id => ['sort_order' => $i]])->all()
+        );
     }
 }

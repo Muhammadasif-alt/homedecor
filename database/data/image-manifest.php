@@ -129,6 +129,18 @@ return [
     ['woKwy50Blq', 'double-height-ring-chandelier-fireplace', 'lighting', 'Double-height living room with ring chandeliers, a stone fireplace and curved seating'],
     ['xX6L7OpveU', 'living-room-timber-screen', 'furniture', 'Living room with timber screen partitions, marble coffee table and patterned armchairs'],
 
+    // Added for the extended service range (JFIF originals)
+    ['sfS_UP0iem', 'dining-room-gold-mesh-chandelier', 'lighting', 'Dining room with a gold mesh chandelier over a marble table, curved two-tone chairs and a lit wine wall'],
+    ['e1XzgM28qT', 'home-office-oak-joinery-glass-pendants', 'furniture', 'Home office with oak joinery, backlit shelves, glass globe pendants and a large timber desk'],
+    ['BJsjbmfq79', 'pastel-nursery-timber-crib', 'kids', 'Pastel nursery with a natural timber crib, mobile, wall shelves, soft toys and a cream rug'],
+    ['MkiCusBw7d', 'balcony-lounge-string-lights', 'outdoor', 'Covered balcony lounge with timber bench seating, cushions, wall planters and string lights at dusk'],
+    ['O7GbQAEmiM', 'entryway-console-round-mirror', 'wall-decor', 'Entryway with a slim console, round mirror, glass globe pendants, dried grasses and a fluted timber panel'],
+    ['jZ5vUplI-7', 'walk-in-closet-lit-vanity-mirror', 'furniture', 'Walk-in closet with lit open wardrobes, a backlit round vanity mirror and an upholstered pouf'],
+    ['NJB9Mu-27z', 'compact-apartment-living-dining', 'living-room', 'Compact apartment living room with a corner sofa, small round dining table, glass pendants and full-height curtains'],
+    ['O9EN_SzqUe', 'guest-ready-grey-bedroom', 'bedroom', 'Calm grey bedroom with a panelled wall, upholstered bed, tufted bench, armchairs and a ceiling fan'],
+    ['yiW_TDx-w2', 'bright-living-room-rattan-sofa', 'living-room', 'Bright living room with a rattan-framed sofa, round timber coffee table, fresh flowers and indoor plants'],
+    ['Bes9ZlHYrt', 'christmas-living-room-fireplace', 'seasonal', 'Living room dressed for Christmas with a lit tree, garland-draped fireplace mantel, wreath and wrapped gifts'],
+
     // Before & after pairs (same room, photographed before and after decoration)
     ['before-after-living-room-before', 'living-room-before', 'before-after', 'Living room before decoration: bare walls, worn sofas and a plain glass coffee table'],
     ['before-after-living-room-after', 'living-room-after', 'before-after', 'The same living room after decoration with a cream sectional, timber slat wall, ring chandelier and cove lighting'],

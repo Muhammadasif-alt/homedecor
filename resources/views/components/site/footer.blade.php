@@ -28,10 +28,18 @@
             @endif
         </div>
 
+        {{-- A short list keeps the column level with its neighbours; the full range is one click away. --}}
         <x-site.footer-column title="Services" class="lg:col-span-3">
-            @foreach ($services as $service)
+            @foreach ($services->take(8) as $service)
                 <li><a href="{{ route('services.show', $service) }}" class="transition hover:text-sand">{{ $service->name }}</a></li>
             @endforeach
+            @if ($services->count() > 8)
+                <li class="pt-1">
+                    <a href="{{ route('services.index') }}" class="inline-flex items-center gap-2 font-semibold text-sand transition hover:text-ivory">
+                        View all {{ $services->count() }} services <x-icon name="arrow-right" size="16" />
+                    </a>
+                </li>
+            @endif
         </x-site.footer-column>
 
         {{-- Services already have their own column, so the overview link is not repeated here. --}}

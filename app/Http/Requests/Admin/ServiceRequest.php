@@ -16,7 +16,7 @@ class ServiceRequest extends AdminRequest
         'process' => 'Process (overrides the global steps)',
     ];
 
-    private const RELATIONS = ['sections', 'gallery', 'related', 'projects'];
+    private const RELATIONS = ['sections', 'gallery', 'related', 'projects', 'articles'];
 
     protected array $booleans = ['is_featured', 'is_published'];
 
@@ -52,6 +52,8 @@ class ServiceRequest extends AdminRequest
             'related.*' => ['integer', Rule::exists('services', 'id')->whereNot('id', $service?->id ?? 0)],
             'projects' => ['nullable', 'array'],
             'projects.*' => ['integer', 'exists:projects,id'],
+            'articles' => ['nullable', 'array', 'max:12'],
+            'articles.*' => ['integer', 'exists:blog_posts,id'],
         ];
         foreach (array_keys(self::LISTS) as $list) {
             $rules += $this->rowRules($list, ['title', 'text'], 2000);

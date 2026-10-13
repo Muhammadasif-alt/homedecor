@@ -60,6 +60,18 @@ class Service extends Model
         return $this->belongsToMany(Project::class);
     }
 
+    /** Hand-picked related articles shown as "Further reading". */
+    public function articles(): BelongsToMany
+    {
+        return $this->belongsToMany(BlogPost::class)->withPivot('sort_order')->orderByPivot('sort_order');
+    }
+
+    /** Articles written about this service (blog_posts.service_id). */
+    public function posts(): HasMany
+    {
+        return $this->hasMany(BlogPost::class);
+    }
+
     public function faqs(): HasMany
     {
         return $this->hasMany(Faq::class)->where('is_published', true)->orderBy('sort_order');

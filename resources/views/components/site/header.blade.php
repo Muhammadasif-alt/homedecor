@@ -21,7 +21,8 @@
                 <ul class="flex items-center gap-1">
                     @foreach ($links as $item)
                         @if (rtrim($item->url, '/') === '/services')
-                            <li class="relative" @mouseenter="mega = true" @mouseleave="mega = false">
+                            {{-- Full header height, so the pointer can travel down into the dropdown without closing it. --}}
+                            <li class="flex h-20 items-center" @mouseenter="mega = true" @mouseleave="mega = false">
                                 <button type="button" @click="mega = !mega" :aria-expanded="mega" aria-controls="mega-menu"
                                         @class(['flex items-center gap-1 rounded-full px-4 py-2 text-sm font-medium transition hover:text-walnut', 'text-walnut' => $item->isActive()])>
                                     {{ $item->label }}

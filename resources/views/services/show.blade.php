@@ -162,7 +162,22 @@
         </x-section>
     @endif
 
-    {{-- 14. Related services --}}
+    {{-- 14. Further reading (related journal articles) --}}
+    @if ($articles->isNotEmpty())
+        <x-section tone="white">
+            <div class="flex flex-col justify-between gap-8 md:flex-row md:items-end">
+                <x-section-heading eyebrow="From the journal" heading="Further reading" align="left" />
+                <x-button :href="route('blog.index')" variant="outline" icon="arrow-right" class="shrink-0">All articles</x-button>
+            </div>
+            <div class="mt-14 grid gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+                @foreach ($articles as $post)
+                    <x-card.post :post="$post" />
+                @endforeach
+            </div>
+        </x-section>
+    @endif
+
+    {{-- 15. Related services --}}
     @if ($service->related->isNotEmpty())
         <x-section tone="ivory">
             <x-section-heading eyebrow="Explore more" heading="Related home decor services" />
@@ -174,7 +189,7 @@
         </x-section>
     @endif
 
-    {{-- 15. Final CTA --}}
+    {{-- 16. Final CTA --}}
     <x-cta-banner :media="$service->gallery->last() ?? $service->heroMedia" eyebrow="Let's begin"
                   :heading="'Ready to transform your space?'"
                   :body="'Tell us about your home and we will put together a personalised '.strtolower($service->name).' proposal.'"
