@@ -3,8 +3,9 @@
     <x-image-grid :images="$mediaCollection" :captions="['id' => 'caption']" />
     layout="masonry" (default) keeps natural proportions; layout="feature" shows one large lead image
     followed by equal 4:3 tiles in pairs (a leftover tile spans the full width), so nothing looks uneven.
+    :limit="3" shows only the first tiles (keeps the grid level with a text column); the rest stay in the lightbox.
 --}}
-@props(['images', 'captions' => [], 'layout' => 'masonry'])
+@props(['images', 'captions' => [], 'layout' => 'masonry', 'limit' => null])
 
 @php
     $images = $images->values();
@@ -16,15 +17,17 @@
         'height' => $m->height,
     ]);
     $total = $images->count();
+    $shown = $limit ? min($limit, $total) : $total;
+    $hidden = $total - $shown;
 @endphp
 
 <div {{ $attributes }} x-data="lightbox(@js($items))" @keydown.window="onKey($event)">
     @if ($layout === 'feature')
         <ul class="grid grid-cols-2 gap-4">
-            @foreach ($images as $image)
+            @foreach ($images->take($shown) as $image)
                 @php
                     $lead = $loop->first;
-                    $wide = $lead || ($loop->last && ($total - 1) % 2 === 1);
+                    $wide = $lead || ($loop->last && ($shown - 1) % 2 === 1);
                 @endphp
                 <li @class(['col-span-2' => $wide]) data-reveal>
                     <button type="button" @click="open({{ $loop->index }})"
@@ -40,6 +43,9 @@
                             <span class="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-[0.7rem] font-semibold uppercase tracking-[0.16em] text-charcoal backdrop-blur">
                                 {{ $total }} photos
                             </span>
+                        @endif
+                        @if ($loop->last && $hidden > 0)
+                            <span class="absolute inset-0 grid place-items-center bg-charcoal/45 font-serif text-3xl text-white">+{{ $hidden }} more</span>
                         @endif
                     </button>
                 </li>

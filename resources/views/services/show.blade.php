@@ -92,7 +92,7 @@
                 </div>
                 @if ($service->gallery->isNotEmpty())
                     <div class="lg:col-span-7">
-                        <x-image-grid :images="$service->gallery" layout="feature" class="lg:sticky lg:top-28" />
+                        <x-image-grid :images="$service->gallery" layout="feature" :limit="3" class="lg:sticky lg:top-28" />
                     </div>
                 @endif
             </div>
