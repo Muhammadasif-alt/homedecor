@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../**/*.blade.php";
+@source "../**/*.js";
+@source "../../app/**/*.php";
+
+@plugin "@tailwindcss/typography";
+
+/* ---------- Design tokens ---------- */
+@theme {
+    --color-ivory: #F6F1EA;
+    --color-ivory-dark: #EDE5DA;
+    --color-sand: #C7B59C;
+    --color-sand-light: #E3D8C8;
+    --color-walnut: #76624D;
+    --color-walnut-dark: #5C4C3B;
+    --color-charcoal: #292B27;
+    --color-charcoal-soft: #4A4C46;
+    --color-white: #FFFFFF;
+
+    --font-serif: 'Cormorant Garamond', ui-serif, Georgia, serif;
+    --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+
+    --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+    --container-site: 82rem;
+}
+
+/* ---------- Base ---------- */
+@layer base {
+    html { scroll-behavior: smooth; -webkit-tap-highlight-color: transparent; }
+    body { @apply bg-ivory text-charcoal font-sans antialiased; }
+    h1, h2, h3, h4 { @apply font-serif text-charcoal; font-weight: 500; letter-spacing: -0.01em; text-wrap: balance; }
+    ::selection { @apply bg-sand text-charcoal; }
+    :focus-visible { outline: 2px solid var(--color-walnut); outline-offset: 3px; }
+    [x-cloak] { display: none !important; }
+    img { height: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* ---------- Reusable utilities ---------- */
+@utility container-site {
+    width: 100%;
+    max-width: var(--container-site);
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+    @media (width >= 48rem) { padding-inline: 2rem; }
+    @media (width >= 80rem) { padding-inline: 3rem; }
+}
+
+@utility eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.22em] text-walnut;
+}
+
+/* Rich text written in the CMS */
+@utility prose-decor {
+    @apply prose prose-lg max-w-none prose-headings:font-serif prose-headings:font-medium prose-headings:text-charcoal
+        prose-p:text-charcoal-soft prose-li:text-charcoal-soft prose-a:text-walnut prose-a:underline-offset-4
+        prose-strong:text-charcoal prose-img:rounded-sm prose-blockquote:border-sand prose-blockquote:text-charcoal;
+}
+
+@keyframes heroZoom { from { transform: scale(1.08); } to { transform: scale(1); } }
+
+/* Scroll reveal (enabled by JS, so content is visible without it) */
+.js [data-reveal] { opacity: 0; transform: translateY(24px); transition: opacity .9s var(--ease-soft), transform .9s var(--ease-soft); }
+.js [data-reveal].is-visible { opacity: 1; transform: none; }
+
+/* Trix editor (admin) */
+trix-toolbar .trix-button-group--file-tools { display: none; }
+trix-editor { @apply min-h-64 rounded border border-charcoal/15 bg-white px-4 py-3 text-base; }
+trix-editor:focus { @apply border-walnut outline-none; }

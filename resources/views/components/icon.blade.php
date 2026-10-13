@@ -1,0 +1,66 @@
+@props(['name', 'size' => 24, 'stroke' => 1.5])
+
+@php
+    // Outline icons (24×24, stroke-based). Add new ones here and reference them by name.
+    $paths = [
+        'arrow-right' => '<path d="M5 12h14M13 6l6 6-6 6"/>',
+        'arrow-left' => '<path d="M19 12H5M11 18l-6-6 6-6"/>',
+        'arrow-up-right' => '<path d="M7 17 17 7M8 7h9v9"/>',
+        'chevron-down' => '<path d="m6 9 6 6 6-6"/>',
+        'chevron-right' => '<path d="m9 6 6 6-6 6"/>',
+        'menu' => '<path d="M4 7h16M4 12h16M4 17h16"/>',
+        'x' => '<path d="M6 6l12 12M18 6 6 18"/>',
+        'plus' => '<path d="M12 5v14M5 12h14"/>',
+        'minus' => '<path d="M5 12h14"/>',
+        'check' => '<path d="m5 12 5 5L20 7"/>',
+        'search' => '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
+        'star' => '<path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>',
+        'phone' => '<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/>',
+        'mail' => '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>',
+        'map-pin' => '<path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/>',
+        'clock' => '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+        'calendar' => '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/>',
+        'message' => '<path d="M21 12a8 8 0 0 1-11.8 7L4 20l1.1-4.6A8 8 0 1 1 21 12z"/>',
+        'file-text' => '<path d="M14 3H6v18h12V7z"/><path d="M14 3v4h4M9 12h6M9 16h6"/>',
+        'hammer' => '<path d="m14 6 4 4M3 21l9-9M12 4l6 6-3 3-6-6z"/>',
+        'whatsapp' => '<path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.5-4.3a8.5 8.5 0 1 1 15.5-4.6z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.5-2-1-1 .8a4 4 0 0 1-2.3-2.3l.8-1-1-2z"/>',
+        'instagram' => '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/>',
+        'facebook' => '<path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/>',
+        'pinterest' => '<circle cx="12" cy="12" r="9"/><path d="m10 21 2-9m-1 4c3 1 6-1 6-5a5 5 0 1 0-9.5 2"/>',
+        'youtube' => '<rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="m10 9.5 5 2.5-5 2.5z"/>',
+        'tiktok' => '<path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5M14 3a5 5 0 0 0 5 5"/>',
+        'sparkles' => '<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2 2M16 16l2 2M6 18l2-2M16 8l2-2"/>',
+        'ruler' => '<path d="m3 17 14-14 4 4L7 21z"/><path d="m7 13 2 2M10 10l2 2M13 7l2 2"/>',
+        'palette' => '<path d="M12 3a9 9 0 0 0 0 18c1.1 0 1.5-.8 1.5-1.5 0-1.3-1-1.5-1-2.5s.7-1.5 1.5-1.5H16a5 5 0 0 0 5-5c0-4.1-4-7.5-9-7.5z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7.5" r="1"/>',
+        'clipboard-check' => '<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM9 14l2 2 4-4"/>',
+        'truck' => '<path d="M3 6h11v10H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/>',
+        'key' => '<circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3"/>',
+        'home' => '<path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/>',
+        'sofa' => '<path d="M4 11V8a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v3"/><path d="M2 13a2 2 0 0 1 4 0v2h12v-2a2 2 0 0 1 4 0v5H2z"/><path d="M5 18v2M19 18v2"/>',
+        'bed' => '<path d="M3 18V6M3 14h18v4M21 18v-4a3 3 0 0 0-3-3h-8v3"/><circle cx="7" cy="11" r="2"/>',
+        'utensils' => '<path d="M6 3v8a2 2 0 0 0 2 2v8M10 3v8M8 3v6M17 21V3c-2 0-3 3-3 7h3"/>',
+        'bath' => '<path d="M3 12h18v3a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5zM6 12V5a2 2 0 0 1 4 0M6 20l-1 2M18 20l1 2"/>',
+        'brush' => '<path d="M18 3 9 12M14 3l7 7-5 5"/><path d="M9 12a4 4 0 0 0-4 4c0 2-2 3-2 3s5 1 7-1a4 4 0 0 0-1-6z"/>',
+        'blinds' => '<path d="M3 3h18M5 3v14M19 3v14M5 7h14M5 11h14M5 15h14M12 17v4"/>',
+        'layers' => '<path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/>',
+        'lamp' => '<path d="M9 3h6l3 7H6zM12 10v8M8 21h8"/>',
+        'gem' => '<path d="M6 3h12l3 6-9 12L3 9z"/><path d="M3 9h18M12 21 9 9l3-6 3 6z"/>',
+        'heart' => '<path d="M12 20s-8-4.6-8-10.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 8 2.5C20 15.4 12 20 12 20z"/>',
+        'shield' => '<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/>',
+        'users' => '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M21.5 20a6.5 6.5 0 0 0-4-6"/>',
+        'leaf' => '<path d="M5 19c0-9 6-15 15-15 0 9-6 15-15 15z"/><path d="M5 19 14 10"/>',
+        'eye' => '<path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+        'compass' => '<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/>',
+        'wallet' => '<rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18M16 15h2M6 6l9-3 1 3"/>',
+        'image' => '<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m3 18 5-5 4 4 3-3 6 6"/>',
+        'upload' => '<path d="M12 16V4M7 9l5-5 5 5M4 16v4h16v-4"/>',
+        'quote' => '<path d="M9 7H5v6h4c0 3-1 4-3 4M19 7h-4v6h4c0 3-1 4-3 4"/>',
+        'pencil' => '<path d="m4 20 1-4L16 5l3 3L8 19z"/>',
+        'handshake' => '<path d="m11 17 2 2a1.5 1.5 0 0 0 2-2M14 14l2.5 2.5a1.5 1.5 0 0 0 2-2L14 10l-2 2a2 2 0 0 1-3-3l3-3h3l5 5M3 7l4-1 5 5M3 7v7l4 4 2-2"/>',
+    ];
+@endphp
+
+<svg {{ $attributes->merge(['class' => 'shrink-0']) }} width="{{ $size }}" height="{{ $size }}" viewBox="0 0 24 24" fill="none"
+     stroke="currentColor" stroke-width="{{ $stroke }}" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+    {!! $paths[['message-circle' => 'message'][$name] ?? $name] ?? $paths['sparkles'] !!}
+</svg>
