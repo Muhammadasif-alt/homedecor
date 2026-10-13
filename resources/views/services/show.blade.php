@@ -91,12 +91,14 @@
                     </dl>
                 </div>
                 @if ($service->gallery->isNotEmpty())
-                    <x-image-grid :images="$service->gallery" class="lg:col-span-7" />
+                    <div class="lg:col-span-7">
+                        <x-image-grid :images="$service->gallery" layout="feature" class="lg:sticky lg:top-28" />
+                    </div>
                 @endif
             </div>
         </x-section>
     @elseif ($service->gallery->isNotEmpty())
-        <x-section tone="sand"><x-image-grid :images="$service->gallery" /></x-section>
+        <x-section tone="sand"><x-image-grid :images="$service->gallery" layout="feature" class="mx-auto max-w-5xl" /></x-section>
     @endif
 
     {{-- 8. Process --}}

@@ -23,7 +23,6 @@ class NavigationSeeder extends Seeder
             ['Testimonials', '/testimonials', false],
             ['FAQs', '/faqs', false],
             ['Service Areas', '/service-areas', false],
-            ['Book Consultation', '/book-consultation', false],
         ],
         'footer_legal' => [
             ['Privacy Policy', '/privacy-policy', false],

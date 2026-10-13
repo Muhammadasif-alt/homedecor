@@ -34,8 +34,9 @@
             @endforeach
         </x-site.footer-column>
 
+        {{-- Services already have their own column, so the overview link is not repeated here. --}}
         <x-site.footer-column title="Quick links" class="lg:col-span-2">
-            @foreach (($menus['header'] ?? collect())->where('is_button', false)->merge($menus['footer_quick'] ?? []) as $item)
+            @foreach (($menus['header'] ?? collect())->where('is_button', false)->reject(fn ($item) => rtrim($item->url, '/') === '/services')->merge($menus['footer_quick'] ?? []) as $item)
                 <li><a href="{{ $item->href() }}" class="transition hover:text-sand">{{ $item->label }}</a></li>
             @endforeach
         </x-site.footer-column>

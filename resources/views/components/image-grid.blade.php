@@ -1,33 +1,65 @@
 {{--
     Balanced image grid with an accessible lightbox (Esc / ← / → supported).
     <x-image-grid :images="$mediaCollection" :captions="['id' => 'caption']" />
+    layout="masonry" (default) keeps natural proportions; layout="feature" shows one large lead image
+    followed by equal 4:3 tiles in pairs (a leftover tile spans the full width), so nothing looks uneven.
 --}}
-@props(['images', 'captions' => []])
+@props(['images', 'captions' => [], 'layout' => 'masonry'])
 
 @php
-    $items = $images->values()->map(fn ($m) => [
+    $images = $images->values();
+    $items = $images->map(fn ($m) => [
         'src' => $m->url(1600),
         'alt' => $m->alt,
         'caption' => $captions[$m->id] ?? $m->caption,
         'width' => $m->width,
         'height' => $m->height,
     ]);
+    $total = $images->count();
 @endphp
 
 <div {{ $attributes }} x-data="lightbox(@js($items))" @keydown.window="onKey($event)">
-    <ul class="columns-1 gap-4 sm:columns-2 lg:columns-3 [&>li]:mb-4">
-        @foreach ($images->values() as $image)
-            <li class="break-inside-avoid" data-reveal>
-                <button type="button" @click="open({{ $loop->index }})" class="group relative block w-full overflow-hidden rounded-sm" aria-label="Enlarge image: {{ $image->alt }}">
-                    <x-picture :media="$image" sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" class="block"
-                               imgClass="w-full transition duration-[1.2s] group-hover:scale-105" />
-                    <span class="absolute inset-0 grid place-items-center bg-charcoal/0 opacity-0 transition group-hover:bg-charcoal/30 group-hover:opacity-100">
-                        <span class="grid size-12 place-items-center rounded-full bg-white text-charcoal"><x-icon name="plus" size="20" /></span>
-                    </span>
-                </button>
-            </li>
-        @endforeach
-    </ul>
+    @if ($layout === 'feature')
+        <ul class="grid grid-cols-2 gap-4">
+            @foreach ($images as $image)
+                @php
+                    $lead = $loop->first;
+                    $wide = $lead || ($loop->last && ($total - 1) % 2 === 1);
+                @endphp
+                <li @class(['col-span-2' => $wide]) data-reveal>
+                    <button type="button" @click="open({{ $loop->index }})"
+                            @class(['group relative block w-full overflow-hidden rounded-md bg-ivory-dark shadow-[0_20px_40px_-24px_rgba(41,43,39,0.45)]', 'aspect-[16/10]' => $wide, 'aspect-[4/3]' => ! $wide])
+                            aria-label="Enlarge image: {{ $image->alt }}">
+                        <x-picture :media="$image" :sizes="$wide ? '(min-width: 1024px) 50vw, 100vw' : '(min-width: 1024px) 25vw, 50vw'" class="absolute inset-0"
+                                   imgClass="h-full w-full object-cover transition duration-[1.2s] ease-out group-hover:scale-105" />
+                        <span class="absolute inset-0 bg-gradient-to-t from-charcoal/45 via-transparent to-transparent opacity-0 transition duration-500 group-hover:opacity-100"></span>
+                        <span class="absolute bottom-4 right-4 grid size-11 translate-y-2 place-items-center rounded-full bg-white/95 text-charcoal opacity-0 shadow-lg transition duration-500 group-hover:translate-y-0 group-hover:opacity-100">
+                            <x-icon name="plus" size="18" />
+                        </span>
+                        @if ($lead && $total > 1)
+                            <span class="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-[0.7rem] font-semibold uppercase tracking-[0.16em] text-charcoal backdrop-blur">
+                                {{ $total }} photos
+                            </span>
+                        @endif
+                    </button>
+                </li>
+            @endforeach
+        </ul>
+    @else
+        <ul class="columns-1 gap-4 sm:columns-2 lg:columns-3 [&>li]:mb-4">
+            @foreach ($images as $image)
+                <li class="break-inside-avoid" data-reveal>
+                    <button type="button" @click="open({{ $loop->index }})" class="group relative block w-full overflow-hidden rounded-sm" aria-label="Enlarge image: {{ $image->alt }}">
+                        <x-picture :media="$image" sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" class="block"
+                                   imgClass="w-full transition duration-[1.2s] group-hover:scale-105" />
+                        <span class="absolute inset-0 grid place-items-center bg-charcoal/0 opacity-0 transition group-hover:bg-charcoal/30 group-hover:opacity-100">
+                            <span class="grid size-12 place-items-center rounded-full bg-white text-charcoal"><x-icon name="plus" size="20" /></span>
+                        </span>
+                    </button>
+                </li>
+            @endforeach
+        </ul>
+    @endif
 
     <template x-teleport="body">
         <div x-show="current" x-cloak x-transition.opacity x-trap.noscroll="current !== null"
