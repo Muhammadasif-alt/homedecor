@@ -96,6 +96,7 @@ class BlogController extends Controller
 
     private function categories()
     {
-        return BlogCategory::ordered()->whereHas('posts', fn ($q) => $q->live())->get();
+        return BlogCategory::ordered()->whereHas('posts', fn ($q) => $q->live())
+            ->withCount(['posts' => fn ($q) => $q->live()])->get();
     }
 }
