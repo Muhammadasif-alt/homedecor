@@ -8,6 +8,12 @@ Target layout on shared hosting (keeps `.env`, `vendor/` and source code out of 
 └── public_html  →    symlink to laravel/public (the ONLY web-accessible folder)
 ```
 
+## Live setup (discovertimes.com)
+
+- App: `~/homedecor` (git clone), web root: `~/domains/discovertimes.com/public_html -> ~/homedecor/public`.
+- WordPress backup (files + DB): `~/backups/`.
+- Update: `cd ~/homedecor && bash deploy/deploy.sh`.
+
 ## 1. Prerequisites (hPanel)
 
 1. **Advanced → SSH Access → Enable** (note host, port, username).
@@ -27,7 +33,8 @@ mkdir -p ~/backups && tar -czf ~/backups/public_html-$(date +%F).tar.gz public_h
 
 git clone https://github.com/<owner>/homedecor.git laravel
 cd laravel
-composer install --no-dev --prefer-dist --optimize-autoloader
+composer install --no-dev --prefer-dist --optimize-autoloader --no-scripts
+php artisan package:discover          # Hostinger blocks proc_open for Composer scripts
 cp .env.example .env && nano .env      # APP_URL=https://<domain>, DB_*, MAIL_*, ADMIN_*
 php artisan key:generate
 php artisan migrate --force

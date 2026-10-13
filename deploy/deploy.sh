@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Server-side deploy for Hostinger shared hosting. Run from the Laravel root over SSH:
 #   bash deploy/deploy.sh
-# Layout: ~/domains/<domain>/laravel  (this app, private)
-#         ~/domains/<domain>/public_html -> laravel/public  (symlink = the only web root)
+# Layout: ~/homedecor                              (this app, outside the web root)
+#         ~/domains/discovertimes.com/public_html -> ~/homedecor/public  (symlink = the only web root)
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
@@ -13,7 +13,9 @@ echo "→ Pulling latest code"
 git pull --ff-only origin main
 
 echo "→ Installing PHP dependencies"
-$COMPOSER install --no-dev --prefer-dist --optimize-autoloader --no-interaction
+# --no-scripts: Hostinger disables proc_open for Composer scripts, so run package discovery directly.
+$COMPOSER install --no-dev --prefer-dist --optimize-autoloader --no-interaction --no-scripts
+$PHP artisan package:discover
 
 echo "→ Maintenance mode"
 $PHP artisan down --retry=30 || true
