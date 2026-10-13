@@ -9,7 +9,9 @@
     <div @class(['mt-14 grid gap-8', 'md:grid-cols-2 lg:grid-cols-3' => $count >= 3, 'lg:grid-cols-2' => $count === 2, 'mx-auto max-w-5xl' => $count === 1])>
         @foreach ($data['pairs'] as $pair)
             <figure data-reveal>
-                <x-before-after :before="$pair['before']" :after="$pair['after']" :label="$pair['title']" />
+                <x-before-after :before="$pair['before']" :after="$pair['after']" :label="$pair['title']"
+                                :sizes="$count >= 3 ? '(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw' : '(min-width: 1024px) 50vw, 100vw'"
+                                @class(['aspect-square' => $count >= 3]) />
                 @if ($pair['title'])
                     <figcaption class="mt-4">
                         @if ($pair['url'])

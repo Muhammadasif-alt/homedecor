@@ -128,4 +128,12 @@ return [
     ['vwQJ81BZ-S', 'sunlit-living-room-sectional', 'living-room', 'Sunlit living room with a cream sectional, marble coffee table and stone fireplace'],
     ['woKwy50Blq', 'double-height-ring-chandelier-fireplace', 'lighting', 'Double-height living room with ring chandeliers, a stone fireplace and curved seating'],
     ['xX6L7OpveU', 'living-room-timber-screen', 'furniture', 'Living room with timber screen partitions, marble coffee table and patterned armchairs'],
+
+    // Before & after pairs (same room, photographed before and after decoration)
+    ['before-after-living-room-before', 'living-room-before', 'before-after', 'Living room before decoration: bare walls, worn sofas and a plain glass coffee table'],
+    ['before-after-living-room-after', 'living-room-after', 'before-after', 'The same living room after decoration with a cream sectional, timber slat wall, ring chandelier and cove lighting'],
+    ['before-after-bathroom-before', 'bathroom-before', 'before-after', 'Bathroom before renovation with dated tiles, pedestal basin and stained floor'],
+    ['before-after-bathroom-after', 'bathroom-after', 'before-after', 'The same bathroom after renovation with stone tiles, a floating vanity, round lit mirror and glass shower'],
+    ['before-after-bedroom-before', 'bedroom-before', 'before-after', 'Bedroom before decoration with bare walls, a basic bed frame and a single ceiling bulb'],
+    ['before-after-bedroom-after', 'bedroom-after', 'before-after', 'The same bedroom after decoration with an upholstered bed, timber panels, ring chandelier and layered curtains'],
 ];

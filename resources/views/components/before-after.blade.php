@@ -1,10 +1,10 @@
 {{-- Keyboard-accessible comparison slider (range input drives the clip). --}}
-@props(['before', 'after', 'label' => 'Transformation'])
+@props(['before', 'after', 'label' => 'Transformation', 'sizes' => '(min-width: 1024px) 50vw, 100vw'])
 
-<div x-data="beforeAfter()" class="relative aspect-[3/2] select-none overflow-hidden rounded-sm bg-sand-light">
-    <x-picture :media="$after" sizes="(min-width: 1024px) 50vw, 100vw" class="absolute inset-0" />
+<div x-data="beforeAfter()" {{ $attributes->class(['relative select-none overflow-hidden rounded-sm bg-sand-light', 'aspect-[3/2]' => ! str_contains($attributes->get('class', ''), 'aspect-')]) }}>
+    <x-picture :media="$after" :sizes="$sizes" class="absolute inset-0" />
     <div class="absolute inset-0" :style="`clip-path: inset(0 ${100 - position}% 0 0)`">
-        <x-picture :media="$before" sizes="(min-width: 1024px) 50vw, 100vw" class="absolute inset-0" />
+        <x-picture :media="$before" :sizes="$sizes" class="absolute inset-0" />
     </div>
     <div class="pointer-events-none absolute inset-y-0 w-0.5 bg-white" :style="`left: ${position}%`">
         <span class="absolute top-1/2 left-1/2 grid size-12 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-white text-charcoal shadow-lg">
