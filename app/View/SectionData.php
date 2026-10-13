@@ -45,13 +45,27 @@ class SectionData
         return $projects->isEmpty() ? null : compact('projects');
     }
 
+    /**
+     * Pairs come from the section's own items (title, before_media_id, after_media_id, url) when set,
+     * otherwise from projects that have both a before and an after photo.
+     */
     private function forBeforeAfter(PageSection $s): ?array
     {
-        $projects = Project::published()->ordered()->with(['beforeMedia', 'afterMedia'])
-            ->whereNotNull('before_media_id')->whereNotNull('after_media_id')
-            ->limit($s->get('limit', 2))->get();
+        if ($items = $s->get('items')) {
+            $media = Media::whereIn('id', collect($items)->flatMap(fn ($i) => [$i['before_media_id'] ?? null, $i['after_media_id'] ?? null])->filter())
+                ->get()->keyBy('id');
+            $pairs = collect($items)
+                ->filter(fn ($i) => isset($media[$i['before_media_id'] ?? 0], $media[$i['after_media_id'] ?? 0]))
+                ->map(fn ($i) => ['title' => $i['title'] ?? '', 'before' => $media[$i['before_media_id']], 'after' => $media[$i['after_media_id']], 'url' => $i['url'] ?? null])
+                ->values();
+        } else {
+            $pairs = Project::published()->ordered()->with(['beforeMedia', 'afterMedia'])
+                ->whereNotNull('before_media_id')->whereNotNull('after_media_id')
+                ->limit($s->get('limit', 3))->get()
+                ->map(fn (Project $p) => ['title' => $p->title, 'before' => $p->beforeMedia, 'after' => $p->afterMedia, 'url' => route('projects.show', $p)]);
+        }
 
-        return $projects->isEmpty() ? null : compact('projects');
+        return $pairs->isEmpty() ? null : compact('pairs');
     }
 
     private function forPortfolio(PageSection $s): ?array

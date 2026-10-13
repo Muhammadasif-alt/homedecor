@@ -39,6 +39,22 @@ class PublicPagesTest extends TestCase
         $this->get('/')->assertOk()->assertDontSee('Numbers')->assertDontSee('Reviews');
     }
 
+    public function test_before_after_section_renders_pairs_from_section_items(): void
+    {
+        $before = $this->media('site-before');
+        $after = $this->media('site-after');
+        $this->page('transformations', [
+            ['type' => 'before_after', 'heading' => 'Before & after', 'data' => ['items' => [
+                ['title' => 'Villa exterior', 'before_media_id' => $before->id, 'after_media_id' => $after->id],
+                ['title' => 'Broken pair', 'before_media_id' => $before->id, 'after_media_id' => 999],
+            ]]],
+        ]);
+
+        $this->get('/transformations')->assertOk()
+            ->assertSee('Villa exterior')->assertSee('Compare before and after: Villa exterior', false)
+            ->assertDontSee('Broken pair');
+    }
+
     public function test_every_service_uses_the_shared_template(): void
     {
         $this->service();

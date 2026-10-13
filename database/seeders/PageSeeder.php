@@ -66,7 +66,11 @@ class PageSeeder extends Seeder
                     ['type' => 'services', 'eyebrow' => 'What we do', 'heading' => 'Decoration services for every room', 'body' => 'From individual rooms to complete homes, each service is tailored to your space, style and budget.', 'data' => ['limit' => 6, 'featured_only' => true]],
                     self::WHY_CHOOSE_US,
                     ['type' => 'projects', 'eyebrow' => 'Portfolio', 'heading' => 'Spaces we love', 'body' => 'A selection of interiors showing the palettes, materials and details that define our work.', 'data' => ['limit' => 6, 'featured_only' => true]],
-                    ['type' => 'before_after', 'eyebrow' => 'Transformations', 'heading' => 'Before & after'],
+                    ['type' => 'before_after', 'eyebrow' => 'Transformations', 'heading' => 'Before & after', 'body' => 'See how unfinished spaces become calm, complete and beautifully finished homes.', 'data' => ['tone' => 'ivory', 'items' => [
+                        ['title' => 'Living room renovation', 'before' => 'renovation-half-finished-living-room', 'after' => 'living-room-marble-floor-sectional'],
+                        ['title' => 'Marble entrance hall', 'before' => 'interior-finishing-in-progress', 'after' => 'marble-foyer-inlay', 'url' => '/gallery/marble-entrance-hall-staircase'],
+                        ['title' => 'Modern villa exterior', 'before' => 'villa-entrance-finishing-stage', 'after' => 'modern-villa-exterior-dusk'],
+                    ]]],
                     ['type' => 'process', 'eyebrow' => 'How it works', 'heading' => 'A clear, collaborative process', 'body' => 'Six considered steps take your home from first conversation to finished, styled rooms.', 'data' => ['layout' => 'grid']],
                     ['type' => 'styles', 'eyebrow' => 'Find your style', 'heading' => 'Decor styles we create', 'body' => 'Whatever your taste, we interpret it in a way that feels fresh, comfortable and personal.', 'data' => ['items' => [
                         ['title' => 'Modern', 'text' => 'Clean lines, confident shapes and a pared-back palette with carefully placed contrast.', 'media' => 'living-room-round-coffee-tables'],
@@ -299,14 +303,16 @@ class PageSeeder extends Seeder
         return null;
     }
 
-    /** Replace `media` slugs inside data items with `media_id`. */
+    /** Replace `media` / `before` / `after` slugs inside data items with `media_id` / `before_media_id` / `after_media_id`. */
     private function resolveMedia(array $data): array
     {
         if (isset($data['items'])) {
             $data['items'] = array_map(function (array $item) {
-                if (isset($item['media'])) {
-                    $item['media_id'] = $this->media($item['media']);
-                    unset($item['media']);
+                foreach (['media' => 'media_id', 'before' => 'before_media_id', 'after' => 'after_media_id'] as $key => $column) {
+                    if (isset($item[$key])) {
+                        $item[$column] = $this->media($item[$key]);
+                        unset($item[$key]);
+                    }
                 }
 
                 return $item;
