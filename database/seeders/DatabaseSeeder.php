@@ -29,6 +29,6 @@ class DatabaseSeeder extends Seeder
         }
 
         // Runs last: links the new services to existing projects and articles.
-        $this->call([ExtendedServiceSeeder::class, ExtendedBlogPostSeeder::class, LivingRoomColourPostSeeder::class]);
+        $this->call([ExtendedServiceSeeder::class, ExtendedBlogPostSeeder::class, GuidePostSeeder::class]);
     }
 }
