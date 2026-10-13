@@ -48,6 +48,15 @@ class ExtendedServicesTest extends TestCase
         $this->assertSame(20, $services->pluck('meta_description')->unique()->count());
     }
 
+    public function test_style_cards_always_fill_complete_rows(): void
+    {
+        // The grid is 4 across for four styles and 3 across otherwise, so no row may be left half empty.
+        foreach (Service::all() as $service) {
+            $count = count($service->styles);
+            $this->assertTrue($count === 4 || $count % 3 === 0, "{$service->slug} has {$count} styles");
+        }
+    }
+
     public function test_every_new_service_page_renders_with_unique_seo_and_schema(): void
     {
         $titles = [];

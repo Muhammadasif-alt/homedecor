@@ -43,6 +43,7 @@ class ServiceSeeder extends Seeder
                 ['Modern Organic', 'Curved silhouettes, natural fibres, plants and earthy tones for a relaxed, grounded atmosphere.'],
                 ['Classic Elegance', 'Symmetry, refined detailing and timeless furniture forms balanced with a lighter, modern palette.'],
                 ['Mid-Century Inspired', 'Walnut tones, tapered legs and graphic accents, softened with layered textiles.'],
+                ['Japandi Calm', 'Low-slung furniture, light oak and muted linen tones for a quiet, uncluttered living space.'],
             ],
             'benefits' => [
                 ['A room that works every day', 'Layouts are planned around your routines, so comfort and practicality are built in from the start.'],
@@ -218,6 +219,7 @@ class ServiceSeeder extends Seeder
                 ['Geometric & Inlay', 'Metallic inlays and geometric panelling for a bold, tailored look.'],
                 ['Soft Textural', 'Fluted plaster, tufted upholstery and textured wallpapers for quiet depth.'],
                 ['Gallery & Mirror', 'Curated art groupings and sculptural mirrors that personalise a room.'],
+                ['Bold Wallpaper', 'Botanical, mural or grasscloth wallpapers that turn a single wall into the focal point.'],
             ],
             'benefits' => [
                 ['Instant character', 'A single feature wall can redefine a room without changing its layout.'],
@@ -351,6 +353,7 @@ class ServiceSeeder extends Seeder
                 ['Warm Industrial', 'Metal and enamel pendants with exposed bulbs and honest materials.'],
                 ['Soft Architectural', 'Concealed cove and recessed lighting for a calm, seamless glow.'],
                 ['Clustered Pendants', 'Groups of pendants at varied heights over dining tables and islands.'],
+                ['Hidden LED Coves', 'Concealed strip lighting in ceilings, shelves and headboards for a soft, glare-free glow.'],
             ],
             'benefits' => [
                 ['Atmosphere on demand', 'Layered, dimmable lighting adapts each room to the time of day and occasion.'],
