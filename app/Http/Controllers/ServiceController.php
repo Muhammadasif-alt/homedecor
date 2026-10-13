@@ -35,7 +35,7 @@ class ServiceController extends Controller
         $process = $service->process ?: Setting::get('process_steps', []);
 
         // Further reading: hand-picked articles first, then articles written about this service.
-        $live = fn ($q) => $q->live()->with('featuredMedia');
+        $live = fn ($q) => $q->live()->with(['featuredMedia', 'categories']);
         $articles = $service->articles()->tap($live)->get()
             ->merge($service->posts()->tap($live)->latest('published_at')->limit(3)->get())
             ->unique('id')->take(3)->values();

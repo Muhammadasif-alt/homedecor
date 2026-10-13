@@ -71,10 +71,10 @@ class BlogController extends Controller
 
         $related = BlogPost::live()->whereKeyNot($post->id)
             ->whereHas('categories', fn ($q) => $q->whereIn('blog_categories.id', $post->categories->pluck('id')))
-            ->with('featuredMedia')->latest('published_at')->limit(3)->get();
+            ->with(['featuredMedia', 'categories'])->latest('published_at')->limit(3)->get();
         if ($related->count() < 3) {
             $related = $related->merge(BlogPost::live()->whereKeyNot($post->id)->whereNotIn('id', $related->pluck('id'))
-                ->with('featuredMedia')->latest('published_at')->limit(3 - $related->count())->get());
+                ->with(['featuredMedia', 'categories'])->latest('published_at')->limit(3 - $related->count())->get());
         }
 
         $seo->for($post, $post->excerpt)
