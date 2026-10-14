@@ -22,6 +22,10 @@ class GuidePostsTest extends TestCase
     private const GUIDES = [
         'living-room-colour-scheme-guide' => ['living-room-decoration', 4],
         'small-living-room-decorating-ideas' => ['small-space-apartment-decoration', 7],
+        'living-room-furniture-arrangement-guide' => ['furniture-styling', 4],
+        'living-room-feature-wall-ideas' => ['wall-decor-wallpaper', 6],
+        'living-room-rugs-and-curtains-guide' => ['curtains-window-treatments', 4],
+        'living-room-lighting-ideas' => ['lighting-ceiling-decor', 5],
     ];
 
     protected function setUp(): void
@@ -60,7 +64,7 @@ class GuidePostsTest extends TestCase
             }
         }
 
-        $this->assertSame(2, BlogPost::whereIn('slug', array_keys(self::GUIDES))->distinct()->count('featured_media_id'));
+        $this->assertSame(count(self::GUIDES), BlogPost::whereIn('slug', array_keys(self::GUIDES))->distinct()->count('featured_media_id'));
     }
 
     public function test_each_service_leads_with_its_guide(): void
@@ -77,6 +81,6 @@ class GuidePostsTest extends TestCase
         $this->seed(GuidePostSeeder::class);
 
         $this->assertSame('Edited in admin', BlogPost::where('slug', 'small-living-room-decorating-ideas')->value('title'));
-        $this->assertSame(32, BlogPost::count());
+        $this->assertSame(30 + count(self::GUIDES), BlogPost::count());
     }
 }
