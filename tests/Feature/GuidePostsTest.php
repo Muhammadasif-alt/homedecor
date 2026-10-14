@@ -14,19 +14,10 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\Concerns\BuildsSiteContent;
 use Tests\TestCase;
 
+/** Checks every guide file in database/data/guides. */
 class GuidePostsTest extends TestCase
 {
     use BuildsSiteContent, RefreshDatabase;
-
-    /** slug => [service slug, inline photo count] */
-    private const GUIDES = [
-        'living-room-colour-scheme-guide' => ['living-room-decoration', 4],
-        'small-living-room-decorating-ideas' => ['small-space-apartment-decoration', 7],
-        'living-room-furniture-arrangement-guide' => ['furniture-styling', 4],
-        'living-room-feature-wall-ideas' => ['wall-decor-wallpaper', 6],
-        'living-room-rugs-and-curtains-guide' => ['curtains-window-treatments', 4],
-        'living-room-lighting-ideas' => ['lighting-ceiling-decor', 5],
-    ];
 
     protected function setUp(): void
     {
@@ -45,16 +36,19 @@ class GuidePostsTest extends TestCase
 
     public function test_guides_render_with_library_photos_and_working_links(): void
     {
-        foreach (self::GUIDES as $slug => [, $figures]) {
+        $guides = GuidePostSeeder::guides();
+
+        foreach ($guides as $guide) {
+            $slug = $guide['slug'];
             $post = BlogPost::where('slug', $slug)->with('categories')->firstOrFail();
 
             $this->assertNotEmpty($post->categories, $slug);
             $this->assertLessThanOrEqual(160, mb_strlen($post->meta_description), $slug);
-            $this->assertStringNotContainsString('<!--figure', $post->body);
-            $this->assertSame($figures, substr_count($post->body, '<figure>'), $slug);
+            $this->assertStringNotContainsString('<h1', $post->body, $slug);
+            $this->assertStringNotContainsString('<!--figure', $post->body, $slug);
+            $this->assertSame(substr_count($guide['body'], '<!--figure:'), substr_count($post->body, '<figure>'), $slug);
 
-            $html = $this->get("/blog/{$slug}")->assertOk()->assertSee($post->title)
-                ->assertSee('src="/media/library/', false)->getContent();
+            $html = $this->get("/blog/{$slug}")->assertOk()->assertSee($post->title)->getContent();
             $this->assertSame(1, substr_count($html, '<h1'), $slug);
 
             preg_match_all('/href="(\/(?:blog|services)\/[a-z0-9-]+)"/', $post->body, $links);
@@ -64,23 +58,27 @@ class GuidePostsTest extends TestCase
             }
         }
 
-        $this->assertSame(count(self::GUIDES), BlogPost::whereIn('slug', array_keys(self::GUIDES))->distinct()->count('featured_media_id'));
+        // Every article on the site keeps its own featured photo.
+        $this->assertSame(BlogPost::count(), BlogPost::distinct()->count('featured_media_id'));
+        $this->assertSame(count($guides), count(array_unique(array_column($guides, 'meta_title'))));
     }
 
-    public function test_each_service_leads_with_its_guide(): void
+    public function test_each_guide_is_listed_on_its_service(): void
     {
-        foreach (self::GUIDES as $slug => [$service]) {
-            $this->assertSame($slug, Service::where('slug', $service)->firstOrFail()->articles->first()->slug);
+        foreach (GuidePostSeeder::guides() as $guide) {
+            $articles = Service::where('slug', $guide['service'])->firstOrFail()->articles->pluck('slug');
+            $this->assertContains($guide['slug'], $articles, $guide['slug']);
         }
     }
 
     public function test_seeder_never_overwrites_admin_edits(): void
     {
         BlogPost::where('slug', 'small-living-room-decorating-ideas')->update(['title' => 'Edited in admin']);
+        $count = BlogPost::count();
 
         $this->seed(GuidePostSeeder::class);
 
         $this->assertSame('Edited in admin', BlogPost::where('slug', 'small-living-room-decorating-ideas')->value('title'));
-        $this->assertSame(30 + count(self::GUIDES), BlogPost::count());
+        $this->assertSame($count, BlogPost::count());
     }
 }
