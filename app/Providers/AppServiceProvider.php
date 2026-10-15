@@ -7,6 +7,7 @@ use App\View\Composers\SiteComposer;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
+use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
@@ -32,6 +33,8 @@ class AppServiceProvider extends ServiceProvider
             Limit::perMinute(5)->by($request->ip()),
             Limit::perDay(20)->by($request->ip()),
         ]);
+
+        Paginator::defaultView('pagination.windowed');
 
         View::composer('components.layouts.app', SiteComposer::class);
         View::composer(['pages.*', 'services.*', 'projects.*', 'blog.*', 'areas.*'], fn ($view) => $view->with('seo', app(Seo::class)));
