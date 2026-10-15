@@ -5,7 +5,7 @@ return [
     'slug' => 'heavy-mirror-and-shelving-rental-no-drilling',
     'title' => 'The Ultimate Guide to Hanging Heavy Mirrors in Rentals Without Drilling',
     'excerpt' => 'Six renter-friendly ways to display a heavy mirror without drilling: floor leaners, picture rails, adhesive strips, over-door hooks, furniture support and tension poles.',
-    'meta_title' => 'Hang a Heavy Mirror Without Drilling | Home Decor Studio',
+    'meta_title' => 'Heavy Mirrors in Rentals: No-Drill Guide | Home Decor Studio',
     'meta_description' => 'Heavy mirror no drill rental guide: floor leaners, picture rails, adhesive strips, over-door hooks, furniture support, tension poles and safe removal.',
     'categories' => ['wall-decor', 'small-space-decor'],
     'service' => 'wall-decor-wallpaper',
