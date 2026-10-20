@@ -8,6 +8,7 @@ use App\Models\Page;
 use App\Models\Project;
 use App\Models\Service;
 use App\Models\ServiceArea;
+use App\Support\AdSense;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Cache;
 
@@ -29,6 +30,14 @@ class SeoController extends Controller
             : ['User-agent: *', 'Disallow: /']; // never index staging/local
 
         return response(implode("\n", $lines)."\n", 200, ['Content-Type' => 'text/plain']);
+    }
+
+    /** Authorised digital sellers line for AdSense; 404 until a publisher ID is set. */
+    public function adsTxt(): Response
+    {
+        $pub = AdSense::publisherId() ?? abort(404);
+
+        return response("google.com, {$pub}, DIRECT, f08c47fec0942fa0\n", 200, ['Content-Type' => 'text/plain']);
     }
 
     /** @return array<int, array{loc:string, lastmod:?string}> */

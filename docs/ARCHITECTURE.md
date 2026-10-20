@@ -59,7 +59,7 @@ Icons available to `<x-icon name="…">`: see `resources/views/components/icon.b
 `business_hours`, `map_embed_url`, `service_area_text`, `social_instagram`, `social_facebook`, `social_pinterest`,
 `social_youtube`, `social_tiktok`, `notification_email`, `process_steps` ([{title, text, icon, media_id}]),
 `seo_title_suffix`, `seo_default_description`, `seo_default_og_media_id`, `google_site_verification`,
-`ga_measurement_id`, `local_business_enabled`, `whatsapp_float_enabled`, `footer_note`.
+`ga_measurement_id`, `adsense_publisher_id` (adds the AdSense script and `/ads.txt`), `local_business_enabled`, `whatsapp_float_enabled`, `footer_note`.
 
 ## Routes
 

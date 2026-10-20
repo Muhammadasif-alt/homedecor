@@ -32,6 +32,7 @@ Route::get('/thank-you', [InquiryController::class, 'thanks'])->name('inquiries.
 
 Route::get('/sitemap.xml', [SeoController::class, 'sitemap'])->name('sitemap');
 Route::get('/robots.txt', [SeoController::class, 'robots'])->name('robots');
+Route::get('/ads.txt', [SeoController::class, 'adsTxt'])->name('ads-txt');
 
 require __DIR__.'/admin.php';
 

@@ -43,6 +43,7 @@ class SettingsSchema
                 'seo_default_og_media_id' => ['label' => 'Default social share image', 'type' => 'media'],
                 'google_site_verification' => ['label' => 'Google Search Console verification code'],
                 'ga_measurement_id' => ['label' => 'Google Analytics 4 measurement ID', 'hint' => 'Format G-XXXXXXX. Leave empty to disable analytics.'],
+                'adsense_publisher_id' => ['label' => 'Google AdSense publisher ID', 'hint' => 'Format pub-1234567890123456 (AdSense → Account → Account information). Adds the AdSense code and /ads.txt.'],
                 'local_business_enabled' => ['label' => 'Output LocalBusiness structured data', 'type' => 'bool', 'hint' => 'Enable once address, phone and hours are complete and accurate.'],
             ],
             'Footer & extras' => [

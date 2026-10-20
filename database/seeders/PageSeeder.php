@@ -339,12 +339,10 @@ class PageSeeder extends Seeder
             'template' => 'legal',
             'meta_title' => $title,
             'meta_description' => $description,
-            'body' => self::DRAFT_NOTICE.$body,
+            'body' => $body,
             'sections' => [],
         ];
     }
-
-    private const DRAFT_NOTICE = '<p><em>Draft: this policy is a template provided for convenience and must be reviewed, completed and approved by the business (and ideally a legal adviser) before the website launches.</em></p>';
 
     private const PRIVACY = <<<'HTML'
 <p>This Privacy Policy explains how :site_name ("we", "us", "our") collects, uses, stores and protects your personal information when you visit our website, contact us or use our home decoration services. We are committed to handling your information responsibly and transparently.</p>
@@ -399,6 +397,10 @@ class PageSeeder extends Seeder
 <li>withdraw consent at any time where processing is based on consent.</li>
 </ul>
 <p>To exercise any of these rights, please contact us at :email. You may also have the right to complain to your local data protection authority.</p>
+
+<h2>Advertising</h2>
+<p>We use Google AdSense to show advertisements on our website. Third-party vendors, including Google, use cookies to serve ads based on your previous visits to this website and other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visits to this and/or other sites on the internet.</p>
+<p>You can opt out of personalised advertising by visiting <a href="https://adssettings.google.com" target="_blank" rel="noopener nofollow">Google Ads Settings</a>, or opt out of some third-party vendors' use of cookies for personalised advertising at <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener nofollow">www.aboutads.info</a>. To learn more, read <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener nofollow">how Google uses information from sites that use its services</a>. Where the law requires it, we ask for your consent before personalised ads are shown.</p>
 
 <h2>Third-party links</h2>
 <p>Our website may contain links to other websites or social media platforms. We are not responsible for the privacy practices of those sites, and we encourage you to read their privacy policies.</p>
@@ -466,6 +468,7 @@ HTML;
 <li><strong>Strictly necessary cookies</strong> — essential for the website to function, for example to keep the site secure, protect forms against misuse and remember your session. These cannot be switched off.</li>
 <li><strong>Preference cookies</strong> — remember choices you make, such as your cookie preferences, to improve your experience.</li>
 <li><strong>Analytics cookies</strong> — help us understand how visitors use our website, such as which pages are visited most often, so we can improve it. These are used only with your consent where required by law.</li>
+<li><strong>Advertising cookies</strong> — set by Google and its partners to show and measure the ads on our website, including personalised ads based on your visits to this and other websites where you have agreed to them. See the Advertising section of our <a href="/privacy-policy">Privacy Policy</a> for how to opt out.</li>
 <li><strong>Embedded content</strong> — some pages may include content from third-party services, such as maps or videos, which may set their own cookies.</li>
 </ul>
 

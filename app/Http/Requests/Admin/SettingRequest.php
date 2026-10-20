@@ -38,6 +38,7 @@ class SettingRequest extends AdminRequest
 
         $rules['map_embed_url'][] = 'starts_with:https://www.google.com/maps/embed,https://maps.google.com/';
         $rules['ga_measurement_id'][] = 'regex:/^G-[A-Z0-9]{4,20}$/i';
+        $rules['adsense_publisher_id'][] = 'regex:/^(ca-)?pub-\d{10,20}$/i';
 
         return $rules + $this->rowRules('process_steps', SettingsSchema::PROCESS_FIELDS, 1000);
     }
@@ -47,6 +48,7 @@ class SettingRequest extends AdminRequest
         return [
             'map_embed_url.starts_with' => 'Paste the Google Maps “Embed a map” link (starts with https://www.google.com/maps/embed).',
             'ga_measurement_id.regex' => 'The measurement ID looks like G-XXXXXXXXXX.',
+            'adsense_publisher_id.regex' => 'The publisher ID looks like pub-1234567890123456.',
         ];
     }
 
