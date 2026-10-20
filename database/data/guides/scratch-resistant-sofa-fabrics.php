@@ -4,15 +4,15 @@
 return [
     'slug' => 'scratch-resistant-sofa-fabrics',
     'title' => 'The Ultimate Guide to Scratch-Resistant Sofa Fabrics',
-    'excerpt' => 'Which sofa fabrics stand up to claws: microfibre, performance velvet, faux leather, canvas and distressed leather, plus how to read rub counts and which weaves to avoid.',
+    'excerpt' => 'Which scratch-proof sofa fabrics stand up to claws: microfibre, performance velvet and fabrics, faux leather, canvas and distressed leather, plus rub counts and weaves to avoid.',
     'meta_title' => 'Scratch-Resistant Sofa Fabrics for Pets | Home Decor Studio',
     'meta_description' => 'Scratch-resistant sofa fabrics for pet owners: microfibre, performance velvet, faux leather, canvas and leather, plus rub counts and weaves to avoid.',
     'categories' => ['furniture-styling', 'living-room-decor'],
     'service' => 'furniture-styling',
     'image' => 'living-room-pendant-cluster-slats',
     'body' => <<<'HTML'
-<p>Choosing a sofa is one of the most significant investments a homeowner makes. It is the centrepiece of the living room, the site of countless film nights and a place to relax. For pet owners and parents, though, the dream of a beautiful sofa often clashes with the reality of sharp claws, abrasive toys and general wear and tear. Traditional fabrics such as linen or loose-weave wool, while lovely to look at, are often a magnet for snags and visible scratches.</p>
-<p>To keep a smart home without sacrificing the comfort of your furry companions, the focus needs to shift from standard upholstery to tougher, more scratch-resistant textiles. This guide explains what makes a fabric durable, the materials that tend to perform best, and how to choose a sofa that stands the test of time, and claws. No fabric is truly scratch-proof, but some resist damage far better than others.</p>
+<p>Choosing a sofa is one of the most significant investments a homeowner makes. It is the centrepiece of the living room, the site of countless film nights and a place to relax. For pet owners and parents, though, the dream of a beautiful sofa often clashes with the reality of sharp claws, abrasive toys and general wear and tear. Traditional fabrics such as linen or loose-weave wool, while lovely to look at, are often a magnet for snags and visible scratches, and energetic toddlers with toy cars can do as much damage as any cat.</p>
+<p>To keep a smart home without sacrificing the comfort of your furry companions, the focus needs to shift from standard upholstery to tougher, more scratch-resistant textiles. This guide explains what makes a fabric durable, the materials that tend to perform best, and how to choose a sofa that stands the test of time, and claws. No fabric is truly scratch-proof, but the best scratch-proof sofa fabrics, more accurately called scratch-resistant, are engineered to resist snagging, tearing and puncturing. The secret lies in the weave and the fibre, and the fabrics below are the ones that stand up best to persistent scratchers.</p>
 
 <h2 id="microfibre">1. Microfibre</h2>
 <p>Microfibre, often sold as microsuede or faux suede, is one of the most reliable choices for scratch resistance. Its durability comes from its construction. Unlike traditional woven fabrics with distinct horizontal and vertical threads (warp and weft), microfibre is made from very fine synthetic fibres, usually polyester or nylon, packed into a dense, tight surface.</p>
@@ -34,6 +34,11 @@ return [
 <!--figure:study-walnut-shelving-armchair|A leather armchair in a home study with walnut shelving: textured, well-finished leather can wear minor scuffs as character.-->
 <p>If you want genuine leather, distressed or top-grain varieties with a protective finish are your best bet. Distressed leather is designed to look aged and worn, so its existing texture helps camouflage new marks.</p>
 <p>Unlike bicast or bonded leathers, which can peel when scratched, good-quality top-grain leather is thick and resilient. Minor surface scratches can often be softened by rubbing with your fingers or with a leather conditioner suited to the finish; test any product on a hidden area first and follow the manufacturer’s guidance. Over time, these marks become part of the patina, making the piece look characterful rather than damaged. It is a choice for those who appreciate a natural material and are happy to do occasional maintenance to keep the leather supple.</p>
+<p>If you prefer a smoother look, ask for “protected” or pigmented leather. It carries a coloured protective top coat that sits between claws and the hide, so it copes with everyday scuffs far better than aniline leather. Leather also does not trap pet hair or odours in the way a textured fabric can, which makes it easy to keep fresh.</p>
+
+<h2 id="performance-fabrics">6. Performance fabrics</h2>
+<p>“Performance fabric” is an umbrella term for upholstery engineered for heavy use, the kind of textile originally developed for outdoor furniture, hotels and other commercial settings. Most are made from solution-dyed acrylic or specially treated polyester, woven very tightly so that claws, keys and toy cars have little to grip.</p>
+<p>Many performance fabrics also have a moisture-resistant finish, so spills sit on the surface long enough to be blotted away rather than soaking into the cushion. Their great advantage is choice: they are now made to look and feel like cotton, linen or chenille, so you can have a relaxed, natural-looking sofa without the loose weave that makes real linen so vulnerable. As with any fabric, check the abrasion rating and cleaning code for the specific cloth rather than relying on the label alone.</p>
 
 <h2 id="technical-specifications">Technical specifications: what to look for</h2>
 <p>When shopping for a scratch-resistant sofa, look beyond the name of the fabric and ask for its abrasion rating. This is measured by one of two tests, which simulate the friction of people sitting down and getting up:</p>
@@ -50,6 +55,7 @@ return [
 <ul>
 <li><strong>Regular vacuuming:</strong> dust and grit act like fine sandpaper. When a pet moves around on a gritty sofa, it speeds up wear on the fibres. Vacuum weekly with a soft brush attachment.</li>
 <li><strong>Nail maintenance:</strong> no fabric is indestructible. Keeping your pets’ nails trimmed is the first line of defence; ask your vet or groomer if you are unsure how.</li>
+<li><strong>Sacrificial throws:</strong> drape a heavy, tightly knitted throw over the spot where your pet sleeps most. It takes the brunt of the wear and is far easier to wash or replace than a seat cushion.</li>
 <li><strong>Spot cleaning:</strong> use mild, pH-neutral cleaners that match the fabric’s cleaning code. Harsh chemicals can break down the protective finishes on performance fabrics, making them less effective and more prone to damage over time.</li>
 </ul>
 <blockquote><p><strong>Tip:</strong> Ask for a fabric sample and rub it firmly with a fingernail or a stiff brush at home. If threads lift or loops pull easily, a cat’s claws will find them too.</p></blockquote>
@@ -64,6 +70,16 @@ return [
 </ul>
 
 <h2 id="frequently-asked-questions">Frequently asked questions</h2>
+<h3 id="scratch-proof-vs-scratch-resistant">Is “scratch-proof” different from “scratch-resistant”?</h3>
+<p>Yes. No fabric is completely scratch-proof if it is subjected to determined, repeated force. “Scratch-resistant” means the fabric is designed to withstand normal wear and incidental contact with claws or sharp objects without snagging or tearing, which is the realistic goal for a family sofa.</p>
+<h3 id="cats-scratch-velvet">Can cats scratch through velvet?</h3>
+<p>They can try, but a short, dense synthetic velvet usually comes off well. With no loops for claws to hook into, many cats find it unsatisfying to scratch and move on to something with more grip, so make sure a scratching post is nearby to give them that alternative.</p>
+<h3 id="dog-claws-leather">Will dog claws ruin a leather sofa?</h3>
+<p>Aniline or “naked” leathers mark very easily. Protected or pigmented leathers have a tougher top coat that copes much better with dog claws, and small surface scratches can often be eased with a conditioner suited to the finish; test it on a hidden area first.</p>
+<h3 id="performance-fabrics-stiff">Are performance fabrics stiff or uncomfortable?</h3>
+<p>Early versions could feel plasticky, but many current performance fabrics are made to feel like soft cotton, linen or chenille. Ask for a sample and sit on a display sofa if you can, as the hand varies a lot between ranges.</p>
+<h3 id="clean-scratch-resistant-sofa">How do I clean a scratch-resistant sofa?</h3>
+<p>Many synthetic fabrics such as microfibre and polyester velvet can be spot cleaned with water and a drop of mild washing-up liquid, but always check the cleaning code first: W means water-based cleaners, S means solvent-based, WS means either, and X means vacuum only. Blot rather than rub, and test on a hidden area.</p>
 <h3 id="leather-or-fabric-for-cats">Is leather or fabric better for cats?</h3>
 <p>For cats, microfibre or performance velvet is generally a better choice than leather, real or synthetic. Leather is easy to clean, but sharp claws can puncture it and leave permanent pinprick holes. Microfibre is very hard for claws to catch.</p>
 <h3 id="distressed-leather-hide-scratches">Can distressed leather really hide scratches?</h3>

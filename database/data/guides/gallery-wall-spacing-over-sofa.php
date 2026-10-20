@@ -6,13 +6,13 @@ return [
     'title' => 'Master the Art of the Gallery Wall: Spacing for an 84-Inch Sofa',
     'excerpt' => 'Gallery wall spacing over a sofa, made simple: proportions, height above the sofa back, gaps between frames, layouts, templates, balance, frames and lighting for an 84-inch (213 cm) sofa.',
     'meta_title' => 'Gallery Wall Spacing Over a Sofa | Home Decor Studio',
-    'meta_description' => 'Gallery wall spacing over sofa backs, worked out for an 84-inch (213 cm) sofa: overall width, height, gaps between frames, layouts and paper templates.',
+    'meta_description' => 'Gallery wall spacing over a sofa or couch, worked out for an 84-inch (213 cm) sofa: width, height, gaps between frames, layouts and paper templates.',
     'categories' => ['wall-decor'],
     'service' => 'wall-decor-wallpaper',
     'image' => 'living-room-abstract-art',
     'body' => <<<'HTML'
 <p>Creating a gallery wall is more than just hammering nails into a surface; it is an exercise in balance, proportion and personal storytelling. When you are working with a centrepiece as substantial as an 84-inch sofa (213 cm), a standard three-seater size, the stakes are higher. This piece of furniture serves as the anchor of your living room, and the art above it must complement its scale without being swallowed by it or appearing cluttered.</p>
-<p>Achieving the perfect look requires a blend of mathematical precision and creative intuition. Whether you are aiming for a tight, modern grid or a sprawling, bohemian salon style, understanding the specific dimensions of your sofa is the first step towards a professional-looking interior. This guide covers gallery wall spacing over a sofa of 213 cm (84 in), but the same rules scale to any size.</p>
+<p>Achieving the perfect look requires a blend of mathematical precision and creative intuition. Whether you are aiming for a tight, modern grid or a sprawling, bohemian salon style, understanding the specific dimensions of your sofa is the first step towards a professional-looking interior. This guide covers gallery wall spacing over a sofa of 213 cm (84 in), but the same rules scale to any size, so if you are searching for gallery wall spacing over a couch of a different length, simply swap in your own measurements. Often the difference between a professional-looking display and a cluttered one comes down to a few centimetres.</p>
 
 <h2 id="proportions">1. Proportions</h2>
 <p>The most important rule for hanging art over furniture is proportion: the arrangement should span roughly two-thirds to three-quarters of the sofa width. For a 213 cm (84 in) sofa, that means a gallery wall about 142&ndash;160 cm (56&ndash;63 in) wide. If the gallery is too narrow, it will look like a tiny island floating in a sea of bare wall. If it extends beyond the arms of the sofa, it can make the room feel top-heavy and cramped.</p>
@@ -27,8 +27,9 @@ return [
 <p>For a formal, symmetrical grid, 5 cm (2 in) gives a crisp, clean appearance. If your gallery is more eclectic, with varying frame styles and sizes, you can go up to 8 cm (3 in) to give each piece breathing room. Consistency is key: using the same spacing throughout prevents the wall from looking messy, and a strip of card cut to your chosen width makes a handy spacer as you hang. If the gaps are too wide (13 cm / 5 in or more), the gallery will look disconnected and lose its impact.</p>
 
 <h2 id="layouts">4. Layouts</h2>
-<p>With 213 cm (84 in) of sofa to work with, you have several layout options. A grid layout uses identical frames in a regular pattern, such as two rows of three or three rows of three. This is perfect for minimalist or traditional spaces where order is paramount.</p>
+<p>With 213 cm (84 in) of sofa to work with, you have several layout options. A grid layout uses identical frames in a regular pattern, such as two rows of three or three rows of three. This is perfect for minimalist or traditional spaces where order is paramount, and it echoes the long, linear shape of the sofa below. Use frames of the same size, colour and mount so the grid reads as a single “window”, and be exact: in a grid, a gap that is even 5 mm (¼ in) out will catch the eye. Grids suit sets of prints such as botanical studies, architectural drawings or black-and-white family photos.</p>
 <p>Alternatively, the salon style (or eclectic layout) uses different frame sizes, textures and even 3D objects. To make this work over a large sofa, start with a &ldquo;hero piece&rdquo;, the largest frame, and place it slightly off centre. Build the rest of the gallery around it, making sure the outer perimeter of the collection forms a rough rectangle or oval. This keeps the organised chaos within a structured boundary that matches the sofa&rsquo;s length.</p>
+<p>An eclectic wall still needs a thread that ties it together: a shared colour palette in the art, similar frame finishes or consistent mounts. You can let the top and side edges stay irregular for a relaxed “cloud” of art, but try to keep the bottom edges of the lowest frames roughly level. That creates a clean line just above the sofa back and stops the arrangement looking messy.</p>
 <h3 id="worked-example">A worked example: an eight-frame grid</h3>
 <p>Sofa: 213 cm (84 in) wide, with the sofa back 80 cm (31.5 in) from the floor. Eight identical portrait frames, each 30 × 40 cm (about 12 × 16 in), in two rows of four with 8 cm (3 in) gaps:</p>
 <ul>
@@ -41,7 +42,7 @@ return [
 
 <h2 id="templates">5. Templates</h2>
 <p>Before you put a single fixing in the wall, make a mock-up. Because an 84-inch sofa is a large area to cover, eyeballing the placement is a recipe for a wall full of unnecessary holes. Use kraft paper or old newspaper to cut out templates that match the exact dimensions of your frames, and mark on each one where the hook will go (pull the wire taut, or find the D-ring, and measure down from the top edge of the frame).</p>
-<p>Tape the templates to the wall with low-tack painter&rsquo;s tape. This lets you step back and see how the arrangement feels with the room&rsquo;s lighting and other furniture. You can move them around, adjust the spacing and make sure the height is right. Leave them up for a day or two to see how you feel about the composition as you move through the room during your daily routine. When you are happy, fix through the marked point on each template, then tear the paper away.</p>
+<p>Tape the templates to the wall with low-tack painter&rsquo;s tape. This lets you step back and see how the arrangement feels with the room&rsquo;s lighting and other furniture. You can move them around, adjust the spacing and make sure the height is right. Sit on the sofa, then view the wall from across the room and from the doorway. Leave them up for a day or two to see how you feel about the composition as you move through the room during your daily routine. When you are happy, fix through the marked point on each template, then tear the paper away.</p>
 <p>The height of each fixing is: <strong>bottom edge of the frame + frame height &minus; drop from the top of the frame to the hanging point</strong>. For a 40 cm frame whose taut wire sits 6 cm below the top, hung with its bottom edge at 103 cm, the fixing goes at 103 + 40 &minus; 6 = 137 cm.</p>
 <blockquote><p><strong>Tip:</strong> Hang the hero piece or the centre column first, then work outwards using your card spacer. Small errors stay small when they start from the middle; started from one end, they add up across the whole wall.</p></blockquote>
 
@@ -52,11 +53,12 @@ return [
 
 <h2 id="frames">7. Frames</h2>
 <p>While the art is the star, the frames are the supporting cast that can make or break the look. Over an 84-inch sofa you have enough space to experiment. A uniform look, with the same frame material and colour for every piece, feels modern and sleek.</p>
-<p>A mixed palette, on the other hand, adds character. If you mix frames, keep at least one element consistent: either the colour (different styles, but all black) or the mood (for example, vintage wood frames in different stains). For a large sofa, avoid very thin frames (under about 1 cm / 0.5 in), as they can disappear against the scale of the furniture. A medium-width frame gives the presence needed to stand up to a 2.1 m (7 ft) sofa.</p>
+<p>A mixed palette, on the other hand, adds character. If you mix frames, keep at least one element consistent: either the colour (different styles, but all black) or the mood (for example, vintage wood frames in different stains). Another reliable approach is to limit yourself to three frame finishes, such as black, white and natural wood, repeated across the arrangement. For a large sofa, avoid very thin frames (under about 1 cm / 0.5 in), as they can disappear against the scale of the furniture. A medium-width frame gives the presence needed to stand up to a 2.1 m (7 ft) sofa.</p>
 
 <h2 id="lighting">8. Lighting</h2>
 <p>Lighting is the final touch that lifts a gallery wall from a DIY project to a curated display. Over a sofa this wide, a single overhead light usually is not enough to cover the whole span of the art.</p>
 <p>Consider picture lights that attach to the top of the frames or the wall above them; brass or matte black finishes add an extra layer of style. Hardwired picture lights and new wall lights should be installed by a qualified electrician, but battery-powered and plug-in versions are easy alternatives, especially for renters. You can also use track lighting with adjustable heads to pick out specific pieces. Good lighting adds depth, highlights the textures of the art and makes the sofa area feel warm and inviting in the evening.</p>
+<p>Warm white bulbs, around 2700&ndash;3000 K, keep the seating area inviting. Watch for glare: standard glass can reflect a direct light source and hide the art, so angle the light slightly or choose anti-reflective glazing for the pieces that catch it most.</p>
 
 <h2 id="fixings-and-safety">Fixings, safety and renting</h2>
 <ul>
@@ -78,6 +80,12 @@ return [
 <p>If your sofa has a high back, such as a wingback or a high-back Chesterfield, you may need to reduce the gap between the sofa and the frames to 10&ndash;13 cm (4&ndash;5 in). You want to keep the connection between the two, while making sure the top of the gallery does not get too close to the ceiling.</p>
 <h3 id="3d-items">Can I include 3D items like mirrors or clocks in my gallery wall?</h3>
 <p>Yes. A small round mirror, a woven basket or a wall-mounted sculpture can add real depth to a gallery wall. Space these items using the same 5&ndash;8 cm (2&ndash;3 in) rule to keep the flow, and use fixings suited to their weight.</p>
+<h3 id="how-many-pieces">How many pieces of art do I need for a gallery wall over a couch?</h3>
+<p>There is no fixed number, but over a standard three-seater, five to nine pieces usually look full without crowding. For a minimalist look, three large identical frames hung as a triptych work well; for a maximalist salon wall you might use fifteen or more smaller pieces, keeping the overall width within the two-thirds rule.</p>
+<h3 id="mix-photos-and-canvases">Can I mix photos, prints and canvases?</h3>
+<p>Yes. Mixing framed photographs, stretched canvases and prints adds depth and personality. Because canvases have no frame and sit at a different depth, keep the gaps between every piece identical so the mix still looks intentional.</p>
+<h3 id="sofa-in-a-corner">What if my sofa is pushed into a corner?</h3>
+<p>You can wrap the gallery around the corner, continuing it onto the adjoining wall and using the corner as a natural break. Keep the same gaps on both walls and the same bottom line, so the arrangement reads as one cosy, immersive group rather than two separate displays.</p>
 <h3 id="choosing-the-centre">How do I choose the centre of the gallery wall?</h3>
 <p>The visual centre of the whole arrangement should be at eye level, generally 145&ndash;152 cm (57&ndash;60 in) from the floor. However, when hanging over a sofa, the relationship between the art and the sofa back (the 15&ndash;25 cm / 6&ndash;10 in gap) usually takes priority over the eye-level rule.</p>
 
