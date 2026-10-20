@@ -11,7 +11,7 @@ class PaginationViewTest extends TestCase
     private function pages(int $current): array
     {
         $html = (new LengthAwarePaginator(range(1, 10), 100, 10, $current, ['path' => '/blog']))->links()->toHtml();
-        preg_match_all('/>\s*(\d+|&hellip;)\s*</', $html, $m);
+        preg_match_all('/>\s*(\d+|&hellip;)\s*</', strstr($html, '<ul'), $m);
 
         return $m[1];
     }
@@ -19,6 +19,14 @@ class PaginationViewTest extends TestCase
     public function test_window_starts_with_first_five_pages_then_last(): void
     {
         $this->assertSame(['1', '2', '3', '4', '5', '&hellip;', '10'], $this->pages(1));
+    }
+
+    public function test_shows_the_range_and_total(): void
+    {
+        $html = (new LengthAwarePaginator(range(1, 9), 95, 9, 2, ['path' => '/blog']))->links(data: ['label' => 'articles'])->toHtml();
+
+        $this->assertStringContainsString('10–18</span>', $html);
+        $this->assertMatchesRegularExpression('/95<\/span>\s*articles/', $html);
     }
 
     public function test_window_follows_the_current_page(): void

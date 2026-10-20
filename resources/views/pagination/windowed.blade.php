@@ -7,7 +7,11 @@
         $end = min($last, $start + 4);
         $item = 'flex h-11 min-w-11 items-center justify-center border-l border-charcoal/15 text-sm first:border-l-0';
     @endphp
-    <nav role="navigation" aria-label="Pagination" class="flex justify-center">
+    <nav role="navigation" aria-label="Pagination" class="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
+        <p class="text-sm text-charcoal-soft">
+            Showing <span class="font-medium text-charcoal">{{ $paginator->firstItem() }}–{{ $paginator->lastItem() }}</span>
+            of <span class="font-medium text-charcoal">{{ $paginator->total() }}</span> {{ $label ?? 'results' }}
+        </p>
         <ul class="flex overflow-hidden rounded-lg border border-charcoal/15 bg-white text-charcoal">
             <li class="{{ $item }} {{ $paginator->onFirstPage() ? 'text-charcoal/30' : '' }}">
                 @if ($paginator->onFirstPage())

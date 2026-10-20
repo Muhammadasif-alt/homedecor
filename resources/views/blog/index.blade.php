@@ -72,7 +72,7 @@
                     <x-card.post :post="$post" :heading-level="2" />
                 @endforeach
             </div>
-            <div class="mt-16">{{ $posts->links() }}</div>
+            <div class="mt-16">{{ $posts->links(data: ['label' => 'articles']) }}</div>
         @endif
     </x-section>
 
