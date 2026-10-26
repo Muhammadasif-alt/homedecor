@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Step-by-step guide to building a cast refractory chiminea: materials, proportions, a safe hearth, formwork, casting, curing and seasoning the first fires.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'double-height-living-room-fireplace',
+    'image' => 'cast-chiminea-log-stacks',
     'body' => <<<'HTML'
 <p>A chiminea is more than a source of heat. It is a centrepiece for outdoor evenings, with roots in Mexican clay-making traditions. The classic design is a rounded, front-loading firebox topped by a narrow chimney. Air is drawn in through the mouth and smoke rises up the flue, so the fire burns hot and most of the smoke goes up rather than into your guests' faces.</p>
 <p>Building one yourself is a rewarding project that mixes sculpture with basic masonry. Traditional fired clay is prone to cracking, especially where winters are cold. This guide uses a sturdier method instead: a shell cast from castable refractory, a concrete made to withstand fire, reinforced with metal mesh and set on a firebrick hearth.</p>
