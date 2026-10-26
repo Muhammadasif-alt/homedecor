@@ -24,6 +24,12 @@ class NavigationItem extends Model
         return str_starts_with($this->url, 'http') ? $this->url : url($this->url);
     }
 
+    /** Whether this item links to the given absolute URL, ignoring a trailing slash. */
+    public function pointsTo(string $url): bool
+    {
+        return rtrim($this->href(), '/') === rtrim($url, '/');
+    }
+
     public function isActive(): bool
     {
         $path = trim(parse_url($this->href(), PHP_URL_PATH) ?? '/', '/');

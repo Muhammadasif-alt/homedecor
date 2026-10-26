@@ -45,7 +45,10 @@ class SeoController extends Controller
     {
         $entry = fn (string $loc, $updated = null) => ['loc' => $loc, 'lastmod' => $updated?->toAtomString()];
 
+        $hasAreas = ServiceArea::published()->exists();
+
         $pages = Page::where('is_published', true)->where('robots_index', true)->get()
+            ->reject(fn (Page $p) => $p->slug === 'service-areas' && ! $hasAreas)
             ->map(fn (Page $p) => $entry(match ($p->slug) {
                 'home' => route('home'),
                 'services' => route('services.index'),

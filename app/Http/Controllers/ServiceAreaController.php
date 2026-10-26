@@ -16,6 +16,10 @@ class ServiceAreaController extends Controller
             ->image($page->section('hero')?->media)
             ->breadcrumbs(['Service Areas' => route('areas.index')]);
 
+        if (ServiceArea::published()->doesntExist()) {
+            $seo->noindex();
+        }
+
         return view('pages.show', compact('page'));
     }
 

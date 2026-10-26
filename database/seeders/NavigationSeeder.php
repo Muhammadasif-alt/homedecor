@@ -20,7 +20,6 @@ class NavigationSeeder extends Seeder
         ],
         'footer_quick' => [
             ['Our Process', '/our-process', false],
-            ['Testimonials', '/testimonials', false],
             ['FAQs', '/faqs', false],
             ['Service Areas', '/service-areas', false],
         ],

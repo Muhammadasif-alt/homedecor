@@ -19,11 +19,17 @@ class SiteComposer
 
     public function compose(View $view): void
     {
-        $nav = Cache::remember(self::NAV_CACHE_KEY, 3600, fn () => [
-            'menus' => NavigationItem::where('is_enabled', true)->ordered()->get()->groupBy('menu'),
-            'services' => Service::published()->ordered()->with('heroMedia')->get(['id', 'name', 'slug', 'icon', 'short_description', 'hero_media_id']),
-            'areas' => ServiceArea::published()->ordered()->get(['id', 'name', 'slug', 'has_page']),
-        ]);
+        $nav = Cache::remember(self::NAV_CACHE_KEY, 3600, function (): array {
+            $areas = ServiceArea::published()->ordered()->get(['id', 'name', 'slug', 'has_page']);
+
+            return [
+                'menus' => NavigationItem::where('is_enabled', true)->ordered()->get()
+                    ->reject(fn (NavigationItem $item) => $areas->isEmpty() && $item->pointsTo(route('areas.index')))
+                    ->groupBy('menu'),
+                'services' => Service::published()->ordered()->with('heroMedia')->get(['id', 'name', 'slug', 'icon', 'short_description', 'hero_media_id']),
+                'areas' => $areas,
+            ];
+        });
 
         $site = Setting::all_values();
         $site['site_name'] = ($site['site_name'] ?? '') ?: config('app.name');
