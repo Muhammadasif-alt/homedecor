@@ -148,5 +148,4 @@ return [
     ['before-after-bathroom-after', 'bathroom-after', 'before-after', 'The same bathroom after renovation with stone tiles, a floating vanity, round lit mirror and glass shower'],
     ['before-after-bedroom-before', 'bedroom-before', 'before-after', 'Bedroom before decoration with bare walls, a basic bed frame and a single ceiling bulb'],
     ['before-after-bedroom-after', 'bedroom-after', 'before-after', 'The same bedroom after decoration with an upholstered bed, timber panels, ring chandelier and layered curtains'],
-    ['unsplash-chiminea-kayla-am', 'cast-chiminea-log-stacks', 'outdoor', 'White cast chiminea with a tall chimney on paving, between neat stacks of split firewood'],
 ];

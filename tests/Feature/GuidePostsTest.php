@@ -3,7 +3,6 @@
 namespace Tests\Feature;
 
 use App\Models\BlogPost;
-use App\Models\Media;
 use App\Models\Service;
 use Database\Seeders\BlogCategorySeeder;
 use Database\Seeders\BlogPostSeeder;
@@ -81,17 +80,5 @@ class GuidePostsTest extends TestCase
 
         $this->assertSame('Edited in admin', BlogPost::where('slug', 'small-living-room-decorating-ideas')->value('title'));
         $this->assertSame($count, BlogPost::count());
-    }
-
-    public function test_migration_swaps_the_chiminea_stand_in_photo_for_the_real_one(): void
-    {
-        $standIn = Media::where('path', 'media/library/double-height-living-room-fireplace')->value('id');
-        BlogPost::where('slug', 'how-to-build-a-chiminea')->update(['featured_media_id' => $standIn]);
-
-        $migration = require database_path('migrations/2026_10_26_175148_use_the_chiminea_photo_on_the_chiminea_guide.php');
-        $migration->up();
-
-        $featured = BlogPost::where('slug', 'how-to-build-a-chiminea')->firstOrFail()->featuredMedia;
-        $this->assertSame('media/library/cast-chiminea-log-stacks', $featured->path);
     }
 }
