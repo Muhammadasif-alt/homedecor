@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Chain link fence ideas for small yards: black coated mesh, slats, timber frames, climbers, screens, planters and lighting, plus wind and weight advice.',
     'categories' => ['small-space-decor', 'budget-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'master-plan-on-site',
+    'image' => 'foliage-over-green-chain-link',
     'body' => <<<'HTML'
 <p>Landscaping a small garden is always a balancing act between function and looks. A solid timber fence or a brick wall gives you complete privacy, but in a compact plot it can make the space feel boxed in. That is where the chain link fence, known in the UK as chain-link mesh or chainwire, earns its place. It is often dismissed as purely industrial, yet its see-through weave and slim posts mark the boundary without shrinking the garden visually.</p>
 <p>Plain silver galvanised mesh is rarely the look anyone wants for a cosy outdoor room, though. The trick is integration: the right finish, some planting and a few well-chosen additions turn a basic utility fence into part of the design. Here are eight ideas that work particularly well in small yards and gardens.</p>
@@ -17,6 +17,8 @@ return [
 <h2 id="black-coated-mesh">1. Black coated mesh</h2>
 <p>One of the most effective ways to make a chain link fence fade from view is to choose mesh with a black PVC (vinyl) or polymer coating. Bright galvanised steel reflects light and pulls the eye straight to the boundary; black absorbs it. In a small garden the fence then recedes, especially against hedging, dark foliage or evening shadow, and the eye goes to the planting instead.</p>
 <p>Coated mesh is also smoother to the touch and adds an extra layer of protection against rust. It gives a clean, minimal line that echoes the look of painted metal railings for noticeably less outlay. Paired with dark-stained decking or charcoal paving, it becomes part of a coordinated palette rather than something you are trying to ignore. Dark green and brown coatings are available too if they suit your planting better.</p>
+
+<!--figure:black-coated-chain-link-fence|Black-coated mesh recedes into the background far better than bare galvanised steel.-->
 
 <h2 id="privacy-slats">2. Privacy slats</h2>
 <p>In small urban and suburban plots, neighbours are often only a few metres away. Privacy slats are narrow strips, usually high-density polyethylene (HDPE) or aluminium, that slide vertically or diagonally into the mesh. They let you decide how much you want to see and be seen: a slat in every diamond for a near-solid screen, or alternate rows for a lighter filter.</p>
@@ -37,6 +39,8 @@ return [
 </ul>
 <p>Avoid very vigorous climbers such as English ivy and trumpet vine. They can spread aggressively, become very heavy and work their way into the fence and neighbouring structures, which makes them hard to remove later. Whatever you plant, a fully clad fence catches more wind and carries more weight than bare mesh, so trim regularly and keep growth from piling up on the top rail. A green screen can make a sunny corner feel softer and more sheltered, but treat any cooling effect as a bonus rather than a reason to plant.</p>
 
+<!--figure:roses-on-chain-link-fence|Roses and other climbers turn plain mesh into a flowering screen.-->
+
 <h2 id="natural-screening-rolls">5. Natural screening rolls</h2>
 <p>If you would rather hide the mesh completely, rolls of natural screening such as split bamboo, reed or willow can be unrolled along the fence and tied to it with galvanised wire or outdoor-rated cable ties at regular intervals. They come in several heights and are an easy weekend job.</p>
 <p>Natural rolls bring an organic texture that metal and plastic cannot match, and their vertical lines can make a small garden feel a little taller. They give good privacy, but they are essentially solid, so they turn your fence into a windbreak that takes the full force of a gust. Fix them at the top, middle and bottom, and expect to replace them as they weather.</p>
@@ -44,6 +48,8 @@ return [
 <h2 id="hanging-planters">6. Hanging planters and herbs</h2>
 <p>In small gardens the ground is usually reserved for seating or dining. Hanging pots on the fence lets you grow herbs, salad leaves or bedding plants without giving up any floor space. S-hooks and mesh hangers clip straight onto the diamonds, and a run of herbs such as basil, mint, thyme and rosemary next to the barbecue is both useful and good-looking.</p>
 <p>Wet compost is heavier than it looks, so check that the mesh and posts can take the weight before you fill a run with pots. Spread planters along the fence rather than clustering them on one bay, hang them close to a post where you can, and use lightweight containers and compost. Keep the lowest pots high enough that they do not become a step for children to climb on.</p>
+
+<!--figure:flowers-through-chain-link|Flowering plants grown along the mesh soften it from both sides.-->
 
 <h2 id="mesh-privacy-screens">7. Mesh privacy screens</h2>
 <p>For a modern, minimal or industrial look, knitted polyethylene screening, often sold as windscreen or shade fabric, can be fastened over the mesh with ties or clips. It gives a uniform, matt backdrop in black, dark green or grey that lets your furniture and planting stand out.</p>
@@ -53,7 +59,7 @@ return [
 <p>How you light the edges of a small garden changes how big it feels. Running festoon or bistro-style lights along the top rail outlines the space with a warm glow, and the mesh catches the light so the boundary reads as the walls of an outdoor room rather than a cage. Lighting the edges also draws the eye outwards, which helps the garden feel larger after dark.</p>
 <p>Use only lights rated for outdoor use, fix them so they do not chafe on the wire, and keep plugs and connections off the ground and out of the rain. Low-voltage or solar sets are the simplest option; any new outdoor mains socket or hard-wired supply should be installed by a qualified electrician.</p>
 
-<h2 id="wind-weight-and-planning">Wind, weight and planning</h2>
+<h2 id="wind-weight-and-planning">9. Wind, weight and planning</h2>
 <p>Bare chain link lets wind pass straight through, which is one of its strengths. Add slats, screening rolls, mesh screens or a dense climber and that changes: the fence starts to behave like a sail. Before you cover a whole run, check that the posts, footings and fittings suit the extra load. Ask the fence supplier or installer what their system is designed for, especially if your garden is exposed. Heavy pots and mature climbers add weight on top of that.</p>
 <p>Height matters too. In England a fence is generally permitted development if it is no more than 2 m (6 ft 7 in) high, or 1 m (3 ft 3 in) next to a highway used by vehicles. Listed buildings, conservation areas and properties with planning conditions may differ, so check with your local planning authority. In the US, check local codes and any homeowners association (HOA) rules, which sometimes restrict chain link in front yards.</p>
 <blockquote><p><strong>Tip:</strong> Before you buy slats or screening for the whole fence, try one bay first. Live with it for a week of normal weather, check how the posts and mesh cope, and see how it looks from your seating area and from inside the house.</p></blockquote>

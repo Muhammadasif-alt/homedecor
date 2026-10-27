@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Chain link fence pros and cons: cost, durability, low upkeep and visibility versus looks, privacy and security, plus pets, wire thickness and an FAQ.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'house-scaffolding-construction',
+    'image' => 'chain-link-fence-green-field',
     'body' => <<<'HTML'
 <p>For marking a boundary or keeping people and pets in or out, the chain link fence is one of the most familiar sights in both homes and industrial sites. In the US it is sometimes called cyclone or wire-mesh fencing; in the UK it is usually sold as chain-link mesh or chainwire. Its diamond-pattern weave has been a practical staple for well over a century. It rarely wins prizes for looks, but few fencing materials match it for practicality at the price.</p>
 <p>Choosing a fence means balancing budget, maintenance, security and appearance. To help you decide whether this classic option suits your property, here are its main advantages, its drawbacks and the situations where it makes most sense.</p>
@@ -31,6 +31,8 @@ return [
 <p>Being able to see through the fence is a real advantage in many situations. Parents and pet owners can keep an eye on children or animals from the house or across the garden.</p>
 <p>From a security point of view, a solid fence can give an intruder somewhere to hide once they are inside the boundary, while chain link keeps the line of sight clear for neighbours and cameras. Transparency also helps where you want to mark a boundary without blocking a view over fields, water or woodland.</p>
 
+<!--figure:chain-link-mesh-see-through|Chain link keeps views open, which is a plus for light and a minus for privacy.-->
+
 <h2 id="kerb-appeal">5. Kerb appeal</h2>
 <p>Appearance is the main drawback. To many people, chain link has an industrial, utilitarian feel that can clash with the style of a home, particularly at the front. In some US neighbourhoods, homeowners associations (HOAs) restrict or ban it in favour of picket fences, walls or hedges.</p>
 <p>Modern finishes help. Instead of bright silver galvanised steel, you can choose mesh coated in black, green or brown. Black in particular tends to fade into planting and looks far more subtle than the raw metal version. Height rules apply whatever the finish: in England a fence is generally permitted development if it is no more than 2 m (6 ft 7 in) high, or 1 m (3 ft 3 in) next to a highway used by vehicles. Listed buildings, conservation areas and properties with planning conditions may differ, so check with your local planning authority, or local codes and HOA rules in the US.</p>
@@ -43,9 +45,13 @@ return [
 <p>Chain link is a physical barrier, but not the most secure option against a determined intruder. The diamonds make natural footholds, so a fence of 1.2 m (4 ft) or 1.8 m (6 ft) can be climbed fairly easily by an agile adult, and children will try too. Keep bins, benches, log stores and planters away from the fence line if you don't want to give anyone a leg-up. The wire can also be cut with bolt cutters.</p>
 <p>Commercial sites sometimes add angled extension arms with barbed or razor wire. In a home setting, avoid it: in the UK it can create liability towards people who are injured, including trespassers, and it is generally inappropriate for gardens. If you need serious security, for example for a business or an isolated site, take advice from a security fencing specialist. For homes, thicker wire and a smaller mesh make cutting and climbing harder, and good lighting and lockable gates often do more than extra height.</p>
 
+<!--figure:chain-link-gate-padlock|A lockable gate helps, but the mesh itself is easy to climb or cut.-->
+
 <h2 id="pet-owners">8. Pet owners</h2>
 <p>Chain link is a popular choice for dog owners, especially with large or energetic dogs. Properly tensioned mesh on sound posts copes with a dog jumping up, and a dog can't chew through it the way it can with timber or thin plastic.</p>
 <p>If your dog digs, bury the bottom of the mesh below ground level or turn a mesh skirt outwards along the base, pegged down or covered with soil or gravel, so a dog that digs at the fence meets wire. Because the dog can see out, it may feel less shut in, although some dogs bark more at passers-by. You still get airflow and light, which keeps the enclosure pleasant.</p>
+
+<!--figure:dog-behind-chain-link-fence|Chain link contains most dogs well, as long as the bottom is secured against digging.-->
 
 <h2 id="commercial-sites">9. Commercial sites</h2>
 <p>For commercial and industrial use, chain link is often the default. It secures building sites, warehouses, depots and sports pitches, and its ability to cover long perimeters economically makes it hard to beat.</p>
@@ -55,7 +61,7 @@ return [
 <p>Chain link also suits temporary needs. Because it is made of posts and flexible mesh, it can be put up and taken down with relative ease. Temporary fence panels are a common sight at festivals, events and building sites.</p>
 <p>These panels are usually pre-framed and stand in weighted feet rather than being set into the ground. When the project or event ends, they can be dismantled, stacked and reused at the next site, which makes them a practical, reusable option.</p>
 
-<h2 id="who-is-it-right-for">Who is a chain link fence right for?</h2>
+<h2 id="who-is-it-right-for">11. Who is a chain link fence right for?</h2>
 <p>Chain link makes most sense when your priorities are practical:</p>
 <ul>
 <li><strong>Dog owners and families</strong> who need a sturdy, see-through enclosure and want to keep an eye on the garden.</li>

@@ -9,12 +9,12 @@ return [
     'meta_description' => 'Horizontal slat fence pros and cons: modern looks, adjustable privacy and a wider-feeling garden versus precise fitting, closer posts, upkeep and climbing.',
     'categories' => ['home-decor-trends', 'small-space-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'study-stone-desk-garden',
+    'image' => 'modern-horizontal-slat-fence-conifers',
     'body' => <<<'HTML'
 <p>In garden design, a fence is no longer just a boundary. It is an architectural element that shapes the character of the whole plot. Vertical boards and panels have long been the default, but the horizontal slat fence has become a favourite for homeowners who want a contemporary look, with long, clean lines that give a modern home real kerb appeal.</p>
 <p>Choosing a horizontal layout is about more than looks, though. It asks more of the materials, the structure and the installer than a standard panel fence. This guide sets out the honest pros and cons, the materials worth considering and the kinds of homes and gardens the style suits best.</p>
 
-<h2 id="pros">The pros of a horizontal slat fence</h2>
+<h2 id="pros">1. The pros of a horizontal slat fence</h2>
 
 <h3>A clean, modern look</h3>
 <p>The main reason people choose horizontal slats is the aesthetic. Traditional vertical fences tend to read as rustic or suburban, which can clash with contemporary architecture. Horizontal lines echo the profiles of modern homes and emphasise width and flow.</p>
@@ -33,7 +33,7 @@ return [
 <h3>Durable when built properly</h3>
 <p>A well-built horizontal fence can be very sturdy. The slats are usually screwed directly to the face of the posts rather than hung as panels, and with good materials such as dense hardwood, cedar, composite or metal it copes well with the weather. How long it lasts depends on the material, the installation, your climate and the upkeep, so check any manufacturer's or supplier's warranty for its stated term.</p>
 
-<h2 id="cons">The cons of a horizontal slat fence</h2>
+<h2 id="cons">2. The cons of a horizontal slat fence</h2>
 
 <h3>Installation needs real precision</h3>
 <p>Installation is the biggest drawback. On a vertical fence, a slight error in level often goes unnoticed. With horizontal slats, every board must be level, and a tiny tilt at one end becomes obvious by the time the run reaches the other side of the garden. Gaps need to stay consistent too, which usually means spacers and careful checking with a level as you go. It is a job for an experienced DIYer or a professional installer.</p>
@@ -50,7 +50,9 @@ return [
 <h3>The "ladder effect"</h3>
 <p>Horizontal slats can act like the rungs of a ladder, giving children and agile pets a foothold, which makes them easier to climb than flat vertical boards. Very small gaps, a smooth face on the outward side or a taller design all reduce this. Around a swimming pool, check your local pool-barrier rules before choosing horizontal slats, as many codes restrict climbable fences in these areas.</p>
 
-<h2 id="materials">Materials for a horizontal slat fence</h2>
+<!--figure:weathered-horizontal-fence-planks|Horizontal boards can cup, sag and weather if the timber or spacing is wrong.-->
+
+<h2 id="materials">3. Materials for a horizontal slat fence</h2>
 <p>The material defines both the look and how the fence ages:</p>
 <ul>
 <li><strong>Hardwoods (ipe, mangaris, teak):</strong> dense, naturally resistant to decay and handsome, but usually the most expensive option. Buy only from FSC- or PEFC-certified sources, as some tropical hardwoods are not sustainably harvested.</li>
@@ -59,7 +61,9 @@ return [
 <li><strong>Aluminium or steel:</strong> ideal for a modern, industrial look. Metal slats will not warp or rot and feel very secure.</li>
 </ul>
 
-<h2 id="who-is-it-right-for">Who is a horizontal slat fence right for?</h2>
+<!--figure:timber-slats-closeup|Even, well-chosen slats with consistent gaps are what make the look work.-->
+
+<h2 id="who-is-it-right-for">4. Who is a horizontal slat fence right for?</h2>
 <ul>
 <li><strong>The modernist:</strong> if your home has clean lines, large windows and a minimalist style, a slatted fence is a natural match.</li>
 <li><strong>The small-garden owner:</strong> if you want your outdoor space to feel bigger and more open, the widening effect of horizontal lines is a real benefit.</li>

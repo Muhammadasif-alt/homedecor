@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Horizontal slat fence ideas for small yards: timber and composite, slat widths, gaps, post spacing, planters, lighting, metal posts and child safety.',
     'categories' => ['small-space-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'study-stone-column-garden',
+    'image' => 'small-garden-wooden-boundary-fence',
     'body' => <<<'HTML'
 <p>In many gardens the fence is treated as an afterthought: a line that marks where your plot stops and the neighbour's begins. In a small garden it carries far more weight. It is often the largest surface you can see from the house, and it decides whether the space feels like a tight box or a calm, contemporary outdoor room. Horizontal slat fences are popular for exactly this reason. Long, level lines lead the eye along the boundary rather than up it, which gives a compact plot a sense of breadth and continuity that upright boards rarely achieve.</p>
 <p>Getting it right in a small space is a balance of privacy, light and proportion. Below are eight horizontal slat fence ideas for small yards and gardens, followed by the practical details that matter most at close range: slat sizes, gaps, post spacing, planning rules and child safety.</p>
@@ -26,6 +26,8 @@ return [
 <h2 id="black-composite">2. Black or charcoal composite</h2>
 <p>A dark fence in a small garden sounds risky, but black and charcoal tend to recede. The boundary seems to sit further back, and green leaves, pale stems and flowers stand out sharply against it. The effect is similar to painting the back wall of a small room a deep colour.</p>
 <p>Composite slats are low maintenance rather than no maintenance: there is no restaining, but they still need washing occasionally to remove dirt, pollen and algae, following the manufacturer's care guidance. Their even colour and crisp edges suit townhouses and modern extensions. Check two things before you buy. First, composite boards are heavy and can be less stiff than timber, so they usually need the manufacturer's own posts or closer post spacing. Second, dark surfaces get hot in strong sun, which matters if you plan to sit or grow plants right up against them.</p>
+
+<!--figure:black-slatted-fence-tree|Dark slats make planting in front of them stand out, which suits a small garden.-->
 
 <h2 id="varied-widths">3. Varied slat widths</h2>
 <p>If a run of identical slats looks flat, mix the widths. A repeating pattern of narrow and wide boards, for example 45 mm, 70 mm and 95 mm (roughly 2, 3 and 4 in), gives the fence a rhythm that keeps the eye moving along it. The boundary then reads as a designed feature rather than a barrier that sits a little too close.</p>
@@ -56,6 +58,8 @@ return [
 <p>Lighting does more work in a small garden than almost anything else, and a slatted fence can become part of the scheme. Low-level LED strip tucked under the lip of one or two slats, or small recessed lights set into a thicker capping board, can wash a soft glow across the timber. Because the slats run horizontally, light grazing along them picks out the grain and shadow lines beautifully.</p>
 <p>Use fittings that are rated for outdoor use, run cables where they will not be damaged, and have mains-powered lighting installed by a qualified electrician. Low-voltage and solar options are easier to add later, but still follow the manufacturer's instructions on mounting and weather protection.</p>
 
+<!--figure:wooden-fence-solar-lights|Small lights fixed to the fence make the boundary part of the garden after dark.-->
+
 <h2 id="metal-posts">7. Metal posts with timber slats</h2>
 <p>Pairing timber slats with slim metal posts, usually black powder-coated aluminium or steel, gives a framed, architectural look. The posts are visually lighter than chunky 100 × 100 mm (4 × 4 in) timber posts and they do not rot at ground level, while the slats keep the warmth of wood.</p>
 <p>This combination suits gardens with metal furniture, black window frames or other modern details. Many systems use a channel in the post that the slats slide into, which keeps the lines very straight. Follow the system's guidance on post depth, footings and maximum slat length, and use stainless or coated fixings so they do not stain the timber.</p>
@@ -64,7 +68,7 @@ return [
 <p>A shadow box fence has slats fixed alternately to the front and back of the posts or rails, with each board overlapping the gaps on the opposite side. Seen from an angle it looks solid; seen straight on it has depth, and the shadows shift as the sun moves round. You get strong privacy with air still passing through.</p>
 <p>It also looks the same from both sides, which is a real advantage when a neighbour shares the view. The trade-offs are that it uses more boards than a single-sided fence and is thicker, so it takes a little more ground along a narrow boundary.</p>
 
-<h2 id="technical-considerations">Getting the details right in a small garden</h2>
+<h2 id="technical-considerations">9. Getting the details right in a small garden</h2>
 <p>You stand much closer to the fence in a small garden, so small errors are obvious. These points make the difference between a crisp result and one that looks slightly off.</p>
 <h3>Level, alignment and fixings</h3>
 <p>Horizontal lines that drift even slightly are easy to spot. Set a string line or laser level for the first board, check every few boards, and keep screw heads in neat vertical lines. Use stainless steel or coated screws suited to the timber, as some species, cedar included, can stain around plain steel.</p>

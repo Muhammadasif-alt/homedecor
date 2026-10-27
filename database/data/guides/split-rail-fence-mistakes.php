@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Common split rail fence mistakes and how to avoid them: timber choice, post depth, drainage, rail fit, boundaries, gates, finishes and wire mesh backing.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'aerial-residential-community',
+    'image' => 'post-and-rail-fence-long-field',
     'body' => <<<'HTML'
 <p>The split rail fence is a classic of the American landscape, valued for its rustic look, relatively simple build and the way it marks a boundary without blocking the view. In the UK the closest equivalent is the post and rail fence: morticed posts with cleft or sawn rails slotted through them, common around paddocks and rural boundaries. Whatever you call it, what looks like a simple "stack and post" project has more technical detail than it seems, and ignoring it can lead to early rot, rails that fall out or a dispute over the boundary.</p>
 <p>This guide covers the mistakes that matter most for split rail and post and rail fences specifically, and how to avoid them, so the fence stays straight and sound for as long as possible.</p>
@@ -18,6 +18,8 @@ return [
 <p>A common mistake is choosing on price alone rather than on species and treatment. Split rail fences are usually made from a naturally durable timber or from pressure-treated softwood.</p>
 <p>Cheaper softwood that has not been properly treated or dried is prone to warping, twisting and shrinking. As the rails dry and move, they can work loose from the post mortices. Naturally durable timbers contain extractives that help them resist rot and insects: in the UK, oak and sweet chestnut are the traditional choices for post and rail fencing, while in the US cedar and locust are common.</p>
 <p><strong>How to avoid it:</strong> buy from a supplier who can tell you the species and treatment. If you choose treated timber, make sure the posts are treated for ground contact, not just above-ground use: in the UK look for Use Class 4, and in the US look for a ground-contact rating such as UC4A or UC4B. Ask the supplier which treatment and grade suit your site rather than assuming one grade is right everywhere. A better timber costs more upfront, but it usually lasts noticeably longer than a cheap one.</p>
+
+<!--figure:weathered-split-rail-post|Untreated or poor timber weathers and rots quickly where it meets the ground.-->
 
 <h2 id="post-depth">2. Setting posts too shallow</h2>
 <p>A split rail fence relies entirely on its posts. There is no continuous top rail or cladding tying the line together, so each post has to stand on its own against wind, frost heave and soil movement.</p>
@@ -34,6 +36,8 @@ return [
 <p>Because rails vary, some will barely reach into the mortice while others overlap too far. Rails without enough bite in the post can be knocked out by strong wind, livestock or a large dog leaning on them.</p>
 <p><strong>How to avoid it:</strong> use the "dig-as-you-go" method. Set the first post, slot in its rails, then use those actual rails to mark the position of the next hole. Make sure there is enough rail inside each mortice that it can't be pushed out, typically several centimetres. This keeps the whole line sound and saves re-digging holes that are just slightly out.</p>
 
+<!--figure:rustic-zigzag-rail-fence|Rails need to fit the post mortises snugly, so set posts as you go rather than all at once.-->
+
 <h2 id="boundary-lines">5. Guessing the boundary</h2>
 <p>Few mistakes are as costly as a fence in the wrong place. Old plans, hedges and "everyone knows" landmarks often do not match the legal boundary, and a fence that strays onto a neighbour's land may have to come down.</p>
 <p><strong>How to avoid it:</strong> establish the boundary before you buy materials. In England and Wales, start with your title plan from HM Land Registry (bearing in mind it usually shows general boundaries only), check your deeds and talk to your neighbour; in the US, a licensed surveyor can mark your property corners. Then set the fence a little inside your boundary so a leaning post still stays on your land and you can maintain the far side. Our <a href="/blog/privacy-fence-mistakes">privacy fence mistakes</a> guide covers boundaries, planning rules and buried services in more detail.</p>
@@ -46,6 +50,8 @@ return [
 <h2 id="protective-finishes">7. Skipping a protective finish</h2>
 <p>Because split rail fences are prized for their natural look, many people assume they need no maintenance. Durable and treated timbers can be left unfinished, but they weather to a silvery grey and can develop cracks, known as checking. Fine checking is mostly cosmetic, but deep cracks hold water and can encourage rot inside the timber.</p>
 <p><strong>How to avoid it:</strong> decide whether you want the weathered look or a finish. If you want to finish the fence, follow the timber supplier's advice on how long to let the wood dry first, then apply an exterior oil or stain with UV protection, following the product label for preparation, application and how often to recoat. A clear finish helps keep the natural colour, while a semi-transparent stain adds a little tone. Check the fence each year and refresh the finish when it starts to wear.</p>
+
+<!--figure:grey-weathered-rail-fence|Without a protective finish, rails turn grey and start to check and split.-->
 
 <h2 id="wire-backing">8. Forgetting wire mesh until afterwards</h2>
 <p>Split rail fences look good but on their own will not keep in small pets or keep out rabbits. A common mistake is realising this only after the fence is built, when adding mesh can be awkward and look untidy.</p>

@@ -9,7 +9,7 @@ return [
     'meta_description' => 'How to build a chain link fence step by step: lay out the line, set posts in concrete, fit the top rail, stretch and tie the mesh safely, plus an FAQ.',
     'categories' => ['budget-home-decor', 'small-space-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'house-structure-construction',
+    'image' => 'chain-link-fence-top-rail-posts',
     'body' => <<<'HTML'
 <p>Chain link fencing is a popular choice for gardens and larger plots because it is durable, relatively affordable and needs little maintenance. Whether you want to secure a boundary, keep a dog in the garden or mark a line without blocking the view, a chain link fence does the job without fuss. In the UK the mesh is often sold as chainwire or chain-link mesh, usually in rolls with a matching kit of posts, rails and fittings.</p>
 <p>It can look like an industrial task, but with the right tools and a methodical approach it is a manageable DIY project. This guide walks you through the process from planning to the final tensioning of the mesh. Always read the instructions that come with your kit as well: post sizes, spacings and fittings vary between makers, and theirs take priority over any general guide.</p>
@@ -48,9 +48,13 @@ return [
 <p>The top rail gives the fence its lateral strength and stops the mesh from sagging. Start at one terminal post and slide the rail through the loop caps on the line posts. Top rails usually have one end swaged (narrowed) so it slots into the next length.</p>
 <p>If a rail is too long, cut it with a hacksaw or pipe cutter and deburr the end. Seat the rail ends in the rail end cups on the terminal posts, then tighten the bolts once the full run is in place. The rail should form one continuous, firm line from end to end.</p>
 
+<!--figure:chain-link-fence-green-field|The top rail ties the line posts together and keeps the mesh from sagging.-->
+
 <h2 id="mesh">8. Hanging the mesh</h2>
 <p>Unroll the mesh on the ground along the outside of the fence line; standing it up is easier with two people. Slide a tension bar through the end row of diamonds and bolt it to the tension bands on your first terminal post.</p>
 <p>Walk the roll along the fence, leaning the mesh against the top rail, and hold it in place with a few temporary ties as you go. To join two rolls, remove a single strand of wire from the end of one roll and weave it back through the ends of both rolls, following the kit instructions, until they are joined.</p>
+
+<!--figure:chain-link-mesh-closeup|Unroll the mesh along the fence line and attach it to the first terminal post with a tension bar.-->
 
 <h2 id="tensioning">9. Tensioning</h2>
 <p>Good tension is what makes a chain link fence look neat and work properly. Fit a fence stretcher, or a ratchet puller with a stretcher bar, between the free end of the mesh and the far terminal post. Wear gloves and eye protection: mesh and wire under tension can spring back if a fitting slips.</p>

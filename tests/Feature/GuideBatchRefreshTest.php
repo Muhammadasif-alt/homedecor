@@ -85,4 +85,22 @@ class GuideBatchRefreshTest extends TestCase
             $this->assertStringNotContainsString('garden-lawn-pergola-dusk', $post->body, $slug);
         }
     }
+
+    public function test_chain_link_split_rail_and_slat_batch_replaces_construction_photos(): void
+    {
+        $old = $this->media('house-scaffolding-construction');
+        $slugs = ['chain-link-fence-pros-and-cons', 'chain-link-fence-small-yard-ideas', 'how-to-build-a-chain-link-fence', 'split-rail-fence-mistakes', 'horizontal-slat-fence-pros-and-cons', 'horizontal-slat-fence-small-yard-ideas'];
+        foreach ($slugs as $slug) {
+            $this->blogPost(['slug' => $slug, 'title' => 'Old', 'body' => '<p>Old</p>', 'featured_media_id' => $old->id]);
+        }
+
+        (require database_path('migrations/2026_10_27_071824_refresh_chain_link_split_rail_and_slat_fence_guides.php'))->up();
+
+        foreach ($slugs as $slug) {
+            $post = BlogPost::where('slug', $slug)->with('featuredMedia')->firstOrFail();
+            $this->assertNotSame($old->id, $post->featured_media_id, $slug);
+            $this->assertGreaterThanOrEqual(2, substr_count($post->body, '<figure>'), $slug);
+            $this->assertMatchesRegularExpression('/<h2 id="[a-z-]+">1\. /', $post->body, $slug);
+        }
+    }
 }
