@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Paver driveway pros and cons: looks, strength, joint maintenance, cost, easy repairs, installation, climate, plus who block paving suits and a quick FAQ.',
     'categories' => ['luxury-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-courtyard-finishing',
+    'image' => 'paved-driveway-thatched-house',
     'body' => <<<'HTML'
 <p>Few outdoor upgrades change the look of a home as quickly as a new driveway, and a paver driveway is one of the most attractive options. Unlike poured concrete or asphalt, it is a modular system made of individual units of stone, clay brick or concrete, laid over a carefully prepared base. In the UK this is usually called block paving, and you will see both terms used for the same thing.</p>
 <p>Choosing a driveway surface affects your kerb appeal, how much upkeep you take on and how the front of your home works day to day. Below, we weigh the advantages of a paver driveway against its drawbacks so you can decide whether it is the right fit for your property.</p>
@@ -17,6 +17,8 @@ return [
 <h2 id="aesthetics">1. Aesthetics</h2>
 <p>The most obvious benefit of a paver driveway is how good it looks. Instead of the single flat finish of asphalt or plain grey concrete, pavers offer a wide palette of colours, textures and shapes: classic clay bricks, rustic tumbled stone or crisp, modern concrete blocks.</p>
 <p>The design possibilities are broad. You can choose patterns such as herringbone, basketweave or circular designs that become a focal point at the front of the house. Because pavers come in different sizes, you can also add borders and accent bands in a contrasting colour to frame the driveway, a level of detail that a poured surface cannot easily match. That flexibility lets you choose a driveway that suits the style of your home, whether it is a traditional brick terrace, a rustic cottage or a sharp contemporary build.</p>
+
+<!--figure:paved-drive-to-brick-house|Pavers come in many colours and patterns to suit the style of the house.-->
 
 <h2 id="durability">2. Durability</h2>
 <p>A well-laid paver driveway is built to take everyday traffic. A solid concrete slab can crack under heavy loads or when the ground moves, whereas pavers form an interlocking, flexible surface. Because they are individual units, they can shift very slightly with the ground rather than cracking across the whole drive.</p>
@@ -30,6 +32,8 @@ return [
 <li>Consider sealing the surface every few years, as your sealer manufacturer advises. A sealer can help protect against oil stains, fading and water penetration.</li>
 <li>Sweep regularly and clean occasionally. If you use a pressure washer, choose a low setting and a fan nozzle, keep it moving and follow the paving manufacturer's guidance, as aggressive washing can strip sand from the joints.</li>
 </ul>
+
+<!--figure:weeds-at-paving-edge|Joints need topping up and occasional weeding to keep a paved driveway tidy.-->
 
 <h2 id="cost">4. Cost</h2>
 <p>For many homeowners, the biggest barrier is the initial cost. Paver driveways are usually more expensive to install than asphalt or poured concrete. Two things drive that: the price of the paving itself and the amount of labour involved.</p>
@@ -51,7 +55,7 @@ return [
 <h2 id="value">8. Value</h2>
 <p>A paver driveway can give the front of a home strong kerb appeal, which shapes the first impression visitors and potential buyers have of the property. A neat, well-kept driveway can add appeal when you sell, but whether it adds value depends on your local market and the condition of the rest of the home, so treat it as a quality-of-life upgrade first rather than a guaranteed return.</p>
 
-<h2 id="who-is-it-right-for">Who is it right for?</h2>
+<h2 id="who-is-it-right-for">9. Who is it right for?</h2>
 <p>A paver driveway is a good fit for:</p>
 <ul>
 <li><strong>Long-term homeowners:</strong> if you plan to stay put, easy small-scale repairs and a durable surface make the higher upfront cost easier to justify.</li>

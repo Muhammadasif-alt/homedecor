@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Gravel driveway maintenance through the year: spring pothole repair, summer weeds and dust, autumn drainage, winter snow clearing, grading and top-ups.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'aerial-residential-community',
+    'image' => 'gravel-driveway-in-garden',
     'body' => <<<'HTML'
 <p>A gravel driveway is a classic, good-value and attractive choice for many homes, particularly in rural and suburban settings. Unlike asphalt or concrete, which can crack and need professional repair, gravel is forgiving and easy to look after if you keep to a regular routine. The key to a long life, though, is staying ahead of problems. Without a seasonal plan, a gravel drive can quickly develop potholes, ripples (often called "washboarding") and drainage trouble.</p>
 <p>Each season brings its own challenges. Understanding them lets you keep the driveway looking smart and working well for many years. This guide sets out what to do through the year, and when to call in your installer.</p>
@@ -29,6 +29,8 @@ return [
 <li>Finish the patch slightly proud of the surrounding surface to allow for settling, then top with stone that matches the rest of the drive.</li>
 </ul>
 <p>If the same pothole keeps coming back, the problem is probably drainage or a weak sub-base underneath, and it is worth asking your installer to look at it.</p>
+
+<!--figure:potholes-filled-with-water|Fill potholes as soon as they appear, before standing water makes them deeper.-->
 
 <h2 id="summer-weeding">3. Summer weeding</h2>
 <p>As the weather warms, organic matter that has settled between the stones gives weeds and grass somewhere to grow. A few sprouts may look harmless, but roots can loosen the compacted layers and make the drive more prone to erosion.</p>
@@ -62,6 +64,8 @@ return [
 <p>To avoid this, raise the blade or adjust the skids on a snow plough or snow blower so the blade sits slightly above the stones; check the equipment's manual for how to set it. Leaving a thin layer of packed snow is no bad thing, as it protects the gravel underneath. If you are shovelling by hand, skim the snow rather than scraping the ground.</p>
 <p>Use de-icing salt sparingly: the brine can soak into the base and make freeze-thaw damage worse, and runoff can harm nearby lawns and planting. For grip, a little grit or sand on the main walking route is usually enough.</p>
 
+<!--figure:snow-covered-driveway-trees|Set a snow blower or shovel slightly high so it does not scrape the gravel away.-->
+
 <h2 id="grading">8. Regrading the surface</h2>
 <p>Grading levels the surface and restores the crown. How often it is needed depends on traffic and weather, but many drives benefit from it at least once a year. Late spring or early autumn is usually best, when the ground is damp but not waterlogged.</p>
 <p>On a long drive, a contractor may use a box blade or grader behind a tractor. For a shorter one, a homemade drag works: a heavy section of chain-link fence weighted down with concrete blocks, pulled slowly behind a garden tractor or vehicle. If you try this, keep the blocks well secured, keep speed very low, make sure no one stands near or rides on the drag, and keep children and pets well away. Either way, the aim is to pull gravel back from the edges towards the centre, rebuilding the crown and smoothing out washboarding, the ripples that form where vehicles brake or accelerate.</p>
@@ -71,6 +75,8 @@ return [
 <p>Match the new stone to the existing material in size, colour and type. A well-built gravel drive is usually made in layers: larger stone at the bottom for strength and drainage, then crushed stone with fines that compacts into a firm base, then the decorative top stone. Your installer will specify the stone and depths for your ground. Spring is a good time to top up, so the new stone can settle and compact over the summer.</p>
 
 <blockquote><p><strong>Tip:</strong> Keep a note of exactly which stone was used on your drive, and where it came from, when it is first laid. When you top up, matching the colour and size is far easier, and the drive will not end up patchy.</p></blockquote>
+
+<!--figure:fresh-gravel-top-dressing|A fresh top dressing of matching gravel restores the surface every few years.-->
 
 <h2 id="faq">FAQ</h2>
 <h3>How often should I add new gravel to my driveway?</h3>

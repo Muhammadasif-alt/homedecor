@@ -9,7 +9,7 @@ return [
     'meta_description' => 'How to build a paver driveway step by step: plan and check permissions, dig out, compact the sub-base, screed, lay and cut blocks, edge, joint and seal.',
     'categories' => ['budget-home-decor', 'luxury-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'house-structure-construction',
+    'image' => 'block-paved-driveway-brick-house',
     'body' => <<<'HTML'
 <p>A paver driveway is more than a place to park; it is one of the biggest visual upgrades you can make to the front of your home. Because pavers form a flexible, interlocking surface, they cope with small ground movements better than a continuous slab, and they come in a wide range of stone, brick and concrete finishes. Building one, though, is labour-intensive. It takes precision, physical stamina and a good understanding of site preparation.</p>
 <p>Be honest with yourself before you start: a large driveway is a heavy job, involving tonnes of spoil and stone and hired machinery. Many DIYers lay the pavers themselves but bring in a professional for the excavation and sub-base. This guide walks through every stage so you can decide which parts you want to tackle.</p>
@@ -25,7 +25,7 @@ return [
 <h2 id="planning">1. Planning</h2>
 <p>Before a single spadeful of soil is moved, you need a clear plan, starting with permissions. In England, a new or replacement hard surface over 5 m² in a front garden generally needs planning permission unless it is permeable or drains to a permeable area, such as a lawn or border; permeable block paving and gravel usually qualify. A new dropped kerb to get a car onto the drive needs permission from the council. In the US, check local permits and any HOA rules. Wherever you live, check with your local authority before you start.</p>
 <p>Then work out the layout. Measure the area accurately so you can order materials. Allow enough width to open car doors and walk past the car; many single driveways are around 3 m (10 ft) wide, with double driveways considerably wider. Drainage is the most important technical part of the plan: the surface needs a gentle fall away from the house and other buildings so rainwater never runs towards walls or doors. If you are using a professional for the groundwork, the installer will set the fall for your site.</p>
-<!--figure:landscape-plan-samples|A landscape plan with material samples and notes on an outdoor table: drawing the layout to scale makes it much easier to order materials-->
+<!--figure:pallets-of-concrete-pavers|Order enough pavers for the area plus an allowance for cuts and breakages.-->
 
 <h2 id="preparation">2. Preparation</h2>
 <p>Once you have a design, mark out the perimeter with wooden pegs and a bright string line. For curves, lay a garden hose to the shape you want, then mark it with line-marking paint.</p>
@@ -55,6 +55,8 @@ return [
 <p>Start laying at a straight, fixed edge, such as a garage threshold or an existing kerb, usually working from the lowest point upwards. Work outwards from the laid area, kneeling on the pavers you have already placed rather than on the sand. Place each paver straight down into position; do not slide it, as this disturbs the bedding.</p>
 <p>Lay pavers snugly according to the manufacturer's guidance; many blocks have built-in spacer nibs that set the joint width. Use string lines every metre or so to keep the rows straight. If one paver sits slightly high, tap it gently with a rubber mallet, but do not over-adjust, as final compaction will even out small differences. Take blocks from several packs as you go so the colour blends evenly across the drive.</p>
 
+<!--figure:laying-concrete-block-pavers|Lay pavers from a fixed edge, working forward so you stand on the laid blocks, not the sand.-->
+
 <h2 id="cutting">7. Cutting</h2>
 <p>At edges, curves and around drains you will need to cut pavers to fit. Mark each one in position with a wax crayon or chalk for an exact fit. A wet saw gives clean, precise cuts and uses water to keep down the hazardous silica dust. Always wear goggles, ear protection and a suitable respirator when cutting masonry, and follow the saw's safety instructions. For curves, a series of small straight cuts gives a much neater line than leaving wide gaps. Avoid very small slivers at edges, as they can work loose; adjust the layout so cut pieces are a reasonable size.</p>
 
@@ -65,6 +67,8 @@ return [
 <h2 id="sanding">9. Jointing</h2>
 <p>With all the pavers laid and the edges secure, it is time to lock everything together. Sweep dry jointing sand across the surface, working it into every joint. Then run the plate compactor over the pavers, ideally with a rubber mat or pad fitted to protect their faces. This vibrates the sand into the joints and beds the pavers into the sand below. Sweep in more sand and repeat until the joints stay full.</p>
 <p>If you use polymeric sand, follow the product's instructions to the letter: it usually needs a dry weather window before and after application, the surface must be completely clear of loose sand before you activate it with water, and there will be a waiting period before you walk or drive on it.</p>
+
+<!--figure:granite-setts-with-joints|Well-filled joints lock the pavers together and slow down weeds and moss.-->
 
 <h2 id="sealing">10. Sealing</h2>
 <p>Sealing is optional, but a good sealer can help protect pavers from oil stains, tyre marks and fading, and can help stabilise the joint sand.</p>

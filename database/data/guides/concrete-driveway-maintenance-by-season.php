@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Concrete driveway maintenance through the year: spring cleaning, summer crack and oil stain repair, autumn sealing, winter snow clearing and de-icers.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'grey-structure-house-street',
+    'image' => 'concrete-driveway-modern-house',
     'body' => <<<'HTML'
 <p>A concrete driveway is one of the biggest investments you can make in the outside of your home. Concrete is known for being hard-wearing, but it is not a "set it and forget it" surface. Summer heat, heavy rain and, above all, the freeze-thaw cycles of winter all put the slab under strain year after year.</p>
 <p>Regular care is the key to keeping both the looks and the structure of your driveway in good shape. A simple seasonal routine stops small problems, such as hairline cracks, from growing into repairs that mean breaking out and relaying whole sections. This guide sets out what to do in each season to keep your concrete in good condition. How long a driveway lasts depends on how it was installed, how it is used, your climate and how well it is maintained, so the routine below is worth the effort.</p>
@@ -17,6 +17,8 @@ return [
 <h2 id="deep-cleaning">1. Spring: deep cleaning</h2>
 <p>As the frosts end and the ground dries out, spring is the ideal time to assess what winter has left behind. Start with a thorough clean. Over the colder months, road salt, grit and grime from tyres build up on the surface, and they are more than unsightly: salt and chemical residues can attack the concrete if they are left to sit.</p>
 <p>A pressure washer is the quickest way to lift embedded dirt, but use it with care. Choose a low setting and a fan nozzle, keep the wand moving and follow any guidance from your installer or sealer manufacturer, as too much pressure can etch or scar the surface. For mildew, moss or algae in damp, shaded corners, apply a biodegradable detergent or a cleaner made for concrete before rinsing, following the label and keeping run-off out of drains, ponds and watercourses. Clearing these deposits in spring stops them baking into the surface over the summer.</p>
+
+<!--figure:pressure-washing-paving|Use a pressure washer on a low setting with a fan nozzle, kept moving and well back from the surface.-->
 
 <h2 id="surface-inspection">2. Spring: surface inspection</h2>
 <p>Once the driveway is clean and dry, walk its full length and look closely. Spring is when frost heave, the movement of soil as it freezes and thaws, shows its effects. Look for new cracks, old cracks that have widened, sections that have lifted or dropped, and spalling, where the top layer of concrete starts to flake or peel away.</p>
@@ -26,6 +28,8 @@ return [
 <p>Summer is the season for repairs. Warm, dry weather gives fillers and sealants the best conditions to cure. Any crack wider than a hairline, roughly 3 mm (1/8 in) or more, is worth filling.</p>
 <p>Clean the crack out first with a wire brush to remove loose material and dust. For narrow cracks, a liquid concrete crack filler or a flexible polyurethane sealant works well; because these products stay flexible, the repair can move with the slab as it expands in the heat instead of popping out. For wider gaps, a foam backer rod pushed into the crack before sealing gives the sealant a firm base and keeps it at the right depth. Follow the product instructions on application and drying times. Filling cracks in summer keeps rainwater out of the slab and stops weeds rooting in the gaps.</p>
 <p>Wide cracks, cracks where one side sits higher than the other, or areas that have clearly sunk are signs of a problem in the base rather than the surface. Ask a driveway contractor to look at those before you fill them.</p>
+
+<!--figure:crack-in-concrete-surface|Fill hairline cracks in summer, before winter frost can widen them.-->
 
 <h2 id="stain-removal">4. Summer: stain removal</h2>
 <p>Summer usually brings more activity on the driveway, from washing or working on the car to barbecues and parties, so oil and grease stains are more likely. Concrete is porous, so oil soaks into the surface and becomes much harder to shift the longer it is left.</p>
@@ -43,6 +47,8 @@ return [
 <h2 id="snow-management">7. Winter: clearing snow</h2>
 <p>In winter, the way you clear snow has a big effect on how well your driveway survives until spring. The most important rule is to avoid metal-bladed shovels and snow blowers with metal-edged blades, which can scrape and chip the surface, especially where the slab is slightly uneven.</p>
 <p>Use plastic shovels or tools with a rubber edge instead, and try to clear snow soon after it falls. Snow that is left to sit often melts a little in the daytime and refreezes as ice bonded to the concrete, which is much harder to remove without damaging the surface. If you pay someone to clear snow with a plough, ask them to fit protective shoes or a rubber edge to the blade so the steel does not scrape the slab.</p>
+
+<!--figure:snow-blower-clearing-driveway|Clear snow promptly with a plastic shovel or snow blower rather than relying on salt.-->
 
 <h2 id="salt-alternatives">8. Winter: alternatives to rock salt</h2>
 <p>Rock salt (sodium chloride) is one of the worst things you can put on concrete. It melts ice effectively, but meltwater soaks into the surface and can refreeze, adding to freeze-thaw damage, and salt can corrode any steel reinforcement inside the slab. Avoid rock salt altogether on new concrete and close to metal such as drainage channels or gates.</p>

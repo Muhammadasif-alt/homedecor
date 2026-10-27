@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Concrete driveway mistakes to avoid: weak sub-base, watery mix, badly placed joints, no reinforcement, rushed curing, poor drainage and the wrong builder.',
     'categories' => ['budget-home-decor', 'luxury-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'concrete-frame-construction',
+    'image' => 'concrete-driveway-control-joints',
     'body' => <<<'HTML'
 <p>A concrete driveway is more than somewhere to park the car. It is a substantial investment that shapes the kerb appeal of your home and has to carry heavy loads in every kind of weather. Installed well, it can give many years of reliable service. When corners are cut or technical mistakes are made during planning and pouring, though, the results can be expensive.</p>
 <p>Plenty of homeowners end up with a driveway that starts to crack, flake or sink within a few years of being laid. The material itself is rarely to blame; the cause is usually an avoidable mistake during installation. Understanding the basics of good concrete work helps you ask the right questions and spot shortcuts. Below are the most costly mistakes and how to make sure your driveway stands the test of time.</p>
@@ -22,6 +22,8 @@ return [
 <p>Not all concrete is the same. A frequent mistake is a "soupy" mix with too much water added on site. Water is needed for the chemical reaction that hardens concrete, but too much of it weakens the result. A wetter mix is easier to spread and level, which is why it can be tempting on the day, but as the extra water leaves the slab it leaves tiny voids behind.</p>
 <p>That more porous concrete is weaker and much more vulnerable to frost. Water gets into the pores, freezes and expands, and the surface starts to flake away. Ask your contractor which mix they are ordering, and make sure it is specified for an external driveway in your climate rather than a general-purpose mix. If someone suggests adding extra water to make the concrete easier to work, question it: it trades the long-term durability of your driveway for convenience on the day.</p>
 
+<!--figure:workers-pouring-concrete-wheelbarrow|Adding extra water makes concrete easier to place but leaves it weaker and more prone to cracking.-->
+
 <h2 id="joint-placement">3. Badly placed joints</h2>
 <p>Concrete always shrinks slightly as it hardens, and that shrinkage builds tension in the slab. Left unmanaged, it relieves itself as random, web-like cracks. Control joints are planned weak lines, cut or tooled into the surface, that tell the concrete where to crack so that any cracking stays neat and hidden in the joint.</p>
 <p>Joints that are too far apart or too shallow are a common fault. Installers commonly work to guidelines linking joint spacing and depth to the slab's thickness, and the contractor should set the joint layout for your particular slab and show it on the plan. Leaving out isolation (expansion) joints where the driveway meets the house, garage floor or a path is another costly error: without that flexible buffer, the slab can push against walls and steps as it expands in hot weather and damage both.</p>
@@ -29,6 +31,8 @@ return [
 <h2 id="reinforcement">4. Skipping or misplacing reinforcement</h2>
 <p>Concrete is very strong when it is squashed, but much weaker when it is pulled or bent. Reinforcement helps it cope. Some driveways are poured with none to save on materials, and others have steel mesh that ends up lying at the bottom of the slab, where it does little good.</p>
 <p>Where reinforcement is used, whether steel mesh or bars, it must be raised on spacers (often called chairs) so it sits within the thickness of the slab once the concrete is poured, not trodden into the base. Fibre-reinforced concrete, with fine synthetic fibres mixed through it, can also help limit small surface cracks. Whether your driveway needs reinforcement, and what kind, depends on the ground and the vehicles it will carry, so ask your contractor or an engineer to specify it rather than leaving it out by default.</p>
+
+<!--figure:workers-placing-concrete-over-mesh|Reinforcement mesh needs to sit within the slab, not on the ground beneath it.-->
 
 <h2 id="curing">5. Rushing the curing</h2>
 <p>Curing is not the same as drying. Drying is water evaporating; curing is the chemical process that gives concrete its strength, and it needs moisture. It is one of the most neglected stages, because a new driveway looks hard and dry within a day or two and it is tempting to start using it.</p>

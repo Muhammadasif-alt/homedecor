@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Gravel driveway cost explained: how size, depth, stone type, groundwork, drainage, membranes and labour affect the price, and how to compare quotes.',
     'categories' => ['budget-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-frame-construction',
+    'image' => 'gravel-driveway-between-hedges',
     'body' => <<<'HTML'
 <p>Gravel is one of the most cost-effective, hard-wearing and versatile driveway surfaces you can choose. Whether you are building a new home on a rural plot or replacing a crumbling tarmac drive in town, gravel gives you a permeable surface that copes with cars and changing weather well. It is usually cheaper to install than asphalt or concrete, though it needs more regular top-ups over the years.</p>
 <p>What it actually costs varies a great deal with your region, the supplier, the year and the site, so rather than quote figures that will quickly date, this guide explains what makes one gravel driveway cost more than another. That way you can plan sensibly, read quotes with confidence and end up with a drive that does not need constant, expensive repairs.</p>
@@ -28,9 +28,13 @@ return [
 </ul>
 <p>Distance from the quarry also matters. A stone quarried locally is generally cheaper than one transported a long way, so if you love a particular decorative stone, ask your supplier about a local alternative in a similar colour.</p>
 
+<!--figure:crushed-stone-aggregate-closeup|Angular crushed stone locks together far better than rounded pea gravel.-->
+
 <h2 id="preparation">3. Site preparation</h2>
 <p>You cannot simply tip gravel onto grass and expect it to stay put. Groundwork is often the hidden cost of a gravel drive. It covers clearing the site of shrubs, roots and old surfaces, and, most importantly, digging out the turf and topsoil, which are too soft to carry a car.</p>
 <p>If the ground is uneven, moving soil from high spots to low ones adds time, and taking spoil away adds skip or haulage costs. An old concrete or tarmac drive that has to be broken out first adds noticeably to the bill. On larger sites, contractors use mini diggers and other machinery to strip the ground back to firm subsoil, which is quicker but needs a skilled operator. Before any digging, buried services need to be located: in the UK, check utility plans or use a cable avoidance tool; in the US, call 811.</p>
+
+<!--figure:roller-compacting-sub-base|Proper excavation and a compacted sub-base are where much of the cost goes, and where it pays off.-->
 
 <h2 id="drainage">4. Drainage</h2>
 <p>Drainage has more effect on how long a gravel driveway lasts than almost anything else. If water is allowed to pool, it washes out the fines and creates potholes.</p>
@@ -63,7 +67,7 @@ return [
 <p>Gravel is cheap to install, but it is a moving surface, so factor in the running costs. Tyres push stone to the edges, rain shifts the fines and some stone is carried away on wheels and boots.</p>
 <p>Expect to buy a fresh layer of top stone every few years, depending on traffic and weather, and to regrade the surface from time to time to smooth out ripples and fill potholes. On a short drive that is easy to do yourself with a rake; on a long one you may hire a contractor with a grading blade. Our <a href="/blog/gravel-driveway-maintenance-by-season">seasonal gravel driveway maintenance guide</a> sets out what to do and when.</p>
 
-<h2 id="comparing-quotes">How to get driveway quotes you can compare</h2>
+<h2 id="comparing-quotes">9. How to get driveway quotes you can compare</h2>
 <p>Quotes are only comparable if they price the same job. Give two or three installers the same measurements and specification, and ask for an itemised quote covering:</p>
 <ul>
 <li>The area, and the depth of each layer.</li>
@@ -78,7 +82,7 @@ return [
 </ul>
 <p>If one quote is much lower than the rest, check which of these items it leaves out, especially depth, membrane and drainage.</p>
 
-<h2 id="keeping-costs-down">Ways to keep the cost down</h2>
+<h2 id="keeping-costs-down">10. Ways to keep the cost down</h2>
 <ul>
 <li>Choose a local crushed stone for the top layer rather than a decorative stone from far away.</li>
 <li>Keep the drive a simple shape; curves and extra parking bays add area and edging.</li>

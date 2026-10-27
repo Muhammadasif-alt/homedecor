@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Gravel driveway mistakes to avoid: poor grading, no sub-base, the wrong stone, skipping the membrane, weak compaction, no edging and too little depth.',
     'categories' => ['budget-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'site-master-plan-markup',
+    'image' => 'gravel-drive-between-fences',
     'body' => <<<'HTML'
 <p>Gravel is often the first choice for homeowners who want a mix of rustic charm, good drainage and value. Set against the higher upfront cost of asphalt or concrete, it looks like the obvious budget option. There is a big difference, though, between a properly built gravel driveway and a load of stone tipped and spread over the lawn.</p>
 <p>Many homeowners end up in a cycle of repairs, buying stone year after year to fix problems that could have been avoided. Stones vanish into mud, ripples form across the surface and puddles appear in the same spots after every shower. Knowing the common mistakes, and the simple principles that prevent them, is the best way to make sure your money goes into a drive that lasts.</p>
@@ -26,6 +26,8 @@ return [
 <p>Looks often lead people to the wrong stone. Smooth, rounded pea gravel or river pebbles are lovely on garden paths, but they are a poor choice for the base or the driving surface. Rounded stones do not lock together; they behave like ball bearings. Every time a car pulls away or turns its wheels, they shift and roll, leaving ruts and scattering stone onto the lawn.</p>
 <p>For the structure, use crushed, angular stone with sharp faces that interlock under load. The usual base material is crushed stone with fines, sold in the UK as Type 1 sub-base or MOT Type 1, and in the US as crusher run or dense-grade aggregate. It contains a range of stone sizes plus stone dust, which fills the gaps and binds the layer into a firm, solid base once compacted. For the visible top layer, angular crushed stone of around 20 mm (¾ in) is a common, stable choice; very fine or very rounded stone is harder to drive on.</p>
 
+<!--figure:crushed-stone-aggregate-closeup|Angular, graded stone binds together; rounded stone rolls underfoot and under tyres.-->
+
 <h2 id="geotextile">4. Skipping the geotextile membrane</h2>
 <p>Even with a good sub-base, ground movement and water can gradually mix soil and stone. Leaving out a geotextile membrane is a classic false economy. A heavy-duty woven stabilisation fabric, laid on the prepared ground before the sub-base, separates the two.</p>
 <p>The membrane lets water drain through but stops stone sinking into the mud and stops mud pumping up into the clean stone. It also helps spread the load from vehicles across a wider area. Your installer can advise whether it is needed for your soil, but on clay or soft ground it often makes a real difference to how long the drive keeps its shape and how often it needs topping up. Plastic gravel grids, laid under or within the top layer, are another option some installers use to hold stone in place on slopes and turning areas.</p>
@@ -33,6 +35,8 @@ return [
 <h2 id="compaction">5. Poor compaction</h2>
 <p>Gravel does not settle into a firm surface on its own. If you simply spread the stone and start driving on it, it will shift and rut straight away. A durable drive is built and compacted in layers.</p>
 <p>Each layer, from the sub-base to the top, should be compacted with a plate compactor or roller to remove air pockets and force the angular stones to lock together. If you are doing the work yourself, hiring a compactor or roller is money well spent; follow the hire company's safety guidance, or hire the machine with an operator for larger rollers. A well-compacted drive resists washboarding (the rhythmic ripples that form on loose gravel) and stays put in heavy rain.</p>
+
+<!--figure:roller-compacting-sub-base|Compact each layer properly, or the drive will rut and sink.-->
 
 <h2 id="containment">6. No edging</h2>
 <p>Without an edge, gravel travels. Rain, wind and tyres gradually push it into the borders, across the lawn and out onto the pavement or road. That is not just untidy; it is stone you have paid for, walking away.</p>
@@ -42,7 +46,7 @@ return [
 <p>Many people underestimate how much material a driveway needs. A thin skim of gravel over soil will fail quickly under the weight of a car. Too much loose stone on top causes problems too: cars lose grip, wheels sink and the surface feels like driving on a beach.</p>
 <p>The right total depth depends on your soil, drainage and the vehicles using the drive, so ask your installer to specify it. As a rule of thumb, most of that depth sits in the compacted sub-base, with a relatively thin layer of loose decorative stone on top; a few centimetres is usually enough. Keeping the depth right means the weight of the car is carried by the stone structure rather than the soft soil below.</p>
 
-<h2 id="planning">Don't forget the rules</h2>
+<h2 id="planning">8. Don't forget the rules</h2>
 <p>One more expensive mistake is not checking permissions. In England, a new or replacement hard surface over 5 m² in a front garden generally needs planning permission unless it is permeable or drains to a permeable area. Gravel usually qualifies, which is one of its advantages. If you need a new dropped kerb to reach the road, that needs council permission. In the US, check local permits and any HOA rules. Either way, check with your local authority before work starts, and check for buried pipes and cables before you dig: in the UK, look at utility plans or use a cable avoidance tool; in the US, call 811.</p>
 
 <blockquote><p><strong>Tip:</strong> Before work starts, ask your installer to write down the depth of each layer, the stone used for each and whether a membrane is included. It makes quotes easy to compare and gives you a record to check against on site.</p></blockquote>
