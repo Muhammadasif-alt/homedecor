@@ -148,4 +148,8 @@ return [
     ['before-after-bathroom-after', 'bathroom-after', 'before-after', 'The same bathroom after renovation with stone tiles, a floating vanity, round lit mirror and glass shower'],
     ['before-after-bedroom-before', 'bedroom-before', 'before-after', 'Bedroom before decoration with bare walls, a basic bed frame and a single ceiling bulb'],
     ['before-after-bedroom-after', 'bedroom-after', 'before-after', 'The same bedroom after decoration with an upholstered bed, timber panels, ring chandelier and layered curtains'],
+    ['unsplash-outdoor-kitchen-island-alef-morais', 'outdoor-kitchen-island-bar-stools', 'outdoor', 'Covered outdoor kitchen with a long concrete island, woven bar stools, a gas hob and a stone feature wall'],
+    ['unsplash-outdoor-kitchen-hob-pool-alef-morais', 'outdoor-kitchen-gas-hob-pool', 'outdoor', 'Gas hob set into a concrete outdoor kitchen counter overlooking a pool and sun loungers'],
+    ['unsplash-grill-cart-little-plant', 'outdoor-grill-station-garden', 'outdoor', 'Black kettle grill beside a stainless steel prep station in a planted garden'],
+    ['unsplash-covered-outdoor-kitchen-salvo-media', 'covered-outdoor-kitchen-vent-hood', 'outdoor', 'Covered terrace with a built-in outdoor kitchen, stainless grill and a vent hood against a white wall'],
 ];
