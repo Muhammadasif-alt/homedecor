@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Steel edging mistakes to avoid: steel that is too thin, the wrong burial depth, poor rust protection, weak joints, kinked curves and too few stakes.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-entrance-finishing-stage',
+    'image' => 'curved-gravel-path-garden',
     'body' => <<<'HTML'
 <p>Landscape edging is often thought of as the finishing touch of a well-designed garden: the detail that defines borders, contains gravel and stops grass creeping into flower beds. Among the materials available, steel stands out for its durability, slim profile and modern look. Yet many homeowners treat steel edging as a simple "set it and forget it" job, and that assumption leads to buying and installation errors that can turn a weekend project into an expensive one.</p>
 <p>When steel edging fails, it does not just look untidy. It can damage mowers and strimmers, create trip hazards and, at worst, need to be dug out and replaced. Understanding material thickness, soil conditions and how the system is fixed together is the best way to get it right the first time.</p>
@@ -21,6 +21,8 @@ return [
 <h2 id="installation-depth">2. Installation depth</h2>
 <p>Getting the height wrong is the mistake that most often leads to damaged equipment. If the edging stands too proud, it becomes a target for mower blades. A single strike can chew up the edging, blunt or bend the blade and put strain on the mower itself.</p>
 <p>Set too shallow, the edging fails at its main job: stopping grass roots. Spreading grasses with creeping runners, such as couch grass (in warmer US climates, Bermuda or zoysia), will simply grow underneath a shallow edge and into your beds. Follow the manufacturer's guidance on burial depth; as a rough guide, the edging should go deep enough to stop grass roots, often 5–8 cm (2–3 in) or more below ground. Leave the top edge a little above the soil, about 1 cm or so, and low enough for the mower blade to clear, then set your mower height accordingly.</p>
+
+<!--figure:pebbles-meeting-concrete-edge|Set deep enough, an edge keeps two surfaces apart along a clean, straight line.-->
 
 <h2 id="corrosion-protection">3. Corrosion protection</h2>
 <p>Steel and moisture do not mix well unless the steel is chosen and finished for outdoor use. Many homeowners buy raw steel assuming it will develop an attractive rusty look on its own, but there is a real difference between weathering steel and ordinary carbon steel.</p>
@@ -36,11 +38,13 @@ return [
 <p>Match the thickness of the steel to the curves in your design. Very thick steel, around 6 mm (¼ in), is excellent for straight runs and formal shapes but generally needs a bender to form curves. For sweeping beds, a thinner landscape-grade strip, within the range the manufacturer recommends for curves, usually offers a better balance of flexibility and strength. Mark the curve out on the ground first, bend gradually along its length rather than at one point, and check the manufacturer's minimum radius before you buy.</p>
 <blockquote><p><strong>Tip:</strong> Lay a garden hose along the planned line and live with it for a day or two. It shows you exactly how tight each curve is, which makes it much easier to choose a steel thickness that will follow it without kinking.</p></blockquote>
 
+<!--figure:curved-gravel-drive-lawn-edge|Plan long, gentle curves; tight bends are hard to form neatly in steel.-->
+
 <h2 id="anchoring-systems">6. Anchoring systems</h2>
 <p>Even good-quality steel will fail if it is not anchored properly. The usual mistakes are too few stakes, or stakes that are too short for the soil. In loose or sandy soil, short stakes can pull out, letting the edging lean or float over time.</p>
 <p>Once the edging starts to tilt, it stops holding back mulch or gravel, which then spreads onto the lawn after heavy rain and has to be raked back or topped up. Follow the manufacturer's guidance on stake length and spacing, put a stake at every joint, and use longer stakes in loose or sandy soil so they reach firmer ground below. That keeps the edging upright and doing its job.</p>
 
-<h2 id="doing-it-right">Why doing it right pays off</h2>
+<h2 id="doing-it-right">7. Why doing it right pays off</h2>
 <p>Choosing a suitable thickness and finish, and taking care over depth, joints, curves and stakes, usually costs a little more at the outset than the cheapest option. In return you are far less likely to face repairs, lost mulch and gravel, damaged mowers or a full replacement, and the edging will keep its clean line for much longer. For most gardens, getting it right once works out better than redoing it later.</p>
 
 <h2 id="faq">FAQ</h2>

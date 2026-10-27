@@ -179,4 +179,22 @@ class GuideBatchRefreshTest extends TestCase
         }
         $this->assertStringContainsString('">1. The pros of brick edging', BlogPost::where('slug', 'brick-edging-pros-and-cons')->value('body'));
     }
+
+    public function test_stone_and_steel_edging_batch_replaces_villa_and_cost_photos(): void
+    {
+        $old = $this->media('cost-estimate-plans-review');
+        $slugs = ['how-to-build-stone-edging', 'stone-edging-maintenance-by-season', 'steel-edging-cost', 'steel-edging-maintenance-by-season', 'steel-edging-mistakes'];
+        foreach ($slugs as $slug) {
+            $this->blogPost(['slug' => $slug, 'title' => 'Old', 'body' => '<p>Old</p>', 'featured_media_id' => $old->id]);
+        }
+
+        (require database_path('migrations/2026_10_27_121153_refresh_stone_and_steel_edging_guides_with_matching_photos.php'))->up();
+
+        foreach ($slugs as $slug) {
+            $post = BlogPost::where('slug', $slug)->with('featuredMedia')->firstOrFail();
+            $this->assertNotSame($old->id, $post->featured_media_id, $slug);
+            $this->assertGreaterThanOrEqual(1, substr_count($post->body, '<figure>'), $slug);
+            $this->assertStringNotContainsString('garden-stone-path', $post->body, $slug);
+        }
+    }
 }

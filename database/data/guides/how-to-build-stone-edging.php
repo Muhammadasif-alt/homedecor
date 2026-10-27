@@ -9,7 +9,7 @@ return [
     'meta_description' => 'How to build stone edging step by step: choose natural stone, set it flat, on edge or dry-stacked, fit irregular pieces and handle heavy stone safely.',
     'categories' => ['budget-home-decor', 'luxury-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-garden-pool-finishing',
+    'image' => 'stone-steps-and-edged-beds',
     'body' => <<<'HTML'
 <p>Planting and lawn give a garden its colour, but the edges give it shape. A border of natural stone draws a clear line between grass and beds, slows creeping grass and keeps mulch where it belongs. Unlike thin plastic strips, stone has real weight and texture, and it weathers gradually, so it tends to look better as it settles into the garden.</p>
 <p>Stone is also the most hands-on edging material. No two pieces are quite the same, many are heavy, and the skill lies in choosing, fitting and bedding each one so the run reads as a single line. This guide concentrates on what is particular to natural stone. The groundwork (marking out, trenching and the compacted base) is shared with block edging, so it is covered briefly here; for full detail, see our guide on <a href="/blog/how-to-build-paver-edging">how to build paver edging</a>.</p>
@@ -31,7 +31,7 @@ return [
 <li><strong>Boulders:</strong> occasional large stones used as accents at corners or bed ends rather than as a continuous edge. These need a proper bed and, often, more than one pair of hands.</li>
 </ul>
 <p>As a rule, harder, denser stone wears better along a lawn edge, while softer stone suits sheltered beds where it will not be scuffed by mower wheels. Stone quarried locally often looks most at home, because it matches the walls, paths and soil around you. Buy a few extra pieces so you have a choice when fitting.</p>
-<!--figure:garden-stone-path|A curved stone path through flowering beds: natural stone sits comfortably beside soft, informal planting-->
+<!--figure:mixed-natural-stones-closeup|Choose a stone that suits your garden and is hard enough to stand up to frost.-->
 
 <h2 id="style">2. Decide how the stone will sit</h2>
 <p>Natural stone edging is usually built in one of three ways:</p>
@@ -55,6 +55,8 @@ return [
 
 <blockquote><p><strong>Tip:</strong> Set the heaviest stones first, while you are fresh, and place them at corners and bed ends where they anchor the run. The lighter pieces between them are much easier to fit around fixed points.</p></blockquote>
 
+<!--figure:dry-laid-fieldstone-edge|Rounded fieldstones can be laid dry, bedded firmly so they do not rock.-->
+
 <h2 id="haunching">6. Haunch larger stones where needed</h2>
 <p>Most stone edging relies on its own weight and firm backfill. Tall stones set on edge, stones along a path that people step on, or edging on soft ground may need extra support. Here, bed the stones on a lean concrete mix and haunch the back of each one with a sloping bead of concrete, keeping it below soil level so it is hidden. Ask your stone supplier whether it suits your stone, and follow the mix instructions on the bag. Mortar is not usually needed between the stones of a simple garden edge; dry joints allow drainage and are easier to repair.</p>
 
@@ -64,6 +66,8 @@ return [
 
 <h2 id="aftercare">8. Aftercare</h2>
 <p>Stones may settle unevenly in the first year or after a hard winter. Lift any that tilt, add a little sand and reseat them. Trim back grass that creeps over the edge once or twice a season. Moss and lichen often colonise sandstone and limestone; many people enjoy the aged look. If you want to clean it, a stiff brush and water is the safest start. A pressure washer can damage soft stone and wash out joints, so avoid it on sandstone and limestone; on harder stone, use only a low setting and a fan nozzle, following the stone supplier's guidance. For a season-by-season routine, see our guide to <a href="/blog/stone-edging-maintenance-by-season">stone edging maintenance by season</a>.</p>
+
+<!--figure:planting-against-stone-edge|Let planting soften the stone once the edge has settled.-->
 
 <h2 id="faq">FAQ</h2>
 <h3>What is the best natural stone for garden edging?</h3>

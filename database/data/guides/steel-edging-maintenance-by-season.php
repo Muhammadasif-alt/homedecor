@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Steel edging maintenance by season: frost heave checks, safe trimming and mowing, leaf and salt care, rust touch-ups and how to realign a wavy edge.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'modern-villa-exterior-dusk',
+    'image' => 'gravel-path-through-planted-garden',
     'body' => <<<'HTML'
 <p>Steel edging is often described as the "set it and forget it" solution for lawn and border edges. Its durability, slim profile and ability to hold crisp, clean lines make it a favourite with garden designers and homeowners alike. The "forget it" part, though, is a common misconception. Steel is far more resilient than plastic or timber, but it is still a metal exposed to shifting soil, changing temperatures, moisture and the odd knock from garden tools.</p>
 <p>To keep your garden looking as sharp as the day the edging went in, a simple seasonal routine is worth the effort. It keeps the lines looking good and catches small problems before they turn into bigger repairs. This guide breaks down what to do for steel edging throughout the year.</p>
@@ -24,6 +24,8 @@ return [
 <p>In summer the main challenge is fast-growing grass and weeds. Steel edging is a good physical barrier to roots, but it cannot stop grass creeping over the top or debris collecting at the seam, where weeds then take hold.</p>
 <p>Summer care is mostly about looks and protecting the finish. When you strimmer along the edge, be mindful of the coating. Weathering steel is designed to develop a rust-coloured surface, but powder-coated or galvanised steel can be chipped by heavy strimmer line. Once the coating is broken, the steel underneath can start to rust early, so keep the line light and angled away from the metal.</p>
 <p>In full sun, dark metal gets hot. Plants right against the edging may dry out a little faster than the rest of the border, so keep an eye on them during dry spells. A fresh layer of mulch up to the edging helps keep the soil next to it cool and moist.</p>
+
+<!--figure:path-with-neat-planted-edges|Trim grass and plants back from the edge so it stays crisp all summer.-->
 
 <h2 id="autumn-preservation">3. Autumn preservation</h2>
 <p>As the growing season winds down, shift your focus to clearing debris and managing moisture. Autumn leaves piled against steel edging hold water against the metal for weeks, which can speed up corrosion, especially at the soil line.</p>

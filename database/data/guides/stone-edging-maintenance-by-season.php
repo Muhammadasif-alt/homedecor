@@ -9,18 +9,18 @@ return [
     'meta_description' => 'Stone edging maintenance through the year: fix frost heave, cleaning, weeds and ants, autumn leaves, winter de-icers, resetting stones and stain removal.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-garden-elevation',
+    'image' => 'pond-with-stone-edging',
     'body' => <<<'HTML'
 <p>Stone edging is the structural backbone of a well-designed garden. Whether it is rugged fieldstone, crisp granite or classic limestone, a stone border draws a definite line between beds and lawn, stops soil and mulch drifting onto the grass and gives the whole garden a more finished look, adding to the kerb appeal of the front garden too. But stone is not a "set it and forget it" feature. The weather, from winter's freeze-thaw cycles to vigorous summer root growth, is constantly working to shift, stain and wear your edging.</p>
 <p>A simple seasonal routine keeps that in check. By following a structured approach through the year, you can head off long-term damage, keep the edge safe to walk and mow beside, and keep it looking as good as the day it was laid.</p>
-
-<!--figure:garden-stone-path|A curved stone garden path through flowering beds-->
 
 <h2 id="spring-renewal">1. Spring renewal</h2>
 <p>Spring is the most important season for stone edging. Once the ground thaws, the main job is dealing with frost heave: water in the soil freezes and expands, physically pushing stones up or out of their original line.</p>
 <p>As the ground softens, start with a thorough inspection. Walk the full length of the edging and look for stones that have tilted, lifted or sunk. Use a rubber mallet to tap slightly heaved stones gently back into line. If a section has moved significantly, lift the stones, re-level the sand or gravel bed underneath and reset them.</p>
 <p>Spring is also the time for a proper clean. Winter tends to leave a layer of silt, salt residue and green slime. Scrub the stones with a stiff brush and a bucket of water with a little mild detergent. If you use a pressure washer, keep it on a low setting with a fan nozzle and follow the stone supplier's guidance; avoid it altogether on soft stone such as sandstone or limestone, which it can etch, opening up the surface so that moss and algae take hold more easily later.</p>
 <p>Finally, check the joints. If your edging has polymeric sand or mortar between the stones, look for cracks caused by the winter cold and repair them early, before weed seeds settle in.</p>
+
+<!--figure:moss-on-stone-edging|Spring is the time to scrub off moss and reset any stones lifted by frost.-->
 
 <h2 id="summer-vigilance">2. Summer vigilance</h2>
 <p>Through the summer the focus shifts from structure to keeping things neat. With warm weather and regular showers, weeds and creeping grasses will try to cross your stone borders.</p>
@@ -30,6 +30,8 @@ return [
 <li>If you use vinegar-based products, including "horticultural vinegar", treat them as a weedkiller: follow the label, keep them off the plants you want to keep and out of drains.</li>
 </ul>
 <p>Summer is also when ants are most active. Some species like the cool, sheltered space under edging stones. Ants rarely cause structural problems on their own, but they can undermine sand joints by carrying the sand away, which you will notice as small heaps of fine sand or soil along the edge. Brush the heaps away, refill the joints and firm them. If you choose to use an ant treatment, follow the label.</p>
+
+<!--figure:stonework-with-ground-cover|Trim back ground cover before it hides the edge or lifts the stones.-->
 
 <h2 id="autumn-preparation">3. Autumn preparation</h2>
 <p>Autumn is mainly about clearing debris and getting the edging ready for winter. As trees drop their leaves, it is tempting to let them pile up against the stones, but wet leaves contain tannins that can stain paler stone, such as some sandstones, limestone and marble.</p>

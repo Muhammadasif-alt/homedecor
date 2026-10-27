@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Steel edging cost explained: how finish, thickness, height, curves, fixings, delivery and labour affect the price, and how to compare edging quotes.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'cost-estimate-plans-review',
+    'image' => 'straight-edged-gravel-path-arches',
     'body' => <<<'HTML'
 <p>Few garden details give the same structure and precision as steel edging. Whether you want a minimalist modern border or a rustic, weathered look, steel holds a crisp line that plastic and timber struggle to match. That quality comes with a higher starting cost than most alternatives, and understanding it means looking beyond the price of the strip itself: the finish, the thickness, the installation and how long the edging will keep its shape all play a part.</p>
 <p>Prices vary widely by supplier, region and year, so rather than quote figures that will soon be out of date, this guide explains what makes one steel edging job cost more than another, how to get quotes you can genuinely compare, and where you can save without ending up with a wavy, rusting border.</p>
@@ -22,18 +22,24 @@ return [
 <p>Galvanised steel has a zinc coating that protects it from rust and corrosion. It is a popular choice for damp gardens and for anyone who prefers a clean, silver-grey metal look that stays consistent rather than turning orange.</p>
 <p>It typically costs more than raw steel because of the extra coating process. In return, it resists rust far better as long as the coating stays intact, so it suits contemporary designs where a rusted look is not wanted. Cut ends and deep scratches expose bare steel, so they need treating with a suitable zinc-rich paint, and the coating's durability varies between products; check the manufacturer's warranty for its stated term.</p>
 
+<!--figure:galvanised-steel-trough-planter|Galvanised steel has a zinc coating that keeps rust away for years.-->
+
 <h2 id="weathering-steel">3. Weathering steel</h2>
 <p>Weathering steel is an alloy designed to develop a stable, rust-coloured surface layer (patina) that slows further corrosion. Unlike raw mild steel, which can flake and thin, its patina helps protect the metal underneath once it has formed.</p>
 <p>It is often the choice for architectural, high-end gardens, and the price usually reflects that: expect it to cost noticeably more than raw or galvanised steel. For many gardens it is worth it, because it gives the warm rusted look with much better durability than untreated steel. Two things to plan for: the patina takes time to settle and needs wet and dry cycles to form properly, and run-off can stain nearby paving, pale gravel or render while it develops, so think about where water will drain. Durability still depends on conditions; constantly wet soil or salty coastal air can hold the patina back, so check the manufacturer's guidance and warranty for your situation.</p>
+
+<!--figure:weathered-steel-with-planting|Weathering steel forms a stable rust-brown surface that suits planted gardens.-->
 
 <h2 id="powder-coated-steel">4. Powder-coated steel</h2>
 <p>Powder-coated edging is steel, often galvanised first, finished with a dry powder that is cured under heat to form a hard, durable skin. The usual colours are black, brown and dark green, so the edging can either disappear into the planting or frame a border as a deliberate design line.</p>
 <p>It generally sits in the mid-to-upper part of the range, often above plain galvanised steel. It is a good fit if you want a particular colour that will not chip or fade as easily as paint. The finish is only as good as its weakest point, though: chips from tools or stones should be touched up with the manufacturer's recommended repair paint so rust cannot creep under the coating.</p>
 
+<!--figure:black-powder-coated-planters|Powder coating adds colour and protection, usually in black or dark grey.-->
+
 <h2 id="stainless-steel">5. Stainless steel</h2>
 <p>Stainless steel is rare in home gardens and usually the most expensive edging option, because of the cost of the alloy. It is highly resistant to rust and gives a bright, polished, sophisticated look. It tends to be used in luxury schemes, around water features or in very formal designs where maintenance must be kept to a minimum. Grades differ in how well they cope with coastal or salty conditions, so ask the supplier which grade suits your site.</p>
 
-<h2 id="what-drives-cost">What else drives steel edging cost</h2>
+<h2 id="what-drives-cost">6. What else drives steel edging cost</h2>
 <p>The finish is only part of the picture. Several other factors can shift the final quote considerably.</p>
 
 <h3>Thickness</h3>
@@ -61,7 +67,7 @@ return [
 <li><strong>Access and size:</strong> narrow side passages slow the job down, while larger projects can work out cheaper per metre because set-up time is spread further.</li>
 </ul>
 
-<h2 id="diy-vs-professional">DIY or professional installation</h2>
+<h2 id="diy-vs-professional">7. DIY or professional installation</h2>
 <p>Steel edging is one of the more DIY-friendly garden projects, especially systems with pre-attached or slot-in stakes. Your main costs are the materials, a few tools (a spade or half-moon edger, a rubber mallet, a block of wood to protect the top edge, and something to cut the steel) and your time.</p>
 <p>Cutting is the part that needs care. Thin strips can be cut with a hacksaw, which is slower but safer and quieter. Thicker steel is usually cut with an angle grinder and a metal-cutting disc, which is quick but needs proper precautions:</p>
 <ul>
@@ -72,10 +78,10 @@ return [
 </ul>
 <p>A professional installer is worth considering for long runs, heavy or plate steel, tight curves, rocky or clay ground, or where the edging also has to retain soil. They will also usually have the right cutting and bending equipment, which saves you buying or hiring it.</p>
 
-<h2 id="long-term-value">Long-term value compared with plastic</h2>
+<h2 id="long-term-value">8. Long-term value compared with plastic</h2>
 <p>Plastic edging is usually much cheaper to buy, but it can become brittle in sunlight, crack, and lift out of the ground with frost. Steel costs more at the start, and in return it holds a cleaner line, stands up better to mowers and strimmers and, installed well, typically outlasts plastic and timber. If cheaper edging would need replacing more than once over the time steel stays in the ground, steel can work out to be the better value overall. How long any edging lasts depends on the product, your soil, climate and care, so check the manufacturer's warranty for its stated term.</p>
 
-<h2 id="comparing-quotes">How to get quotes you can compare</h2>
+<h2 id="comparing-quotes">9. How to get quotes you can compare</h2>
 <p>Edging quotes are only comparable if they price the same job. Give two or three installers the same plan and specification, and ask for an itemised quote covering:</p>
 <ul>
 <li>The total length, split into straight runs and curved runs, and the number of corners and ends.</li>
@@ -89,7 +95,7 @@ return [
 </ul>
 <p>If one quote is much lower than the rest, check which of these items it leaves out, and whether it uses thinner or shorter steel.</p>
 
-<h2 id="ways-to-save">Ways to keep the cost down</h2>
+<h2 id="ways-to-save">10. Ways to keep the cost down</h2>
 <ul>
 <li>Simplify the layout: fewer, gentler curves and fewer corners mean less cutting, fewer connectors and less labour.</li>
 <li>Use a premium finish such as weathering or powder-coated steel only where it is on show, and a simpler product along hidden or back borders.</li>
