@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Privacy fence ideas for small yards and gardens: slats, living walls, trellis, bamboo, frosted panels, laser-cut metal, mixed materials and toppers.',
     'categories' => ['small-space-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-interior-from-balcony',
+    'image' => 'backyard-fence-with-planter-boxes',
     'body' => <<<'HTML'
 <p>A small garden brings its own design puzzle. You want a private retreat away from overlooking windows and passers-by, but the wrong screening can make a compact plot feel closed in, like sitting at the bottom of a box. On tight urban and suburban plots every bit of ground matters, and the vertical surfaces around the edge do a lot to set the mood of the whole space.</p>
 <p>Good privacy screening for a small yard or garden balances three things: how well it works, how it looks, and how big it makes the space feel. Materials that let light filter through, lines that lead the eye sideways, and planting worked into the boundary can all turn a fence from a barrier into a feature you enjoy looking at.</p>
@@ -34,9 +34,13 @@ return [
 </ul>
 <!--figure:balcony-lounge-string-lights|A covered balcony lounge with timber bench seating, cushions, wall planters and string lights at dusk-->
 
+<!--figure:hanging-pots-on-lattice-fence|Hanging pots turn a fence into a vertical garden without taking up any floor space.-->
+
 <h2 id="lattice-trellis">3. Lattice trellis</h2>
 <p>Lattice is an underrated choice for small spaces. Its open diamond or square grid marks the boundary without blocking every view or breeze, and that semi-open quality matters where a solid wall would feel oppressive.</p>
 <p>On its own, lattice offers only light screening. It comes into its own as a frame for climbers: star jasmine, honeysuckle, clematis and climbing roses will knit through it and turn it into a fragrant green screen with dappled light coming through. For cover all year round, include an evergreen climber, such as star jasmine or an evergreen clematis, rather than relying only on deciduous plants that leave the trellis bare in winter. Lattice panels are generally less expensive than solid timber panels, and they take paint well if you want them to match window frames or garden furniture.</p>
+
+<!--figure:vine-climbing-lattice-fence-top|A lattice topper adds height and gives climbers somewhere to grow.-->
 
 <h2 id="bamboo-screens">4. Bamboo screens</h2>
 <p>Bamboo brings a fine, upright texture that does not overwhelm a small space, and it suits relaxed, Japanese-inspired or jungle-style gardens. There are two very different ways to use it.</p>
@@ -44,6 +48,8 @@ return [
 <p>Rolls of split or whole bamboo canes are one of the quickest screening upgrades. They can be wired or tied over an existing chain-link fence, a tired timber fence or a balcony railing, and they give a warm, golden backdrop straight away. Expect to replace them eventually, as weather fades and loosens the canes over time.</p>
 <h3>Living bamboo</h3>
 <p>Planted bamboo makes a dense, rustling screen, but choose carefully. Running bamboo can spread aggressively underground, including under fences and into neighbours' gardens, and it is very hard to remove once established. Choose clumping types, and either install a proper root barrier to the depth the supplier recommends or grow bamboo in large, sturdy containers, which also keeps it under control on a patio.</p>
+
+<!--figure:bamboo-screen-flowering-shrub|Bamboo screening softens a boundary and suits a relaxed, planted garden.-->
 
 <h2 id="frosted-panels">5. Frosted panels</h2>
 <p>If your garden is already short on light, a tall solid fence can make things worse by casting long shadows. Frosted or translucent panels in a slim metal frame block clear views while still letting soft daylight through, so the space stays bright.</p>
@@ -66,7 +72,7 @@ return [
 <p>You do not always need a full-height solid wall to feel private. A standard fence, often around 1.5–1.8 m (5–6 ft), can be lifted with a topper of trellis, lattice or decorative spindles, typically 30–60 cm (1–2 ft) deep. The solid lower part screens people sitting down, while the open band above lets you see sky and treetops.</p>
 <p>This layered approach helps avoid the shoebox effect, because keeping the top open keeps a connection with the wider surroundings. Check heights before you build. In England, a fence, wall or gate generally needs planning permission if it is over 2 m high, or over 1 m next to a highway used by vehicles (or the footway beside it), and trellis toppers and screens fixed to a fence count towards that height. Listed buildings, conservation areas and some estates have extra restrictions. In the US, height limits vary by town and HOA, so check locally before you buy materials.</p>
 
-<h2 id="design-principles">Design principles for small gardens</h2>
+<h2 id="design-principles">9. Design principles for small gardens</h2>
 <p>Beyond the material, how you finish and light the boundary makes a real difference.</p>
 <ul>
 <li><strong>Colour:</strong> dark shades such as charcoal, black or deep green tend to recede, so the edges of a small garden seem further away and planting stands out against them. Pale colours bounce light into shady corners and keep the space feeling bright. Pick based on how much sun the garden gets.</li>

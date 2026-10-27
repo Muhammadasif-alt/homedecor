@@ -66,4 +66,23 @@ class GuideBatchRefreshTest extends TestCase
             $this->assertMatchesRegularExpression('/<h2 id="[a-z-]+">1\. /', $post->body, $slug);
         }
     }
+
+    public function test_privacy_and_vinyl_batch_gives_each_guide_a_fence_photo_and_section_photos(): void
+    {
+        $old = $this->media('garden-lawn-pergola-dusk');
+        $this->media('balcony-lounge-string-lights');
+        $slugs = ['privacy-fence-cost', 'privacy-fence-mistakes', 'privacy-fence-small-yard-ideas', 'vinyl-fence-pros-and-cons', 'vinyl-fence-small-yard-ideas'];
+        foreach ($slugs as $slug) {
+            $this->blogPost(['slug' => $slug, 'title' => 'Old', 'body' => '<p>Old</p>', 'featured_media_id' => $old->id]);
+        }
+
+        (require database_path('migrations/2026_10_27_065538_refresh_privacy_and_vinyl_fence_guides_with_matching_photos.php'))->up();
+
+        foreach ($slugs as $slug) {
+            $post = BlogPost::where('slug', $slug)->with('featuredMedia')->firstOrFail();
+            $this->assertNotSame($old->id, $post->featured_media_id, $slug);
+            $this->assertGreaterThanOrEqual(3, substr_count($post->body, '<figure>'), $slug);
+            $this->assertStringNotContainsString('garden-lawn-pergola-dusk', $post->body, $slug);
+        }
+    }
 }

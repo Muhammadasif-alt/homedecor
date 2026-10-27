@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Common privacy fence mistakes and how to avoid them: boundaries, planning rules, buried services, materials, post depth, drainage, gates and contractors.',
     'categories' => ['budget-home-decor', 'small-space-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'garden-lawn-pergola-dusk',
+    'image' => 'white-privacy-fence-beside-house',
     'body' => <<<'HTML'
 <p>A privacy fence is one of the bigger exterior projects a homeowner can take on. Done well, a garden fence gives you security, a tidier frontage and a private outdoor space for the family. Done badly, it can mean paying for the same fence twice, or more, once mistakes in planning and installation come to light.</p>
 <p>From disputes over the boundary line to posts that lean after the first winter storm, the cost of putting things right usually lands on the homeowner. Understanding the common mistakes, and how professionals avoid them, is the best way to keep the project on budget and end up with a fence that stays straight and sound.</p>
@@ -44,6 +44,8 @@ return [
 <p>Western red cedar and good-quality vinyl (PVC) cost more upfront but usually last noticeably longer. Cedar contains natural oils that help it resist rot and insects, and vinyl needs very little maintenance. How long any fence lasts depends on the material, your climate, the installation and how well it is looked after, so compare the manufacturer's or supplier's warranty and think about the cost over the fence's life rather than the price on day one.</p>
 <p>Wind matters too. A solid close-board fence acts like a sail and catches more wind than a slatted one. In exposed spots, consider a slatted or hit-and-miss design, which still gives good privacy but lets some wind through and puts less strain on the posts.</p>
 
+<!--figure:peeling-paint-picket-fence|The cheapest fence often costs more in the end, once peeling, rot and repairs set in.-->
+
 <h2 id="post-depth">5. Setting posts too shallow</h2>
 <p>A fence is only as strong as its posts. A common DIY mistake is not digging the holes deep enough. In cold climates, posts that are not set deep enough can be pushed up by the freeze-thaw cycle, a process known as frost heave.</p>
 <p>As a common rule of thumb, posts go about a third to a quarter of their length below ground, deeper on exposed sites or in frost-prone soil. For a 1.8 m (6 ft) fence that often means around 60 cm (2 ft) in the ground, but follow the fence supplier's guidance for your post size, fence height and soil. Skimping on depth or concrete leads to a fence that leans and can eventually blow over, and fixing a leaning fence usually means pulling the posts and starting again.</p>
@@ -55,6 +57,8 @@ return [
 <li><strong>Choose stepped or racked on slopes.</strong> A stepped fence keeps each panel level and drops in steps down the slope; a racked fence follows the slope. Stepped suits panels, while racked suits fences built on site, but either way keep a clear gap at the bottom.</li>
 <li><strong>Move the water away.</strong> Grading the soil away from the fence line or adding a gravel trench or French drain can stop water collecting at the posts.</li>
 </ul>
+
+<!--figure:fence-covered-in-climbing-plants|Soil, plants and debris banked against the boards keep them damp and shorten their life.-->
 
 <h2 id="gate-hardware">7. Using lightweight gate hardware</h2>
 <p>Gates are the only moving parts of a fence and usually the first to fail. Lightweight hinges on a heavy privacy gate soon let it sag, so the latch no longer lines up and the gate scrapes the ground. Fixing it can mean rebuilding the gate frame or replacing the gate post.</p>
@@ -71,6 +75,8 @@ return [
 </ul>
 
 <blockquote><p><strong>Tip:</strong> Before you order anything, walk the fence line with your neighbour, your boundary documents and a list of any planning limits. Agreeing the line and the height up front prevents most of the costly problems on this list.</p></blockquote>
+
+<!--figure:neat-garden-fence-raised-planters|A good installer leaves straight lines, level tops and a tidy site.-->
 
 <h2 id="faq">FAQ</h2>
 <h3>How far should a fence be set back from the boundary?</h3>

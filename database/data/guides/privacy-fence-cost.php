@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Privacy fence cost explained: how material, style, height, posts, labour, terrain, gates and local rules affect the price, and how to compare fence quotes.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'garden-lawn-planting',
+    'image' => 'close-boarded-timber-fence-top',
     'body' => <<<'HTML'
 <p>A privacy fence is one of the most effective ways to turn an overlooked garden into a secluded outdoor room. Beyond screening you from neighbours and passers-by, a well-built fence helps keep children and pets in, can soften some traffic noise and gives planting a clean backdrop. The price, though, varies a great deal from one garden to the next, depending on the materials, the labour and the site itself.</p>
 <p>Fencing prices also change by region, supplier and season, so rather than quote figures that will soon be out of date, this guide explains what makes one fence cost more than another. Once you understand the drivers, you can read quotes with confidence and decide where it is worth spending and where it is not.</p>
@@ -27,6 +27,8 @@ return [
 <h3>Metal panels</h3>
 <p>Solid aluminium or steel panels, and corrugated metal for an industrial look, suit contemporary gardens. Aluminium is light and does not rust, which makes it a good choice in damp or coastal gardens. Steel is strong but needs a good coating, and cut edges of corrugated sheet must be finished or capped so they are safe. Metal systems generally sit in the mid-to-upper part of the range, with bespoke designs costing more.</p>
 
+<!--figure:stained-timber-privacy-boards|Timber is usually the most affordable way to get a fully solid, close-boarded privacy fence.-->
+
 <h2 id="style">2. Style</h2>
 <p>Within any one material, the style of fence changes how much material and labour it takes:</p>
 <ul>
@@ -36,6 +38,8 @@ return [
 <li><strong>Board-on-board:</strong> overlapping boards that keep full privacy even as timber shrinks. It needs more timber again, so it costs more.</li>
 <li><strong>Slatted (horizontal or vertical):</strong> a contemporary look with gaps between slats. It needs accurate spacing and straight timber, so materials and labour both cost more than a basic panel fence.</li>
 </ul>
+
+<!--figure:woven-horizontal-timber-fence|Woven and horizontal designs use more labour and timber than plain close-boarding.-->
 
 <h2 id="height">3. Height</h2>
 <p>Height affects cost more than many people expect. A taller fence needs more material, but it also needs longer posts set in deeper footings, because a solid fence acts like a sail and catches more wind. Taller fences may need closer post spacing or heavier posts, and the work takes longer.</p>
@@ -64,7 +68,9 @@ return [
 <p>Before any posts go in, check what permission you need. As well as planning rules on height, some areas restrict materials or colours, and in the US many HOAs set rules on fence height, style and colour; building without approval can mean having to change or remove the fence. Ask about any permit fees when you contact your local authority.</p>
 <p>Be certain where your boundary is. Check your title plan or property deeds, talk to your neighbour, and if the line is unclear or disputed, consider a land surveyor before you build. Putting a fence on the wrong side of the line is a costly mistake to undo.</p>
 
-<h2 id="comparing-quotes">How to get fence quotes you can compare</h2>
+<!--figure:neighbouring-timber-fences-meeting|Agree the boundary line and who owns which fence with your neighbour before work starts.-->
+
+<h2 id="comparing-quotes">9. How to get fence quotes you can compare</h2>
 <p>Fence quotes are only comparable if they price the same job. Give two or three installers the same measurements and specification, and ask for an itemised quote covering:</p>
 <ul>
 <li>The total length of fence and its height, including any stepped or racked sections.</li>
@@ -80,7 +86,7 @@ return [
 </ul>
 <p>If one quote is much lower than the rest, check which of these items it leaves out.</p>
 
-<h2 id="ways-to-save">Ways to keep the cost down</h2>
+<h2 id="ways-to-save">10. Ways to keep the cost down</h2>
 <ul>
 <li>Keep the height to what you actually need for privacy; a trellis topper or tall planting can add screening where you need it most.</li>
 <li>Use the premium material only where it is seen, for example slatted cedar along the patio and plain closeboard down the side of the garden.</li>

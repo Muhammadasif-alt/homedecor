@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Vinyl fence pros and cons: durability, low upkeep, styles and cost versus cold-weather brittleness, tricky repairs and precise installation, plus an FAQ.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-rear-elevation-finishing',
+    'image' => 'long-white-vinyl-style-fence',
     'body' => <<<'HTML'
 <p>The white picket fence has long been a symbol of the American dream, but the material behind it has changed. Timber was once the obvious choice for a boundary; today vinyl, made from polyvinyl chloride (PVC) and usually sold as PVC or uPVC fencing in the UK, has become one of the most popular options for homes on both sides of the Atlantic.</p>
 <p>A new fence is a significant investment that shapes your kerb appeal, privacy, security and how much time you spend on upkeep. Vinyl behaves very differently from wood, wrought iron and chain-link, so it is worth understanding its strengths and its weak points before you commit. This guide weighs up the benefits and drawbacks to help you decide whether it suits your property.</p>
@@ -23,6 +23,8 @@ return [
 <p>Vinyl is often sold as "maintenance-free". No outdoor structure is truly zero-effort, but vinyl comes close. To keep it looking fresh, rinse it down with a garden hose now and then, or wash it with a bucket of soapy water and a soft brush to lift dust, grass cuttings and bird droppings.</p>
 <p>A timber fence, by comparison, needs regular cleaning and a fresh coat of stain, preservative or paint to keep decay at bay. Vinyl never needs painting, because the colour runs through the material rather than sitting on the surface. A light scratch won't reveal a different shade underneath. If you would rather spend weekends enjoying the garden than looking after the boundary, this is the strongest argument in vinyl's favour.</p>
 
+<!--figure:white-rail-fence-beside-path|White fencing needs little more than an occasional wash to stay bright.-->
+
 <h2 id="aesthetics">3. Aesthetics</h2>
 <p>Vinyl fencing no longer means only bright white panels with a plastic sheen. Modern ranges come in a wider choice of colours, including tan, sand, slate grey and deep green, and in profiles to suit most styles of home.</p>
 <p>Wood-grain finishes are one of the bigger improvements. These panels are embossed with a grain pattern and coloured in varied tones to imitate natural timber, so they look less manufactured from a few metres away. Options include:</p>
@@ -33,6 +35,8 @@ return [
 <li><strong>Lattice or open tops</strong> to soften a solid run and support climbers.</li>
 </ul>
 <p>Up close, even good wood-grain vinyl doesn't quite match real timber, so look at samples in daylight before you order.</p>
+
+<!--figure:white-picket-fence-hedge|Classic white pickets are the look most people picture when they think of vinyl.-->
 
 <h2 id="cost">4. Cost</h2>
 <p>With vinyl, separate the upfront cost from the cost of owning the fence over time. Vinyl is usually more expensive to buy and install than timber or chain-link. The material costs more to produce, and the engineered, interlocking panels add to the price.</p>
@@ -46,6 +50,8 @@ return [
 <p>Vinyl is a thermoplastic, so it expands in heat and contracts in cold. In climates with big seasonal swings, installers leave expansion room in the post and rail fittings so the panels don't buckle or pop out. Follow the manufacturer's installation guide on this point.</p>
 <p>Cold is the bigger concern. In sub-zero temperatures PVC becomes more brittle. It won't shatter on its own, but it is more easily damaged by impact in winter: a stone flung from a mower or snow blower, or a heavy branch coming down in a storm, is more likely to crack a panel in February than in July. If you live somewhere with long, hard winters, ask suppliers about grades with better impact resistance.</p>
 
+<!--figure:white-fence-in-winter|Very cold weather can make some vinyl more brittle, so knocks in winter can crack it.-->
+
 <h2 id="repairs">7. Repairs</h2>
 <p>Vinyl is harder to patch than wood. A broken timber board can be unscrewed and replaced, then stained to blend in. Vinyl panels are usually part of an interlocking system, so mending a small crack or hole often means replacing a whole section or a major component.</p>
 <p>Colour matching can be tricky too. Vinyl can fade slightly over time, so a new panel may look brighter than the rest of the fence until it weathers. Finding the same style years later can also be difficult if the manufacturer has changed its range or stopped trading. It can help to buy a spare panel and a few spare parts when the fence goes in.</p>
@@ -54,7 +60,7 @@ return [
 <p>A vinyl fence demands precision. The panels come in fixed lengths, so the posts must be spaced accurately; if a post is out by just a couple of centimetres (about 1 in), the rails may not fit the pre-routed holes. Unlike timber, which can be trimmed and adjusted on site, vinyl is unforgiving of mistakes.</p>
 <p>Levels matter as well. Vinyl's clean, straight lines make any slope or unevenness obvious. On sloping ground, installers either step the panels or use rackable panels that follow the slope, and both need experience to look right. A confident DIYer can install a vinyl fence, but many homeowners find professional installation worthwhile for a straight, properly aligned result. Before any digging, check for underground services: in the US, call 811; in the UK, check utility plans or use a cable avoidance tool.</p>
 
-<h2 id="who-is-it-right-for">Who is vinyl fencing right for?</h2>
+<h2 id="who-is-it-right-for">9. Who is vinyl fencing right for?</h2>
 <p>Vinyl tends to suit:</p>
 <ul>
 <li><strong>Busy households</strong> who want a tidy, attractive garden without regular fence maintenance.</li>

@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Vinyl fence ideas for small yards: picket, horizontal planks, lattice tops, shadowbox, slim profiles, post lighting and two-tone designs for small gardens.',
     'categories' => ['small-space-decor', 'budget-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'balcony-lounge-string-lights',
+    'image' => 'white-picket-fence-yellow-shrubs',
     'body' => <<<'HTML'
 <p>Designing a small outdoor space means balancing function, privacy and looks. When every square metre counts, the boundary of your garden becomes more than a line on the plan: it is the backdrop that makes the space feel either boxed in or surprisingly open. Vinyl fencing (usually sold as PVC or uPVC fencing in the UK) is a popular choice for compact gardens and small yards because it is low maintenance, comes in many styles and gives you plenty of ways to make a modest plot feel bigger while still providing privacy.</p>
 <p>The main challenge in a small garden is that closed-in feeling. Dark timber or heavy masonry can absorb light and seem to pull the boundaries closer. Vinyl, especially in lighter colours, reflects light, and its range of shapes can lead the eye across the garden rather than stopping it abruptly. Choose the right orientation, colour and amount of openness, and a modest plot can feel like a considered retreat.</p>
@@ -17,6 +17,8 @@ return [
 <h2 id="white-picket">1. White picket</h2>
 <p>The classic white picket fence is one of the simplest ways to keep a small garden feeling open. The gaps between the pickets let the eye travel through to the view beyond, so the boundary reads as a frame rather than a wall. A white finish also bounces sunlight back into shady corners, which softens the edges of the plot.</p>
 <p>Picket fencing adds charm and kerb appeal at the front of a house without the bulk of a full privacy panel. In a small back garden, a low picket run, around 1 m (3 ft 3 in) or a little higher, is also handy for zoning inside the plot, for example to separate a vegetable bed or a dog run, without breaking up the view across the whole garden.</p>
+
+<!--figure:pink-roses-on-white-fence|Roses or climbers soften a white picket fence and blur the edges of a small garden.-->
 
 <h2 id="horizontal-planks">2. Horizontal planks</h2>
 <p>Horizontal lines work outdoors the same way they do on an interior wall. Vertical boards emphasise height, while horizontal planks emphasise width, so a horizontal vinyl fence can make a narrow garden look wider and longer than it is.</p>
@@ -46,17 +48,19 @@ return [
 <h2 id="post-lighting">8. Post lighting</h2>
 <p>Small gardens are often used well into the evening. Fitting lights to the fence posts saves space and adds atmosphere: instead of floor lamps or trailing cables across a small lawn, many vinyl fence systems take solar or low-voltage LED post caps. Choose fittings rated for outdoor use, and have any mains-powered lighting installed by a qualified electrician.</p>
 <p>Lighting the boundary helps a small garden feel larger after dark. When the edges are lit, you can see the full extent of the space instead of it fading into darkness at the edges. Soft light reflecting off pale panels also adds a gentle background glow that makes the garden feel more welcoming.</p>
-<!--figure:garden-lawn-pergola-dusk|A landscaped garden with a lawn, lit planting and a covered pergola at dusk: soft light around the edges helps a garden read larger after dark-->
-
 <h2 id="slim-profiles">9. Slim profiles</h2>
 <p>In a small garden, every bit of ground matters, and chunky posts and rails can eat into usable space. A slim-profile vinyl fence, with thinner pickets and narrow rails, keeps the boundary light and leaves more room inside.</p>
 <p>Some slim-profile ranges are reinforced with internal aluminium or steel inserts for strength; check what the manufacturer specifies for your height and exposure. The look suits modern or industrial-style gardens where less is more, giving a clean boundary that frames the space without overpowering it.</p>
+
+<!--figure:slim-white-rail-fence-field|Slim rails mark a boundary without blocking light or views.-->
 
 <h2 id="two-tone-design">10. Two-tone design</h2>
 <p>Using two colours adds depth to a small garden. A popular pairing is dark grey or black posts and top rails with light grey or white infill panels. The contrast creates a frame effect: just as a picture frame directs attention to the artwork, a two-tone fence directs attention to the planting and features inside the garden.</p>
 <p>The darker posts give a sense of structure, while the lighter panels keep the space airy. Splitting the colours also breaks up the mass of the fence so it does not read as one solid block, and it is an affordable way to make a standard fence look more tailored.</p>
 
-<h2 id="maximising-your-small-yard">Maximising your small yard with vinyl</h2>
+<!--figure:blue-picket-fence-flower-bed|A coloured fence can work as a backdrop that makes planting stand out.-->
+
+<h2 id="maximising-your-small-yard">11. Maximising your small yard with vinyl</h2>
 <p>Choosing the fence is only the first step; think about how it works with the planting. Vertical gardens let you grow herbs or flowers without using ground space, but be careful how you attach them. Use planters and hangers that hook over the top rail, or brackets the fence manufacturer approves, rather than drilling into the panels.</p>
 <p>Vinyl won't rot, so you can plant close to it without worrying about the boundary decaying. In damp, shady spots it can still pick up green algae or mildew on the surface, so leave a little airflow behind dense planting and wash the panels down occasionally.</p>
 <blockquote><p><strong>Tip:</strong> Before you order, mark the planned fence height on an existing wall or a temporary post with masking tape and look at it from your seating area and from inside the house. It is the easiest way to judge whether a lower fence or a lattice top will keep the garden feeling open.</p></blockquote>
