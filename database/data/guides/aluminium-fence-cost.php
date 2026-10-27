@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Aluminium fence cost explained: how grade, height, style, finish, gates, site prep and slopes affect the price, plus how to compare quotes and save.',
     'categories' => ['budget-home-decor', 'luxury-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'proposal-cost-estimate-laptop',
+    'image' => 'black-metal-fence-park-lawn',
     'body' => <<<'HTML'
 <p>Aluminium fencing has become a popular choice for front gardens, pool surrounds and garden boundaries. It gives the slim, elegant look of traditional wrought iron, it does not rust, and it needs far less upkeep than timber. When you start planning one, though, the first question is almost always what it will cost.</p>
 <p>Prices for an aluminium fence (or "aluminum fence", as it is known in the US) vary by region, supplier and season, so rather than quote figures that will soon be out of date, this guide explains what makes one aluminium fence cost more than another. Once you know the drivers, you can read quotes with confidence and decide where the money is best spent.</p>
@@ -41,8 +41,12 @@ return [
 <li><strong>Privacy slat panels:</strong> most aluminium fences are open-picket, but some systems offer horizontal slat or solid panels. These use far more metal and are among the most expensive aluminium options.</li>
 </ul>
 
+<!--figure:ornate-black-gold-metal-fence|Decorative styles with scrolls, rings or finials cost more per metre than plain flat-top panels.-->
+
 <h2 id="colour-and-finish">4. Colour and finish</h2>
 <p>Aluminium fencing is almost always powder-coated: a dry powder is applied and baked on to form a hard finish that resists scratching, fading and peeling. Black is the most common colour and usually the most affordable, because it is made in large volumes; bronze and white are often priced similarly. Less common shades, such as dark green or sand, may be special-order colours that cost more and come with longer lead times. If you want a fence to match window frames or garden furniture, ask early whether that colour is standard or special-order.</p>
+
+<!--figure:black-fence-spear-finials-garden|Black powder coat is the standard finish; other colours and textured coats usually cost extra.-->
 
 <h2 id="labour">5. Labour</h2>
 <p>Installation labour is a large part of any fencing job, and how much depends on local rates and the site. Many aluminium systems use pre-made panels that bolt or slot into posts, which helps, but several things add time:</p>
@@ -77,10 +81,12 @@ return [
 </ul>
 <p>Check the rackable range of the system you are quoted for. A slope beyond it means stepping, or special panels, which changes the price.</p>
 
-<h2 id="aluminium-vs-other-materials">How aluminium compares with other fencing</h2>
+<!--figure:metal-fence-following-curved-path|Curves and slopes add cost, because panels must be racked or stepped to follow the ground.-->
+
+<h2 id="aluminium-vs-other-materials">9. How aluminium compares with other fencing</h2>
 <p>An aluminium fence usually costs more to buy than chain-link or basic timber, but it is often more affordable than wrought iron. The difference narrows over time because aluminium needs no staining, painting or replacing of rotten sections, only a periodic wash and a check of the coating. For many homeowners, that low upkeep is what makes it good value in the long run.</p>
 
-<h2 id="comparing-quotes">What an itemised quote should include</h2>
+<h2 id="comparing-quotes">10. What an itemised quote should include</h2>
 <p>Give two or three installers the same measurements and specification, and ask each for an itemised quote covering:</p>
 <ul>
 <li>The total length, height and number of panels, with any racked or stepped sections marked.</li>
@@ -95,7 +101,7 @@ return [
 </ul>
 <p>If one quote is much lower than the rest, check which of these items it leaves out or downgrades.</p>
 
-<h2 id="ways-to-save">Ways to keep the cost down</h2>
+<h2 id="ways-to-save">11. Ways to keep the cost down</h2>
 <ul>
 <li>Choose the lowest grade that suits the job, and keep heavier grades for the stretches that need them.</li>
 <li>Pick a standard colour and a flat-top design.</li>

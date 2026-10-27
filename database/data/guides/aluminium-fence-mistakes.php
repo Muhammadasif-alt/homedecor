@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Common aluminium fence mistakes and how to avoid them: boundaries, buried services, slopes, footings, cheap panels, gate posts and planning or HOA rules.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'site-walkthrough-client',
+    'image' => 'metal-fence-line-sunset',
     'body' => <<<'HTML'
 <p>Aluminium fencing (aluminum fencing, if you are searching from the US) has become a popular choice for homeowners who want a fence that looks smart, feels secure and needs little upkeep. Unlike timber it does not rot, it looks more refined than chain link, and unlike wrought iron it does not rust. But the appeal of an aluminium fence can fade quickly if the installation runs into common pitfalls.</p>
 <p>The unexpected costs of fencing rarely come from the materials themselves. They come from mistakes in planning, legal checks and the way the fence is put in the ground. A single misplaced post or a skipped approval can leave you paying for much of the job twice. Here are the most frequent mistakes and how to avoid them.</p>
@@ -35,6 +35,8 @@ return [
 <li><strong>Stepped installation:</strong> each panel stays level and drops in steps down the slope, like a staircase. This suits steeper or uneven ground, but leaves a gap under the low end of each panel that may need infilling or planting.</li>
 </ul>
 
+<!--figure:metal-fence-on-sloping-wall|On sloping ground, panels must be stepped or racked to follow the line of the land.-->
+
 <h2 id="shallow-footings">4. Setting the posts too shallow</h2>
 <p>An aluminium fence is only as stable as its posts. Because the material is light, some DIY installers assume deep footings are unnecessary, which is a costly error. In cold areas, frost heave can lift shallow posts as the ground freezes and thaws, and in any climate wind load can make shallow posts lean over time.</p>
 <p>A leaning aluminium fence is awkward to fix because the panels are fixed into the posts; when one post moves, it pulls the panels either side out of line. As a guide, posts are commonly set around a third of the post length below ground, or as the manufacturer and local conditions require. Follow the fence manufacturer's installation guide for hole size, depth and concrete, and go deeper or wider where your installer advises on exposed sites or soft or frost-prone soil.</p>
@@ -43,6 +45,8 @@ return [
 <p>With aluminium fencing, quality varies a great deal between makers. Cheaper panels often have thinner walls and a weaker coating. They can dent and bend easily, and the finish can start "chalking", where the coating breaks down into a pale, powdery film after years of sun.</p>
 <p>A heavier-gauge fence with a good-quality powder coating costs more upfront but usually stays straight and keeps its finish longer, so you are less likely to face early replacement. Choose a reputable manufacturer with a clear written warranty, read what it covers (such as peeling, cracking or chipping of the finish) and what it excludes, and keep the paperwork.</p>
 <p>It also helps to know that aluminium does not rust the way iron and steel do, but it can corrode. Where the coating is scratched or chipped, the bare metal can develop white oxide, and this is more likely near the coast or where salt spray or de-icing salt reaches the fence. A good coating, prompt touch-ups and regular rinsing all help.</p>
+
+<!--figure:decorative-metal-fence-scrollwork|Better panels have thicker rails, stronger welds and a more durable powder coat.-->
 
 <h2 id="gate-installation">6. Treating the gate like another panel</h2>
 <p>The gate is the only moving part of the fence and the part most likely to fail. A common mistake is hanging a gate on a standard line post. Over time the swinging and slamming make the post flex, the gate sags and the latch stops lining up. Fixing it often means digging out the post and starting again.</p>
@@ -61,6 +65,8 @@ return [
 <p>The cost of checking is small compared with being told to lower or remove a finished fence. Our <a href="/blog/privacy-fence-mistakes">privacy fence mistakes</a> guide explains the planning side in more depth.</p>
 
 <blockquote><p><strong>Tip:</strong> Before ordering, sketch the fence line with every post, gate and change in level marked, then walk it with your installer. Panel widths, slope method and gate positions are far easier to change on paper than in concrete.</p></blockquote>
+
+<!--figure:street-metal-fence-brick-building|Fences beside a road or footpath often need approval before they go up.-->
 
 <h2 id="faq">FAQ</h2>
 <h3>Does aluminium fencing rust?</h3>

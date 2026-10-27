@@ -9,7 +9,7 @@ return [
     'meta_description' => 'How to build a wood fence step by step: plan the line, choose timber, set posts in concrete, fit rails and boards, hang a gate and finish, plus an FAQ.',
     'categories' => ['budget-home-decor', 'small-space-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'finished-house-exterior-dusk',
+    'image' => 'new-wood-fence-lattice-gate',
     'body' => <<<'HTML'
 <p>Building a wood fence is one of the most rewarding home improvement projects a homeowner can take on. Beyond the immediate boost in kerb appeal, a well-built fence gives you privacy, keeps children and pets safely in the garden and marks a clear boundary. The job can look daunting, but broken down into a methodical, step-by-step process it is manageable for any committed DIYer.</p>
 <p>Preparation comes before the first spadeful of soil. A fence is a permanent structure, so it needs to respect your boundary, local planning rules and, in the US, any homeowners' association (HOA) guidelines. In cold areas you also need to think about frost, which can lift shallow posts over winter. This guide walks you through the techniques that help a fence stand straight and stay sound.</p>
@@ -51,6 +51,8 @@ return [
 <p>Stand the post in the hole and check it is plumb on two adjacent faces with a post level (a level that straps to the post). Brace it with temporary timber struts if you are working alone. Check the face is on the string line and the height is right, then add your postcrete or concrete, mixed and used exactly as the bag instructions say.</p>
 <p>Fill to just below ground level, working the mix with a stick to remove air pockets. Then shape the top of the concrete so it slopes away from the post on all sides. This crown sheds rainwater away from the timber rather than letting it pool at the base. Let the concrete set for the time the bag specifies before fixing rails or boards, and check every post is still plumb while it sets.</p>
 
+<!--figure:weathered-wooden-fence-post|Posts carry the whole fence, so set them deep, plumb and in well-draining ground.-->
+
 <h2 id="rails">6. Rails</h2>
 <p>With the posts firm, fit the horizontal rails, the frame of the fence. For a fence around 1.8 m (6 ft) tall, three rails are usual: one about 15 cm (6 in) from the top, one in the middle and one about 15 cm (6 in) from the bottom.</p>
 <p>Fix rails by screwing them into the posts at an angle or, more easily for most DIYers, with galvanised fence brackets, which give a strong mechanical joint. Arris rails for closeboard fences fit into mortices or arris rail brackets. Check each rail with a level as you go.</p>
@@ -61,6 +63,8 @@ return [
 <p>For a spaced fence, use an offcut as a spacer to keep gaps even. For full privacy, butt the boards tight, or overlap featheredge boards. Bear in mind that timber shrinks as it dries, so small gaps may open up over time. Fix each board with two nails or screws per rail to help stop it cupping or twisting as it reacts to sun and rain.</p>
 <p>If you use a pneumatic nail gun, wear eye protection, keep your hands well away from the nose, disconnect the air line before clearing a jam and follow the manufacturer's instructions.</p>
 
+<!--figure:wood-fence-boards-grass|Keep a small gap above the ground so the boards are not sitting in wet grass and soil.-->
+
 <h2 id="gate">8. Hanging a gate</h2>
 <p>The gate is the only moving part of a fence and usually the first to cause trouble. Build the frame with a Z or diagonal brace running from the bottom corner on the hinge side up to the top corner on the latch side. This carries the weight of the gate back towards the hinges and stops it sagging.</p>
 <p>Use heavier gate posts than the rest of the fence, for example 125 × 125 mm (5×5), and set them deeper or with more concrete, following the supplier's guidance, because they take the load of the gate swinging. Use sturdy exterior-rated hinges and latches, galvanised or powder-coated to resist rust. Leave a small gap of about 10–12 mm (½ in) between the gate and the latch post so the timber has room to swell in damp weather.</p>
@@ -70,6 +74,8 @@ return [
 <p>Semi-transparent stains are popular because they add UV protection while letting the grain show. Apply with a brush, roller or sprayer, following the manufacturer's instructions and wearing the protection the label recommends. Pay particular attention to end grain, such as cut ends and board tops, where moisture gets in most easily; treat any cuts in treated timber with an end-grain preservative.</p>
 
 <blockquote><p><strong>Tip:</strong> Fit post caps to timber posts and keep soil, leaves and bark mulch away from the bottom of the fence. Keeping the timber dry at the top and bottom is one of the simplest ways to help it last.</p></blockquote>
+
+<!--figure:stained-wood-fence-boards|A good stain or preservative evens out the colour and protects the timber from weather.-->
 
 <h2 id="faq">FAQ</h2>
 <h3>How deep should my fence posts be?</h3>

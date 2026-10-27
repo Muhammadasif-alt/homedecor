@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Wood fence pros and cons: natural looks, privacy, upfront cost, easy repairs and custom styles versus maintenance, rot and sourcing, plus a practical FAQ.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'family-house-exterior-lit',
+    'image' => 'house-with-wooden-fence-garden',
     'body' => <<<'HTML'
 <p>For centuries, the wood fence has been the classic boundary for homes. From the white picket fence of American suburbs to close-boarded timber fences around British back gardens, timber is still one of the most widely used fencing materials. A fence is a significant investment, though, and it shapes your garden's privacy, security and kerb appeal for years.</p>
 <p>Understanding timber, its natural character, its weak points and its undeniable charm, is worth doing before you dig the first post hole. This guide sets out the honest pros and cons of a timber fence to help you decide whether it is right for your home.</p>
@@ -41,6 +41,8 @@ return [
 <p>For a secluded garden, a solid timber fence is hard to beat. Closeboard or tightly fitted panels form a visual and physical barrier. Unlike chain-link, which gives no privacy at all, thick boards provide a dense screen.</p>
 <p>A solid timber fence can also soften some noise, such as a neighbour's lawnmower or distant traffic. It will not block the sound of a busy road, and dense, solid fences without gaps do this best. If privacy is your main aim, check the height limits before you buy: in England a fence is generally permitted development if it is no more than 2 m (6 ft 7 in) high, or 1 m (3 ft 3 in) next to a highway used by vehicles. Listed buildings, conservation areas and properties with planning conditions may differ, so check with your local planning authority. Our guide to <a href="/blog/privacy-fence-mistakes">privacy fence mistakes</a> covers boundaries and planning in more detail.</p>
 
+<!--figure:tall-wooden-privacy-fence-snow|Close-boarded timber gives full privacy, even in winter when hedges are bare.-->
+
 <h2 id="maintenance-needs">5. Maintenance needs</h2>
 <p>The biggest drawback of a wood fence is the upkeep. Timber is exposed to the weather all year. UV light breaks down the surface of the wood and turns it silver-grey over time, and repeated wetting and drying can lead to swelling, warping, twisting or splitting.</p>
 <p>To keep a timber fence looking good and structurally sound, plan for regular care:</p>
@@ -50,6 +52,8 @@ return [
 <li><strong>Check the posts and fixings</strong> once a year, especially after winter storms, and replace loose nails or screws before boards start to move.</li>
 </ul>
 <p>How long a timber fence lasts depends on the timber, the treatment, the quality of installation, your climate and how well it is maintained. A neglected fence will deteriorate far sooner than one that is looked after. For some households, this ongoing work, or the cost of paying someone to do it, is the deciding factor against wood.</p>
+
+<!--figure:weathered-peeling-fence-boards|Without regular treatment, the finish fades and peels and the timber starts to weather.-->
 
 <h2 id="durability-issues">6. Durability issues</h2>
 <p>Even with good care, timber is vulnerable to decay. The main threat to a fence is wet rot, a general term for fungal decay that develops in timber that stays damp. (In the UK, "dry rot" refers to a specific fungus, <em>Serpula lacrymans</em>, which is mostly found indoors in buildings rather than in garden fences.) The posts and the bottom of the boards are most at risk, because that is where the timber meets wet soil.</p>
@@ -62,11 +66,13 @@ return [
 <p>Insects are a smaller concern in most UK gardens. In parts of the US, termites and carpenter ants can attack wooden fences. In the UK the main insect pests are wood-boring beetles, which are less commonly a problem in treated fence timber. Rot is usually the bigger issue.</p>
 <p>If you buy pressure-treated timber, check whether the supplier or treatment manufacturer offers a guarantee and what conditions apply, such as ground contact or re-treating cut ends with an end-grain preservative.</p>
 
+<!--figure:weathered-wooden-rail-fence|Damp, moss and ground contact are what shorten a wooden fence’s life.-->
+
 <h2 id="environmental-impact">7. Environmental impact</h2>
 <p>Timber is a renewable material, and it can be a responsible choice if it comes from well-managed forests. Look for FSC (Forest Stewardship Council) or PEFC certified timber, which is widely available from UK timber merchants. Wood is also biodegradable at the end of its life, unlike plastic-based fencing such as vinyl (PVC).</p>
 <p>Most treated fence timber today uses modern preservatives designed for outdoor use. Follow the supplier's handling advice: wear gloves when cutting, avoid breathing in sawdust, and do not burn treated offcuts. If you choose a hardwood, make sure it comes with credible certification, as some tropical hardwoods are not sustainably harvested. Naturally durable timbers such as cedar and larch are often used untreated, which some homeowners prefer.</p>
 
-<h2 id="who-is-it-right-for">Who is a wood fence right for?</h2>
+<h2 id="who-is-it-right-for">8. Who is a wood fence right for?</h2>
 <p>Choosing a wood fence often comes down to your lifestyle and your plans for the property.</p>
 <ul>
 <li><strong>The DIY enthusiast:</strong> if you enjoy weekend projects and looking after your home, the upkeep of a timber fence will not feel like a chore.</li>

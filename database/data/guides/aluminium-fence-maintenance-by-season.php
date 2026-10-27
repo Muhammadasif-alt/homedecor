@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Aluminium fence maintenance by season: gentle cleaning, post and gate checks, trimming, touch-ups, snow and de-icer care to keep the powder coating sound.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'landscape-design-presentation',
+    'image' => 'black-metal-fence-green-garden',
     'body' => <<<'HTML'
 <p>Aluminium fencing (aluminum fencing, if you are reading in the US) is widely regarded as one of the most durable, low-maintenance fence options for homes and commercial properties alike. Unlike timber, which can rot and warp, or wrought iron, which is prone to rust, aluminium usually has a powder-coated finish that stands up well to the weather. However, "low maintenance" does not mean "no maintenance". A simple seasonal routine helps the fence keep its strength and looks for as long as possible.</p>
 <p>By working through the year season by season, you can catch minor issues before they escalate, protect the coating and keep your garden looking its best. This guide breaks down what to do every spring, summer, autumn and winter. Always read your fence manufacturer's care guide too, as finishes and hardware differ.</p>
@@ -19,6 +19,8 @@ return [
 <p>Start by rinsing the whole fence with a garden hose. Avoid blasting it with a pressure washer: if the coating already has small chips, high pressure can lift it further. If your manufacturer allows pressure washing, follow their guidance on pressure and nozzle distance, and use a low setting and a fan nozzle.</p>
 <p>Wash with warm water and a little mild washing-up liquid. For stubborn spots such as bird droppings or dried mud, use a soft-bristle brush or a non-abrasive sponge, never a scouring pad or wire brush. Pay close attention to the bottom rails, where dirt splashes up from the ground. Rinse thoroughly afterwards so no soapy film remains, as soap that dries in the sun can leave streaks.</p>
 
+<!--figure:black-metal-fence-clean-bars|A spring wash with mild soapy water keeps a powder-coated finish looking fresh.-->
+
 <h2 id="structural-inspection">2. Structural inspection</h2>
 <p>As the ground thaws, the soil often shifts. Frost heave can push fence posts out of line, so spring is the ideal time to walk the boundary and give each post a firm "shake test".</p>
 <p>Each post should feel solid in its footing. If any post moves, check the footing: look for soil that has washed away or sunk, cracked concrete or a post that has started to lean. Topping up and firming soil around a post set in earth can help, but a loose post set in concrete usually needs resetting, which is a job for a fencer if you are not confident doing it yourself.</p>
@@ -27,6 +29,8 @@ return [
 <h2 id="vegetation-control">3. Summer: vegetation control</h2>
 <p>As the weather warms up, plant growth speeds up. A vine-covered fence might look romantic, but heavy growth can work against aluminium fencing. Thick vines trap moisture against the metal, and as they grow their weight can put strain on the rails.</p>
 <p>Through the summer, keep a buffer of about 15 cm (6 in) between the fence and any heavy shrubs or climbers. If you use a strimmer (string trimmer) along the fence line, be careful: the fast-spinning line can nick the powder coating at the base of the posts. Those small nicks expose the bare aluminium underneath. Aluminium does not rust like iron, but exposed metal can oxidise, and over time the coating around a chip may bubble or peel. A manual edger, or a stone or mulch strip along the base of the fence, saves you trimming right up against it.</p>
+
+<!--figure:plants-growing-through-metal-fence|Cut back plants that grow through the bars before they hold damp against the coating.-->
 
 <h2 id="hardware-lubrication">4. Summer: gates and hardware</h2>
 <p>Summer is usually the busiest season for gates, with children, pets and guests coming and going. Hinges and latches take the most wear. A squeak or resistance when you open the gate is a sign of friction that can lead to the hardware failing.</p>
@@ -42,6 +46,8 @@ return [
 <p>Before the first frosts, give the fence a careful look for scratches and chips in the powder coating. These usually come from garden machinery, falling branches or gravel thrown up by cars. Many marks are purely cosmetic, but they can grow if left alone.</p>
 <p>Use a touch-up kit matched to your fence by the manufacturer, which is usually available for their standard colours. Apply a thin layer with a fine brush to any bare metal, on a dry day and within the temperature range given on the product label, so the paint cures properly. This small job seals the chip, keeps the fence looking seamless and stops dirt and moisture creeping under the edges of the original coating.</p>
 
+<!--figure:dark-metal-fence-pointed-finials|Touch up chips in the powder coat in autumn, before winter damp gets underneath.-->
+
 <h2 id="snow-management">7. Winter: snow management</h2>
 <p>Winter is the hardest season for any outdoor structure. Aluminium is strong, but it is also fairly flexible, and the weight of deep snow drifted or piled against the panels can bend pickets out of shape.</p>
 <p>When you clear the drive or path, do not pile snow against the fence. If a heavy fall leaves a deep drift along the fence line, gently shovel it away. Take care not to strike the fence with a metal shovel, as a hard knock can chip the coating, and cold weather makes chips more likely.</p>
@@ -52,7 +58,7 @@ return [
 
 <blockquote><p><strong>Tip:</strong> Do the shake test and gate check at the start of every season, not just in spring. It only takes a few minutes, and a post or latch that gets slightly worse each time is much easier to fix early.</p></blockquote>
 
-<h2 id="summary">Seasonal checklist at a glance</h2>
+<h2 id="summary">9. Seasonal checklist at a glance</h2>
 <ul>
 <li><strong>Spring:</strong> deep clean and tighten: wash off winter salt and grime, shake-test the posts, check the fixings.</li>
 <li><strong>Summer:</strong> trim and lubricate: keep plants back from the fence, lubricate hinges and latches, check the drop rod and any pool gate.</li>

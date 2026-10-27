@@ -47,4 +47,23 @@ class GuideBatchRefreshTest extends TestCase
 
         $this->assertSame('Layered Lighting Guide', $post->fresh()->title);
     }
+
+    public function test_aluminium_and_wood_batch_gives_each_guide_a_fence_photo_and_three_section_photos(): void
+    {
+        $old = $this->media('proposal-cost-estimate-laptop');
+        $slugs = ['aluminium-fence-cost', 'aluminium-fence-maintenance-by-season', 'aluminium-fence-mistakes', 'how-to-build-a-wood-fence', 'wood-fence-pros-and-cons'];
+        foreach ($slugs as $slug) {
+            $this->blogPost(['slug' => $slug, 'title' => 'Old', 'body' => '<p>Old</p>', 'featured_media_id' => $old->id]);
+        }
+
+        (require database_path('migrations/2026_10_27_063927_refresh_aluminium_and_wood_fence_guides_with_matching_photos.php'))->up();
+
+        foreach ($slugs as $slug) {
+            $post = BlogPost::where('slug', $slug)->with('featuredMedia')->firstOrFail();
+            $this->assertNotSame($old->id, $post->featured_media_id, $slug);
+            $this->assertSame('outdoor', $post->featuredMedia->category, $slug);
+            $this->assertSame(3, substr_count($post->body, '<figure>'), $slug);
+            $this->assertMatchesRegularExpression('/<h2 id="[a-z-]+">1\. /', $post->body, $slug);
+        }
+    }
 }
