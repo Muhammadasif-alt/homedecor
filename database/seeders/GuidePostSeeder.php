@@ -55,6 +55,36 @@ class GuidePostSeeder extends Seeder
         }
     }
 
+    /**
+     * Re-applies the guide files for these slugs to posts that are already live: title, excerpt,
+     * meta, body (with its library photos) and featured photo. Used by data migrations when a
+     * batch of guides gets new photos or corrected content.
+     *
+     * @param  array<int, string>  $slugs
+     */
+    public function syncExisting(array $slugs): void
+    {
+        $guides = collect(self::guides())->keyBy('slug');
+
+        foreach ($slugs as $slug) {
+            $post = BlogPost::where('slug', $slug)->first();
+            $data = $guides->get($slug);
+
+            if (! $post || ! $data) {
+                continue;
+            }
+
+            $post->update([
+                'title' => $data['title'],
+                'excerpt' => $data['excerpt'],
+                'meta_title' => $data['meta_title'],
+                'meta_description' => $data['meta_description'],
+                'body' => $this->withFigures(trim($data['body'])),
+                'featured_media_id' => $this->media($data['image']),
+            ]);
+        }
+    }
+
     /** Every guide definition (slug, title, excerpt, meta, categories, service, image, body), in file-name order. */
     public static function guides(): array
     {

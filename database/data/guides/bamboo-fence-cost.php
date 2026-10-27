@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Bamboo fence cost explained: how format, species, height, treatment, delivery, posts, hardware and labour affect the price, and how to compare quotes.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'living-room-pearl-chandelier-garden',
+    'image' => 'bamboo-cane-fence-garden',
     'body' => <<<'HTML'
 <p>Bamboo fencing has become a popular choice for homeowners who want a natural, more sustainable-feeling alternative to timber or vinyl. Bamboo grows quickly, and its fine upright canes give a garden a calm, slightly tropical, modern look that is hard to get with other materials. When you start planning, though, the price can vary a great deal from one project to the next.</p>
 <p>Bamboo prices change with the supplier, the season and where the bamboo is shipped from, so rather than quote figures that will soon be out of date, this guide explains what makes one bamboo fence cost more than another. The main drivers are the type and quality of the bamboo, how it is installed and what the site needs before the first cane goes up.</p>
@@ -23,6 +23,8 @@ return [
 <li><strong>Reed screening:</strong> often confused with bamboo, reed is thinner and lighter. It is usually the cheapest of all, but it is shorter-lived than bamboo, so it suits temporary screening rather than a permanent boundary.</li>
 </ul>
 
+<!--figure:bamboo-roll-screen-wired|Rolled bamboo screening is the cheapest format, with slim canes held together by wire.-->
+
 <h2 id="labour">2. Labour</h2>
 <p>Many homeowners fit bamboo rolls themselves, but professional installation helps a free-standing fence stay straight and secure. How much labour adds depends on local rates and the type of job.</p>
 <p>Fixing rolls over a sound existing fence is the quickest and cheapest kind of installation. A new fence from scratch takes far longer: digging post holes, setting posts, fitting rails and gravel boards, then fixing the bamboo. Steep slopes, rocky or root-filled ground, poor access to the garden and removing an old fence all add time.</p>
@@ -35,6 +37,8 @@ return [
 <li><strong>Black bamboo:</strong> a species with naturally dark canes rather than a stain. It is less common and usually costs more than natural tan bamboo.</li>
 <li><strong>Solid or near-solid bamboo:</strong> some species, such as <em>Dendrocalamus</em>, have very thick walls or are nearly solid. They are heavy and robust, and usually priced at the premium end.</li>
 </ul>
+
+<!--figure:living-bamboo-stem-closeup|Thick-walled species such as Moso give stronger, longer-lasting poles and cost more.-->
 
 <h2 id="height">4. Height</h2>
 <p>Height adds to the cost in more ways than extra material. Bamboo fencing is commonly sold in heights of around 1.2 m (4 ft), 1.8 m (6 ft) and 2.4 m (8 ft).</p>
@@ -68,6 +72,8 @@ return [
 </ul>
 <p>Before digging, check for buried pipes and cables: use utility plans or a cable avoidance tool in the UK, and call 811 in the US.</p>
 
+<!--figure:bamboo-fence-post-rope-ties|Posts and rails are a large part of the cost, because bamboo is only as strong as its frame.-->
+
 <h2 id="hardware">8. Hardware and rails</h2>
 <p>The fixings that hold the fence together affect how long it stays sound, and they add to the materials list.</p>
 <ul>
@@ -82,7 +88,7 @@ return [
 <h2 id="longevity">10. Thinking about longevity</h2>
 <p>When you compare options, think about what you will pay over the life of the fence, not just on day one. Reed and budget rolls cost the least at the start but generally need replacing sooner, while good-quality cured bamboo on a sturdy frame costs more at the start but usually stands up better to wind and rain. How long any fence lasts depends on the bamboo, the installation, your climate and the care it gets, so compare the guarantee each supplier offers for its stated term.</p>
 
-<h2 id="comparing-quotes">How to get bamboo fence quotes you can compare</h2>
+<h2 id="comparing-quotes">11. How to get bamboo fence quotes you can compare</h2>
 <p>Quotes are only comparable if they price the same job. Give two or three installers the same measurements and specification, and ask for an itemised quote covering:</p>
 <ul>
 <li>The total length and height of the fence, including any slopes or steps.</li>
@@ -98,7 +104,7 @@ return [
 </ul>
 <p>If one quote is much lower than the others, check which of these items it leaves out.</p>
 
-<h2 id="ways-to-save">Ways to keep the cost down</h2>
+<h2 id="ways-to-save">12. Ways to keep the cost down</h2>
 <ul>
 <li>If you already have a sound fence, fix bamboo rolls over it rather than building a new frame, but only after checking the posts, wires and timber are in good condition.</li>
 <li>Keep the height to what you actually need for privacy; tall planting can add screening where you need it most.</li>

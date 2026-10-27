@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Bamboo fence maintenance by season: gentle mould cleaning, sealing, crack care, ground clearance, tie and post checks, snow and salt care, and refinishing.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'walnut-study-garden-view',
+    'image' => 'bamboo-fence-japanese-garden',
     'body' => <<<'HTML'
 <p>Bamboo is a remarkable material, prized for its strength, fine upright texture and relaxed, natural look. Although it is technically a grass rather than a wood, it behaves much like a hardwood when used outdoors, and it has a good strength-to-weight ratio. However, because it is a natural material, it is affected by the weather. Without care, the fresh greens and tans of a new bamboo fence fade to a weathered grey, and damp can lead to mould, rot and splitting.</p>
 <p>A simple seasonal routine helps your bamboo fence or screen keep its looks and strength for as long as possible. This guide covers what to do each spring, summer, autumn and winter, plus the structural checks and refinishing that sit alongside them. Always read the care guidance from your fence supplier and the label of any cleaner or finish you use, as products differ.</p>
@@ -26,11 +26,15 @@ return [
 <p>Summer is also when "checking", or vertical splitting, is most likely. Bamboo canes are hollow, and as they lose moisture the outer wall shrinks faster than the inside, which opens up vertical cracks. Most of these are cosmetic. If you find a large split, especially near the top of a cane, a little exterior-grade wood glue or clear outdoor sealant can help stop water getting into the hollow centre. Capping the tops of upright poles does the same job.</p>
 <p>If the fence stands near a swimming pool or by the sea, rinse it regularly with fresh water to wash off chlorine splash or salt spray before they build up on the finish.</p>
 
+<!--figure:sunlit-bamboo-wall-shadows|Strong summer sun fades bamboo and dries its surface, which is when fine cracks open up.-->
+
 <h2 id="autumn">3. Autumn: clear the base and check ties</h2>
 <p>Autumn is the season of preparation. The aim is to make sure the fence and its surroundings do not hold moisture as the weather turns cold and wet.</p>
 <p>The most common mistake is letting leaves, mulch or grass clippings pile up against the base of the fence. Damp debris acts as a bridge that lets water wick into the bottom of the canes, and over time this leads to rot at ground level that can weaken a whole panel. Keep a gap of about 5–8 cm (2–3 in) between the bottom of the bamboo and the soil or any mulch, and rake debris away from the fence line as part of your autumn tidy-up.</p>
 <p>Check the ties and wires as well. If your bamboo is held together with galvanised wire or twine, look for sagging, fraying or rust, and tighten or replace loose ties before winter winds arrive. If climbers or vines grow over the fence, trim them back: they look lovely, but they hold humidity against the canes and make cleaning and sealing much harder.</p>
 <p>If your bamboo is a screening roll fixed over an existing fence, check the fence underneath too. Rolls can hide a rotting timber post, a rusting wire or a leaning section, and the roll is only as secure as whatever it is tied to.</p>
+
+<!--figure:weathered-canes-wire-ties|Autumn is the time to check ties and wires before winter winds test them.-->
 
 <h2 id="winter">4. Winter: snow, salt and water</h2>
 <p>Winter brings freezing temperatures and plenty of moisture. Bamboo is fairly hardy, but repeated freezing and thawing can widen existing cracks.</p>
@@ -49,7 +53,9 @@ return [
 <p>The choice of finish matters. Bamboo's dense, waxy surface doesn't soak up finishes easily, so use a finish made for bamboo or exotic timbers; general-purpose products can sit on the surface and peel. Tinted finishes give more UV protection than clear ones, which mainly keep out moisture, so a natural or lightly tinted shade helps stop the bamboo turning grey.</p>
 <p>To prepare, clean the fence and let it dry fully. If you use a bamboo or timber brightener, or lightly sand rough or flaking areas, wear a dust mask and gloves and follow the product label. Be gentle: heavy sanding or aggressive scrubbing can damage the outer skin of the bamboo, which is what gives it much of its natural protection. Apply the finish in thin, even coats along the length of the canes, treating both sides of each panel where you can reach them so they don't warp, wipe off any excess, and avoid over-applying, as a heavy coat can stay tacky and collect dust and pollen. As with any finish, wear gloves, keep the area ventilated, and keep it off plants and out of drains.</p>
 
-<h2 id="summary">Seasonal checklist at a glance</h2>
+<!--figure:new-golden-bamboo-fence|A fresh breathable finish brings back bamboo’s warm colour and protects it for another season.-->
+
+<h2 id="summary">7. Seasonal checklist at a glance</h2>
 <ul>
 <li><strong>Spring:</strong> clean off mould and mildew, let the fence dry, check whether water still beads and reseal if not.</li>
 <li><strong>Summer:</strong> watch for greying and large splits, seal or cap open canes, rinse off pool or sea spray.</li>

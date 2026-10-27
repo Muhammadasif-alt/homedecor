@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Common bamboo fence mistakes and how to avoid them: choosing the right grade, ground clearance, finishes, posts and spacing, fixings and cleaning.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'staircase-atrium-indoor-planting',
+    'image' => 'bamboo-fence-before-bamboo-grove',
     'body' => <<<'HTML'
 <p>Bamboo fencing has become a popular alternative to timber or vinyl, valued for its warm colour, fine upright texture and relaxed, natural look. Bamboo grows quickly, which is part of its appeal as a more sustainable material. However, many homeowners treat it like pressure-treated timber or PVC, and that misunderstanding often leads to early rot, splitting and loose panels, and eventually to repairs or a replacement fence.</p>
 <p>Understanding how bamboo behaves is the first step towards a fence that lasts. Unlike timber, which grows in rings, bamboo is a giant grass with hollow canes and long, straight fibres, so it takes up and loses moisture differently. Avoiding the mistakes below will help your fence stay sound and good-looking for many seasons, rather than just a few.</p>
@@ -19,6 +19,8 @@ return [
 <p>For a fence that has to stand up to the weather, look for mature, properly cured bamboo sold for fencing. Thick-walled species such as Moso (<em>Phyllostachys edulis</em>) are widely used for sturdier poles and panels. Curing and treatment matter too: untreated bamboo contains natural sugars and starches that can attract wood-boring beetles and termites, and borate treatment is commonly used to deter insects. Ask your supplier how the bamboo has been cured and treated, follow their handling advice, and check that the cane size and wall thickness suit how exposed your garden is. Ask what guarantee the supplier gives, too; it is a useful guide to how long they expect the product to last.</p>
 <p>Do not confuse bamboo with reed screening. Reed is thinner and lighter, and it is generally shorter-lived than true bamboo, so it suits temporary screening better than a permanent boundary.</p>
 
+<!--figure:thick-walled-bamboo-poles|Mature, thick-walled canes like these make a far sturdier fence than thin, young bamboo.-->
+
 <h2 id="ground-contact">2. Letting the bamboo touch the ground</h2>
 <p>The second most common error is letting the bamboo sit directly on the soil. Bamboo draws moisture up from its base, so a panel standing in soil, mulch or wet grass stays damp, which leads to mould and rot at ground level, often well before the rest of the fence shows any wear.</p>
 <p>Keep the bottom of the panels clear of the ground, commonly by about 5–8 cm (2–3 in). In the UK, a gravel board (a concrete or treated timber board along the base of the fence, sometimes called a kickboard) is the usual answer: it takes the splashes and the damp, protects the bamboo from mowers and strimmers, and can be replaced on its own. If you would rather not use one, hang the panels between the posts with a clear gap underneath so air can move and water can drain away. Keep leaves, mulch and clippings raked away from the base so the gap stays open.</p>
@@ -26,6 +28,8 @@ return [
 <h2 id="finishes">3. Using the wrong finish, or none at all</h2>
 <p>Bamboo is fairly hardy, but it is not immune to sunlight. Many people love the fresh tan or honey colour of new bamboo and assume it will stay that way. Without a UV-protective finish, it will gradually turn silvery grey, much like cedar. Some people like the weathered look, but sun also dries out the surface fibres over time, which can open up cracks that let water in.</p>
 <p>Apply a finish made for bamboo or exotic timbers once the fence is installed, following the product label on when and how to apply it. Choose a breathable finish, such as an oil-based finish made for bamboo, ideally with UV protection; tinted finishes generally protect better than clear ones. Avoid ordinary exterior paint and heavy varnishes. Painting bamboo is generally discouraged, because a film finish can trap moisture inside the canes and tends to peel from bamboo's smooth, waxy surface. Reapply as the product label advises, sooner on a fence that takes full sun or heavy rain.</p>
+
+<!--figure:weathered-grey-bamboo-fence-poppies|Without a UV-protective finish, bamboo weathers to this silvery grey.-->
 
 <h2 id="support">4. Skimping on posts and rails</h2>
 <p>A bamboo fence is only as strong as the frame it is fixed to. A frequent mistake is using flimsy posts or spacing them too far apart. Solid pole panels in particular can be much heavier than ordinary timber boards, so they need a sturdy framework.</p>
@@ -37,6 +41,8 @@ return [
 <p>Pre-drill a pilot hole slightly smaller than the screw to avoid splits, and drill through the solid node where you can. Choose stainless steel or good-quality galvanised fixings and wire. Ordinary steel screws can rust and leave dark streaks running down the canes, and once fixings corrode they loosen. Stainless steel costs more at the start, but it saves replacing stained canes and failed fixings later.</p>
 
 <blockquote><p><strong>Tip:</strong> Before fixing the whole fence, drill and screw a test hole in an offcut or a hidden cane. It shows you the right pilot size for your bamboo and screws before a split appears somewhere it will be seen.</p></blockquote>
+
+<!--figure:bamboo-fence-black-cord-ties|Lashing panels to their rails with cord or wire avoids driving fixings through the canes.-->
 
 <h2 id="maintenance">6. Treating bamboo as maintenance-free</h2>
 <p>Many homeowners think of bamboo as a material you can put up and forget. That leads to mould and mildew, especially in damp, shaded or humid gardens. When leaves or grass clippings are left against the canes, they hold moisture against the surface and give fungi a foothold.</p>
