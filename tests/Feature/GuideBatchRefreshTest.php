@@ -141,4 +141,23 @@ class GuideBatchRefreshTest extends TestCase
         }
         $this->assertStringContainsString('best kept off the deck', BlogPost::where('slug', 'floating-deck-ideas-small-yards')->value('body'));
     }
+
+    public function test_deck_skirting_and_patio_combo_batch_replaces_off_topic_photos(): void
+    {
+        $old = $this->media('master-plan-on-site');
+        $slugs = ['deck-skirting-cost', 'deck-skirting-ideas-small-yards', 'deck-skirting-mistakes', 'how-to-build-a-patio-deck-combo', 'patio-deck-combo-pros-and-cons', 'patio-deck-combo-small-yards'];
+        foreach ($slugs as $slug) {
+            $this->blogPost(['slug' => $slug, 'title' => 'Old', 'body' => '<p>Old</p>', 'featured_media_id' => $old->id]);
+        }
+
+        (require database_path('migrations/2026_10_27_084326_refresh_deck_skirting_and_patio_deck_combo_guides.php'))->up();
+
+        foreach ($slugs as $slug) {
+            $post = BlogPost::where('slug', $slug)->with('featuredMedia')->firstOrFail();
+            $this->assertNotSame($old->id, $post->featured_media_id, $slug);
+            $this->assertGreaterThanOrEqual(1, substr_count($post->body, '<figure>'), $slug);
+            $this->assertDoesNotMatchRegularExpression('/landscape-plan|villa-garden|garden-lawn|garden-stone-path|garden-water/', $post->body, $slug);
+        }
+        $this->assertStringContainsString('">1. The pros', BlogPost::where('slug', 'patio-deck-combo-pros-and-cons')->value('body'));
+    }
 }

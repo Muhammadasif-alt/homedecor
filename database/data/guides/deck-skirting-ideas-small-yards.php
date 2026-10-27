@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Deck skirting ideas for small yards: horizontal slats, lattice, stone veneer, metal, planting and laser-cut panels, plus ventilation, access and colour tips.',
     'categories' => ['small-space-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-rear-elevation-finishing',
+    'image' => 'deck-steps-white-boxed-sides',
     'body' => <<<'HTML'
 <p>In a small garden (a small yard, in US terms), every square metre has to earn its place and every visual element carries extra weight. Deck skirting is easy to overlook, yet it is the finishing touch that decides whether a compact deck looks cluttered and boxy or neat and built-in. Skirting hides the frame and posts beneath the deck, discourages animals from nesting underneath and keeps leaves and litter out. In a small space, though, its biggest job is visual.</p>
 <p>The right skirting can make a garden feel wider, hide storage for tools and cushions, and tie the deck to the style of your house. With limited space, the aim is clean lines and materials that do not overwhelm the eye. Here are eight skirting ideas that suit small outdoor spaces.</p>
@@ -17,6 +17,8 @@ return [
 <h2 id="horizontal-slats">1. Horizontal slats</h2>
 <p>Horizontal slats are one of the most popular choices for modern small gardens. Horizontal lines lead the eye across a space, which makes a narrow garden feel wider than it is.</p>
 <p>The timber and the spacing between boards matter most. A hardwood such as ipe, or a naturally durable softwood such as western red cedar, gives a smart finish. Keep a consistent gap of about 12–20 mm (½–¾ in) between boards: enough for air to move under the deck while still screening the frame. In a very small garden, a light stain or a natural finish keeps the area feeling bright and open.</p>
+
+<!--figure:deck-horizontal-white-boards|Horizontal boards around the deck edge give a clean, modern line.-->
 
 <h2 id="vinyl-lattice">2. Vinyl lattice</h2>
 <p>Traditional timber lattice can look dated or flimsy, but good-quality vinyl lattice is still a practical choice for small gardens. It does not rot, insects ignore it, and white or pale grey panels reflect light into a shaded corner so the space feels less enclosed.</p>
@@ -33,8 +35,6 @@ return [
 <h2 id="living-skirting">5. Living skirting</h2>
 <p>In a small garden you may not want yet another hard material. Living skirting uses planting to hide the gap beneath the deck and softens the line between the deck and the garden. It suits low decks where only a narrow strip needs covering.</p>
 <p>Box (or a similar compact evergreen), ornamental grasses or dense perennials such as hostas for shade and daylilies for sun all work well. Density is the key: you want a continuous green edge. On a slightly higher deck, fix a wire mesh behind the planting to keep animals out and grow climbers such as clematis or star jasmine up it, turning the base of the deck into a small vertical garden.</p>
-<!--figure:garden-lawn-planting|A lawn edged with hydrangeas and ornamental grasses: dense planting like this can soften the base of a low deck-->
-
 <h2 id="laser-cut-panels">6. Laser-cut panels</h2>
 <p>Laser-cut decorative panels double as outdoor art. They come in materials such as powder-coated aluminium and composite, with patterns from simple geometrics to leaves and florals.</p>
 <p>In a small garden they become a focal point, and because they are partly open they do not create a solid wall that boxes the space in. Light and air pass through while the posts behind stay hidden. For extra effect, run low-voltage LED strip lighting behind the panels so the pattern glows and casts soft shadows at night. Choose lighting rated for outdoor use, and have any mains connection installed by a qualified electrician.</p>
@@ -47,7 +47,9 @@ return [
 <p>Where horizontal slats widen a space, vertical boards link the deck to the height of the house. Slim battens of around 19 × 38 mm or 19 × 63 mm (1×2 or 1×3) fixed with small, even gaps create a crisp, rhythmic pattern.</p>
 <p>This style suits decks that sit a little higher off the ground. The vertical lines lift the eye, which helps in small gardens surrounded by tall fences or neighbouring walls. Stained charcoal or black, the battens recede visually, so the skirting fades into the background and your furniture and plants take centre stage.</p>
 
-<h2 id="key-considerations">Key considerations for small garden skirting</h2>
+<!--figure:vertical-dark-timber-boards-deck|Vertical boards with small gaps hide the frame while letting air through.-->
+
+<h2 id="key-considerations">9. Key considerations for small garden skirting</h2>
 <ul>
 <li><strong>Ventilation comes first:</strong> small, sheltered gardens often get less breeze. Trap moisture under a deck with solid skirting and you invite mould and rot in the frame. Always leave a route for air, whether through gaps between boards or built-in vents.</li>
 <li><strong>Plan access for storage:</strong> the space under a deck is valuable in a small garden. A hinged or lift-out panel lets you store hoses, cushions or seasonal decorations out of sight, and it also gives you access to check the frame.</li>

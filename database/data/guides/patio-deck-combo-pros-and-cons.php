@@ -9,11 +9,11 @@ return [
     'meta_description' => 'Patio deck combo pros and cons: versatile zoning, sloping gardens and design contrast vs double upkeep, cost, approvals and drainage, plus who it suits.',
     'categories' => ['home-decor-trends', 'luxury-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'study-stone-column-garden',
+    'image' => 'stone-patio-loungers-lawn',
     'body' => <<<'HTML'
 <p>A garden is no longer just a patch of lawn with a lonely concrete slab or a tired timber platform. As more homeowners treat outdoor space as an extension of the house, the patio deck combo has become one of the most popular layouts in garden design. It blends the raised, airy feel of a deck with the solid, grounded permanence of a stone or paved patio, so you get two connected surfaces that each do a different job. It also means two materials, two sets of trades and two maintenance routines. Here is an honest look at both sides.</p>
 
-<h2 id="pros">The pros</h2>
+<h2 id="pros">1. The pros</h2>
 
 <h3 id="versatility">1. Each surface does what it is best at</h3>
 <p>The main reason to combine the two is versatility. A deck is ideal for creating a level step-out from a back door that sits well above the garden, or from a raised kitchen, so the indoor floor seems to carry on outside. A patio, by contrast, sits on the ground, so it is the better home for heavy features. A filled hot tub, a large masonry fireplace or a built-in outdoor kitchen should never simply be set on a standard deck; even on a patio, they need a base designed for the load, so ask a structural engineer or the product manufacturer what is required.</p>
@@ -26,9 +26,9 @@ return [
 
 <h3 id="design-contrast">4. Richer contrast and texture</h3>
 <p>Visually, mixing surfaces avoids the two classic failures of single-material gardens: a big deck that looks like a timber island, and a big patio that feels like a car park. Pairing the warm grain of cedar or ipe with the cool texture of sandstone, slate or limestone gives contrast that is easy on the eye. It also gives you more ways to layer the design: lighting or privacy screens on the deck, low retaining walls and planting beds around the patio. The result can look considered and resort-like, even in an ordinary garden.</p>
-<!--figure:garden-stone-path|A curved stone path running through flowering beds: stone set against soft planting gives a garden the kind of contrast a deck and patio pairing builds on-->
+<!--figure:stone-patio-wooden-chairs|A paved area handles heavy furniture, barbecues and fire better than timber.-->
 
-<h2 id="cons">The cons</h2>
+<h2 id="cons">2. The cons</h2>
 
 <h3 id="double-maintenance">1. Two maintenance routines</h3>
 <p>Decks and patios have very different needs, so combining them means more jobs on your list. A timber deck needs periodic cleaning, re-staining or oiling and checks for loose boards, popped fixings and rot. Composite decking needs less, but still has to be cleaned so mould and mildew do not build up in the grooves. Patios are generally tougher, but not maintenance-free: paving can settle if the base was poorly compacted, and weeds find their way into joints that are not kept topped up. You also have to keep the junction between the two clear of leaves and debris that would hold moisture against the deck frame, and make sure any cleaner, sealer or stain used on one surface is suitable if it splashes onto the other.</p>
@@ -45,7 +45,9 @@ return [
 <h3 id="matching-materials">5. Materials can age at different rates</h3>
 <p>If you pair a carefully laid stone patio with a deck built from the cheapest timber, the two will not age together, and you may end up rebuilding half the garden while the other half is still in good shape. How long each part lasts depends on the material, the installation, your climate and the maintenance, so check each manufacturer's warranty for its stated terms. A sensible rule is to match the quality across both surfaces. Natural timber suits natural stone for an organic, rustic look; a grey composite deck suits large-format porcelain paving for a sleek, modern one.</p>
 
-<h2 id="who-is-it-right-for">Who is it right for?</h2>
+<!--figure:circular-paved-area-steps|Combining levels and materials adds steps, drainage details and cost.-->
+
+<h2 id="who-is-it-right-for">3. Who is it right for?</h2>
 <p>A patio deck combo is a good fit for:</p>
 <ul>
 <li><strong>Owners of sloping gardens:</strong> if your back door sits well above the garden, a deck gives level access while a patio makes use of the lower ground.</li>

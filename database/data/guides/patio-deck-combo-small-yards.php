@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Patio deck combo ideas for small yards: tiered levels, contrasting materials, sunken patios, built-in benches, planters, glass guarding and lighting.',
     'categories' => ['small-space-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-interior-from-balcony',
+    'image' => 'small-garden-patio-pots-seating',
     'body' => <<<'HTML'
 <p>Making the most of a small outdoor space takes a careful blend of structure, materials and zoning. For homeowners with limited room, combining a deck with a patio is one of the most effective layouts a garden designer can use. It does more than give you somewhere to sit: by pairing the raised, built feel of a deck with the grounded, earthy character of a stone or paved patio, you create distinct "outdoor rooms" for dining, cooking and lounging, and the variety tricks the eye into reading the space as larger than it is.</p>
 <p>The usual problem with a small yard, or small garden in UK terms, is a lack of visual interest and a feeling of being boxed in. A single flat surface can make the whole plot look like one uninspired rectangle. Introducing a change of level and contrasting textures breaks that up. The ideas below show how to fit a deck and patio into a compact footprint so that every part of it earns its place.</p>
@@ -26,6 +26,8 @@ return [
 <p>A sunken patio works particularly well in small gardens where privacy matters. Setting the patio slightly lower than the deck and the surrounding ground creates a sense of enclosure without tall fences, much like the conversation pits of mid-century modern interiors.</p>
 <p>In this layout the deck is the landing from the back door and the sunken patio is the destination. Because the patio sits lower, you can build stone or timber benches around its edge, which saves a great deal of floor space, with the raised ground or deck behind acting as a backrest. A lowered area can feel more sheltered from the wind, which makes it a natural spot for a fire pit. Keep the fire pit on the stone patio, well away from the deck, its steps and any timber benches, follow the manufacturer's clearances and never leave it unattended. A sunken patio also collects rainwater, so it needs a proper drainage plan from your designer or installer.</p>
 
+<!--figure:sunken-circular-paved-patio|A sunken or walled patio creates a sheltered room within a small garden.-->
+
 <h2 id="built-in-seating">4. Built-in seating</h2>
 <p>In a small garden, every piece of furniture is a potential obstacle, and standard patio sets are often bulky and awkward to move around. Building benches into the edge of the deck or into the low retaining walls around the patio frees the middle of the space for walking and gathering.</p>
 <p>Built-in seating can also hide storage. A hinged bench lid on the deck can hold cushions, tools or children's outdoor toys, keeping the garden tidy. For comfort, add outdoor-grade seat pads and generous cushions that you can swap to change the look with the seasons. Seating that is part of the structure makes the deck and patio feel like a permanent, architectural part of the home rather than an afterthought.</p>
@@ -33,11 +35,11 @@ return [
 <h2 id="vertical-features">5. Vertical features</h2>
 <p>When you run out of floor space, look up. Trellises, pergolas and living walls can tie the deck and patio together while adding privacy. A pergola that starts over the deck and reaches slightly over the patio gives the space a visual "ceiling", so it feels like a real room.</p>
 <p>Vertical planting is just as useful. Instead of filling the patio with large pots, fix a trellis or wall planter for climbers such as jasmine or clematis. The foliage softens the hard edges of timber and stone. A well-placed screen can also hide less attractive necessities such as an air-conditioning unit, heat pump or the bins, keeping attention on the meeting point between your deck and patio. Check local height limits for structures near boundaries before you build anything tall.</p>
-<!--figure:garden-lawn-pergola-dusk|A landscaped garden with a lawn, lit planting and a covered pergola at dusk: an overhead structure gives an outdoor seating area the feel of a room-->
-
 <h2 id="integrated-planters">6. Integrated planters</h2>
 <p>To stop a small garden turning into a hard-landscaped desert, build planting into the design itself. Planters made from the same timber as the deck, or the same stone as the patio walls, look cohesive and can act as a soft buffer where the two surfaces meet.</p>
 <p>Raised planters also make gardening easier on the back and stop soil washing onto the paving or boards when it rains. Line timber planters, leave drainage holes and keep wet soil from sitting against the deck frame. In a small space, mix plant heights: ornamental grasses add movement and a gentle rustle in the breeze, while low herbs such as rosemary and thyme add scent where you sit. The greenery breaks up the solid blocks of timber and stone and makes the whole garden feel more alive.</p>
+
+<!--figure:planters-on-stone-patio-wall|Planters along a patio wall bring greenery in without using floor space.-->
 
 <h2 id="glass-railings">7. Glass railings</h2>
 <p>Most low decks do not need a railing at all, which is one reason a low tiered design suits small gardens so well. If your deck is high enough to need guarding, though, traditional timber or metal balustrades can act as a visual full stop that makes the garden feel smaller. Glass panels give the required protection without the visual weight of rows of balusters.</p>
@@ -46,9 +48,9 @@ return [
 <h2 id="strategic-lighting">8. Strategic lighting</h2>
 <p>Lighting is the final layer that makes a small patio and deck usable after dark and makes the garden look bigger. Light each zone separately. Small recessed lights in the deck boards can mark the edge, and lights under the step nosings or treads make the change of level safe and show off the tiers.</p>
 <p>Over the patio, festoon lights strung overhead create a soft "ceiling" that draws the eye up and gives a cosy, sociable feel. Uplighting a tree, trellis or pergola at the back of the garden adds depth, and lighting the furthest corners removes dark gaps so the whole plot feels lived in. Low-voltage or solar lights are simple to add; have a qualified electrician install anything mains-powered, with RCD protection, and in the UK make sure the work meets Part P of the Building Regulations.</p>
-<!--figure:garden-water-feature-lighting|A garden with a water feature, stepping stones and landscape lighting: lighting the far end of a garden adds depth after dark-->
-
 <blockquote><p><strong>Tip:</strong> Before you commit, lay garden hoses or rope on the lawn to trace the outline of the deck and the patio, then walk the route from the back door to each zone. If you have to squeeze past where the table will go, adjust the shapes now while they are still only lines on the grass.</p></blockquote>
+
+<!--figure:string-lights-over-patio|String lights over the seating area make the space usable after dark.-->
 
 <h2 id="faq">FAQ</h2>
 <h3>Do I need permission for a small deck and patio combo?</h3>

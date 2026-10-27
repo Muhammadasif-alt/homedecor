@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Deck skirting cost explained: how material, height, labour, ventilation, access doors and animal mesh affect the price, and how to compare skirting quotes.',
     'categories' => ['budget-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'master-plan-on-site',
+    'image' => 'multi-level-deck-boxed-skirting',
     'body' => <<<'HTML'
 <p>A deck is more than an outdoor platform: it extends your living space and shapes how the back of the house looks. The space underneath, though, often shows bare posts and joists, bare soil or a jumble of stored garden tools, and that can let the whole scheme down. This is where deck skirting comes in.</p>
 <p>Skirting does three jobs: it improves the look, protects the space beneath the deck and helps keep animals out. It can even create hidden storage. For most homeowners, though, the decision comes down to budget. Prices vary widely by region, supplier and year, so rather than quote figures that will soon be out of date, this guide explains what makes one skirting job cost more than another, so you can choose sensibly and read quotes with confidence.</p>
@@ -23,9 +23,13 @@ return [
 </ul>
 <p>Remember the running costs too. Timber skirting needs cleaning and re-staining or sealing from time to time, so budget for that time or for a professional to do it.</p>
 
+<!--figure:cedar-deck-board-skirting-planters|Timber board skirting can match the deck and be built into planters.-->
+
 <h2 id="lattice">2. Lattice</h2>
 <p>Lattice is the classic deck skirting and generally the most budget-friendly option. It is light, quick to fit and its open pattern lets air move freely under the deck.</p>
 <p>Timber lattice panels are the cheapest to buy and give a traditional garden look, but thin slats can warp, split or crack as they take on and lose moisture. Vinyl lattice costs a little more, needs almost no maintenance and will not rot or need painting. Thicker, heavier-gauge vinyl panels cost more than thin ones but feel sturdier and last better. Vinyl comes in several colours, including white, tan and dark brown, so it is easy to match to existing railings. Whichever you choose, a simple timber frame around the panels adds a little to the cost and makes the result look far more finished.</p>
+
+<!--figure:timber-lattice-panel-closeup|Lattice is the cheapest skirting and lets air move freely under the deck.-->
 
 <h2 id="composite">3. Composite fascia</h2>
 <p>If your deck boards are composite, matching composite skirting gives a seamless, high-end look. It is usually fitted as fascia boards or as boards fixed horizontally to a timber frame behind.</p>
@@ -70,7 +74,7 @@ return [
 <p>Skirting helps stop animals such as rats, foxes and, in some countries, raccoons or skunks from setting up home under the deck. Lattice or thin slats alone will not stop a determined animal from chewing or pushing through, though.</p>
 <p>To make the space properly animal-resistant, fix a sturdy galvanised wire mesh behind the skirting. Many installers bury the bottom edge in the ground, bent outwards in an L shape, so animals cannot dig underneath; your installer can advise on the depth for your soil and the animals you are dealing with. The mesh adds modestly to materials and labour, but it is much easier to fit when the skirting goes on than later, and it can save the cost and disruption of pest control.</p>
 
-<h2 id="comparing-quotes">How to get skirting quotes you can compare</h2>
+<h2 id="comparing-quotes">11. How to get skirting quotes you can compare</h2>
 <p>Skirting quotes are only comparable if they price the same job. Give two or three installers the same measurements and specification, and ask for an itemised quote covering:</p>
 <ul>
 <li>The area to be covered, not just the length, and how they measured it.</li>
@@ -85,7 +89,7 @@ return [
 </ul>
 <p>If one quote is much lower than the rest, check which of these items it leaves out.</p>
 
-<h2 id="keeping-costs-down">Ways to keep the cost down</h2>
+<h2 id="keeping-costs-down">12. Ways to keep the cost down</h2>
 <ul>
 <li>Choose framed lattice or simple pressure-treated slats for the sides people rarely see, and spend more only on the side facing the house or the main view.</li>
 <li>Use faux stone panels rather than real stone if you want a masonry look.</li>

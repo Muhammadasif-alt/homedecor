@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Deck skirting mistakes to avoid: poor ventilation, ground contact, cheap lattice, no access door, wrong screws, no pest mesh and clashing colours.',
     'categories' => ['budget-home-decor', 'small-space-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-entrance-finishing-stage',
+    'image' => 'raised-deck-open-underneath',
     'body' => <<<'HTML'
 <p>Deck skirting is often treated as the final cosmetic flourish of an outdoor project: the finishing touch that hides the frame, pipes and bare soil under the deck. In practice it does much more than improve kerb appeal. Done well, it helps protect the deck's structure, keeps animals out and manages moisture underneath.</p>
 <p>Done badly, it can become an expensive problem. Many homeowners see skirting as a simple DIY job, only to face costly repairs a few years later to deal with rot, mould or a weakened frame. Knowing the common pitfalls before you start is the best way to protect your investment and help your garden deck last.</p>
@@ -25,6 +25,8 @@ return [
 <h2 id="materials">3. Materials</h2>
 <p>Choosing the cheapest material is a classic case of saving money today only to spend more tomorrow. Lightweight plastic lattice is popular because it is inexpensive and easy to fit, but many of these products are not UV-stabilised. After a few seasons the plastic can become brittle, crack and fade, and strong winds can tear the panels from their fixings.</p>
 <p>That often means replacing cheap lattice again and again. Better-quality materials such as cellular PVC, composite boards or fibre cement usually make more sense over time. They resist rot, insects and UV damage. They cost noticeably more at the outset, but they typically last far longer, saving you the cost and labour of repeated replacements.</p>
+
+<!--figure:weathered-peeling-lattice|Thin, painted lattice weathers and peels quickly, so it often needs replacing first.-->
 
 <h2 id="access">4. Access</h2>
 <p>Many homeowners fit skirting as a permanent, fixed wall, which is a significant oversight. At some point you, or a professional, will need to get under the deck, whether to retrieve a lost item, inspect the footings, repair a leaking outdoor tap or run cabling for deck lighting.</p>
