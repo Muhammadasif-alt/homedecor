@@ -122,4 +122,23 @@ class GuideBatchRefreshTest extends TestCase
         }
         $this->assertStringContainsString('best kept off a timber deck', BlogPost::where('slug', 'small-yard-wood-deck-ideas')->value('body'));
     }
+
+    public function test_floating_deck_and_railing_batch_replaces_off_topic_photos(): void
+    {
+        $old = $this->media('design-studio-drawings');
+        $slugs = ['floating-deck-pros-and-cons', 'how-to-build-a-floating-deck', 'floating-deck-ideas-small-yards', 'deck-railing-cost', 'deck-railing-maintenance-by-season', 'deck-railing-mistakes'];
+        foreach ($slugs as $slug) {
+            $this->blogPost(['slug' => $slug, 'title' => 'Old', 'body' => '<p>Old</p>', 'featured_media_id' => $old->id]);
+        }
+
+        (require database_path('migrations/2026_10_27_080555_refresh_floating_deck_and_railing_guides_with_matching_photos.php'))->up();
+
+        foreach ($slugs as $slug) {
+            $post = BlogPost::where('slug', $slug)->with('featuredMedia')->firstOrFail();
+            $this->assertNotSame($old->id, $post->featured_media_id, $slug);
+            $this->assertGreaterThanOrEqual(2, substr_count($post->body, '<figure>'), $slug);
+            $this->assertDoesNotMatchRegularExpression('/landscape-plan|balcony-lounge|garden-lawn|garden-stone-path/', $post->body, $slug);
+        }
+        $this->assertStringContainsString('best kept off the deck', BlogPost::where('slug', 'floating-deck-ideas-small-yards')->value('body'));
+    }
 }

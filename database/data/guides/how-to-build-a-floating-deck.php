@@ -9,7 +9,7 @@ return [
     'meta_description' => 'How to build a floating deck step by step: plan the size, prepare the ground, level deck blocks, frame, lay boards and finish, plus permit notes and FAQ.',
     'categories' => ['budget-home-decor', 'small-space-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-pool-terrace-finishing',
+    'image' => 'builders-fitting-deck-joists',
     'body' => <<<'HTML'
 <p>Building a floating deck is one of the most rewarding home improvement projects you can take on. Unlike a traditional deck, a floating deck, also known as a freestanding deck, is not attached to your house. That means no ledger board, no drilling into your home's walls or foundations and, often, fewer permission headaches. Whether you want a cosy spot for outdoor seating or a dedicated space for dining, a floating deck is a practical way to turn an unused corner of the garden into somewhere you actually want to spend time.</p>
 
@@ -19,10 +19,10 @@ return [
 
 <h2 id="planning">1. Planning</h2>
 <p>Before you pick up a saw, you need a solid plan. Measure the area where you want the deck to sit and mark it out with pegs and string. Keep the height low: a floating deck should stay close to the ground. Rules vary by location. In England, decking is generally permitted development if it is no more than 30 cm (12 in) above the ground and, together with outbuildings, covers no more than half the garden; many US codes exempt small, low freestanding decks. Flats, listed buildings, conservation areas and raised decks need checking, so confirm with your local planning or building authority. Deciding on the size now also lets you work out exactly how much timber and how many fixings you need.</p>
-<!--figure:landscape-plan-samples|A landscape plan with material samples and notes on an outdoor table: sketching the layout first makes ordering materials easier-->
-
 <h2 id="preparation">2. Preparation</h2>
 <p>Preparation is the secret to a long-lasting deck. Clear away grass and debris from the site. To stop weeds growing up between the boards, lay a heavy-duty weed membrane, then cover it with about 5 cm (2 in) of gravel or crushed stone. This improves drainage and creates a stable, level base for your deck blocks.</p>
+
+<!--figure:cutting-deck-board-to-length|Measure and cut carefully, wearing eye protection, before the frame goes together.-->
 
 <h2 id="foundation">3. Foundation</h2>
 <p>A floating deck relies on deck blocks (sometimes called pier blocks) or adjustable pedestals rather than deep concrete footings. Position the blocks at the corners and at intervals along the perimeter and centre. Use a long level and a straight length of 47 × 100 mm (2×4) timber to check every block is level with its neighbours. If one is too high, dig out a little gravel; if it is too low, add a bit more. A level foundation stops the frame from twisting or bouncing later on.</p>
@@ -30,13 +30,13 @@ return [
 <h2 id="framing">4. Framing</h2>
 <p>Build the outer frame from pressure-treated timber rated for ground contact, typically 47 × 150 mm (2×6) or 47 × 200 mm (2×8). Once the outer box is square (check that both diagonals measure the same) and level on the blocks, fit the inner joists. Joists are usually spaced at 300–400 mm (12–16 in) centres; check your decking board manufacturer's guidance, as some boards, especially composites, need closer spacing. Use galvanised or stainless joist hangers and exterior-rated screws or nails. This frame is what carries the weight of your furniture and guests.</p>
 
+<!--figure:builders-framing-deck-boards|A square, level frame is what makes the finished deck sit flat.-->
+
 <h2 id="decking">5. Decking</h2>
 <p>Now comes the most satisfying part: laying the boards. Start from one edge of the frame and work across. Use spacers to keep a consistent gap of about 3–6 mm (1/8–1/4 in), following the board manufacturer's recommendation, so water can drain and the timber can move. Fix each board with two screws at every joist. Once all the boards are down, snap a chalk line and trim the ends with a circular saw for a crisp, neat finish.</p>
 
 <h2 id="finishing">6. Finishing</h2>
 <p>To protect your work from the weather, apply a good-quality exterior stain or sealer, following the product's instructions on drying times and conditions. A finish helps protect against moisture, UV damage and greying. If you used cedar or redwood, a clear or transparent finish shows off the natural grain. For pressure-treated softwood, a semi-transparent or solid stain gives a more uniform look; some treated timber needs to dry out before it will take a finish, so check the supplier's advice. Once the finish is dry, add your furniture and some outdoor lighting.</p>
-<!--figure:balcony-lounge-string-lights|A covered lounge with timber bench seating, cushions, wall planters and string lights at dusk: the kind of finishing touches that make a new deck feel like an outdoor room-->
-
 <blockquote><p><strong>Tip:</strong> Order a few more deck boards than your plan says you need. They cover cutting waste and lets you swap out any boards with splits or large knots without a second trip to the timber merchant.</p></blockquote>
 
 <h2 id="faq">FAQ</h2>

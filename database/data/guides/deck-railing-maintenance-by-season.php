@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Deck railing maintenance through the year: spring safety checks, summer sun care, autumn sealing, winter snow and de-icers, plus care by railing material.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'family-house-exterior-lit',
+    'image' => 'glass-railing-deck-wicker-chairs',
     'body' => <<<'HTML'
 <p>A deck is more than an extension of the house; it is an outdoor room, a place for gatherings and a real investment in how you use your garden. Yet the part that matters most for safety and looks, the railing, is usually the most exposed to the weather. Whether your railing is pressure-treated timber, sleek aluminium, glass or composite, it needs a regular maintenance routine to stay safe and attractive.</p>
 <p>Neglected railings can loosen, stain and eventually need replacing far sooner than they should. Working through the year season by season lets you deal with each kind of weather as it arrives. This guide sets out the key jobs for every season and how they change with the railing material. Always read your railing or decking manufacturer's care guide as well, as products differ.</p>
@@ -38,11 +38,15 @@ return [
 <p>Early autumn is also usually your last chance for "wet work" before winter. If your summer water test showed that timber railings need a fresh coat of stain or sealer, choose a dry spell and apply it within the temperature and dry-weather window given on the product label. A fresh finish gives the wood a barrier against the wet months ahead.</p>
 <p>On metal railings, look for scratches or chips in the powder coating. Even small breaks can let moisture reach the bare metal and start rust. Seal them with the manufacturer's recommended touch-up kit before winter sets in.</p>
 
+<!--figure:sunlit-timber-balcony-railing|Autumn is the time to clean timber rails and refinish them before winter.-->
+
 <h2 id="winter">4. Winter: snow, ice and storm checks</h2>
 <p>Winter care is less about cleaning and more about avoiding damage and keeping the deck safe to use.</p>
 <p>Keep metal shovels away from the railings. A metal blade can gouge timber, scratch powder-coated aluminium or chip glass. Use a plastic shovel without a metal edge, and take care not to knock the posts as you clear the deck.</p>
 <p>Be careful with de-icers. Avoid rock salt anywhere near the railing: it can corrode metal fixings and dry out timber. If you need a de-icer for safety, use one that your decking and railing manufacturers approve, use it sparingly, and rinse the railing and boards thoroughly once the cold weather is over.</p>
 <p>After heavy snow, brush away deep drifts that build up against the railing rather than leaving them to sit, as a large mass of snow pushing against the infill or balusters puts the railing under strain. After any big storm, check that no branches have fallen on the railing and that every section still feels firm.</p>
+
+<!--figure:snow-on-dark-deck-railing|Brush snow off railings rather than leaving it to melt and refreeze.-->
 
 <h2 id="materials">5. Care by railing material</h2>
 <p>The seasonal routine applies to every deck, but the details depend on what your railing is made of.</p>
@@ -54,6 +58,8 @@ return [
 </ul>
 
 <blockquote><p><strong>Tip:</strong> Walk the railing with a notebook at the start of each season and number the posts. Writing down "post 4 slightly loose" or "post 7 soft at base" makes it easy to see whether a problem is getting worse, and gives a builder a clear list if you need help.</p></blockquote>
+
+<!--figure:black-metal-stair-railing|Metal railings mainly need chips in the coating touched up before rust starts.-->
 
 <h2 id="faq">FAQ</h2>
 <h3>How often should I restain wooden deck railings?</h3>

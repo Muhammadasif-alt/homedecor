@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Deck railing cost explained: how material, layout, stairs, labour, building rules and maintenance affect the price, and how to compare railing quotes.',
     'categories' => ['budget-home-decor', 'luxury-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'design-studio-drawings',
+    'image' => 'house-with-large-railed-deck',
     'body' => <<<'HTML'
 <p>Adding or replacing a deck railing is more than a safety requirement; it is an architectural decision that shapes how your whole outdoor space looks. A railing's first job is to prevent falls and meet local building rules, but the material and design you choose will also have a big effect on how the back of the house presents and on the total budget.</p>
 <p>Railing prices vary widely by region, supplier and year, so rather than quote figures that will soon be out of date, this guide explains what makes one railing cost more than another. As a sense of scale, a 3 × 3.7 m (10 × 12 ft) deck typically needs roughly 9–12 m (30–40 ft) of railing, depending on how many sides are open and where the steps sit, and the material you choose for that run can make the difference between a modest outlay and a major one. Understanding the materials, the labour and the long-term upkeep is the best way to choose well.</p>
@@ -21,6 +21,8 @@ return [
 <h2 id="cedar-and-redwood">2. Cedar and redwood</h2>
 <p>Cedar and redwood are the premium natural timber options. They cost noticeably more than treated softwood, and in return their natural oils and tannins help them resist decay and insects, and they have a warmer, more refined appearance.</p>
 <p>Cedar weathers to a silver-grey if left untreated, while redwood has a deep, rich tone. Both are softer than many treated softwoods, so they are easier to cut and shape but dent and scratch more easily. They need periodic sealing to keep their colour, though they tend to be more stable and less likely to warp than cheaper timber. In the UK, larch and cedar are the more common equivalents to look at.</p>
+
+<!--figure:cedar-deck-railings-aerial|Cedar railings cost more than treated softwood but weather better.-->
 
 <h2 id="composite">3. Composite</h2>
 <p>Composite railing, made from a blend of wood fibres and recycled plastics, has become popular because it needs so little upkeep: no sanding, staining or painting, only occasional cleaning.</p>
@@ -34,15 +36,19 @@ return [
 <p>Cable railing uses thin horizontal stainless steel cables instead of balusters, so it interrupts the view far less. It suits modern and industrial-style houses, and decks that look out over a garden or landscape.</p>
 <p>It is one of the premium options. The cost comes from the stainless steel itself, with grade 316 the usual choice near the coast, and from the tensioning hardware that keeps the cables taut. The cables put the end and corner posts under considerable load, so the posts must be strong enough and properly fixed; follow the system manufacturer's requirements for post size, cable spacing and tension. Local rules on openings apply to cables too, and cables can deflect when pushed, so spacing has to allow for that. Professional installation is strongly recommended.</p>
 
+<!--figure:cable-railing-sea-view|Cable railing keeps views open but needs strong posts to hold the tension.-->
+
 <h2 id="glass">6. Glass panels</h2>
 <p>For the clearest possible view, glass panels are hard to beat. They also act as a windbreak, which makes them popular on exposed terraces and waterside homes.</p>
 <p>Glass is usually among the most expensive railing options. The price depends largely on whether the panels are framed (held in an aluminium or timber frame) or frameless (held by base clamps, spigots or a channel), with frameless systems typically costing more. The glass must be toughened (tempered) safety glass, and often laminated, of the type and thickness specified by the system manufacturer and your local regulations. The panels are heavy and must be set level and secure, so this is a job for an experienced installer. Budget, too, for regular cleaning to remove smudges, bird droppings and salt spray.</p>
+
+<!--figure:glass-railing-deck-umbrella|Glass panels are among the most expensive options, with the clearest views.-->
 
 <h2 id="iron-and-steel">7. Wrought iron and steel</h2>
 <p>Wrought iron and steel give a classic look and great strength, and are often used for custom designs with scrolls or geometric patterns. A bespoke metal railing generally costs more than an off-the-shelf system, because the metal is heavy, fabrication takes skilled time and installation is labour-intensive.</p>
 <p>The main drawback of iron and mild steel is rust. Even with good paint or powder coating, a scratch in the finish can let corrosion start, so they need periodic touching up. Near the coast, aluminium or stainless steel (grade 316) is usually the better choice.</p>
 
-<h2 id="what-drives-cost">What else drives railing cost</h2>
+<h2 id="what-drives-cost">8. What else drives railing cost</h2>
 <p>The material is only half the picture. Several other factors can shift the final quote considerably.</p>
 
 <h3>Length and layout</h3>
@@ -57,7 +63,7 @@ return [
 <h3>Building rules and permits</h3>
 <p>Guarding rules vary by country and by local authority, so always check with your local building control or building department before you design the railing. As examples, in England, Building Regulations guidance (Approved Document K) generally calls for guarding about 900 mm high on domestic stairs and landings and about 1100 mm for balconies and raised external areas, with openings that a 100 mm sphere cannot pass through. In the United States, many local codes are based on the International Residential Code (IRC), which typically requires guards on decks more than about 76 cm (30 in) above grade, at least 91 cm (36 in) high, with openings that a 4 in (100 mm) sphere cannot pass through and a load requirement for the top rail. Meeting these rules, particularly with cable or custom designs, can mean extra posts, blocking or reinforcement, which adds to the cost. Whether a new or replacement railing needs approval also depends on where you live, so ask before work starts.</p>
 
-<h2 id="maintenance">Maintenance: the hidden cost</h2>
+<h2 id="maintenance">9. Maintenance: the hidden cost</h2>
 <p>When choosing a railing, look past the first invoice and think about the cost of owning it each year:</p>
 <ul>
 <li><strong>Timber:</strong> needs washing and re-staining or sealing at the interval the finish manufacturer recommends. Paying a professional to do it is a recurring cost, so factor in either their fee or your own time.</li>
@@ -68,7 +74,7 @@ return [
 </ul>
 <p>Our <a href="/blog/deck-railing-maintenance-by-season">deck railing maintenance by season</a> guide sets out a routine for each material.</p>
 
-<h2 id="comparing-quotes">How to get railing quotes you can compare</h2>
+<h2 id="comparing-quotes">10. How to get railing quotes you can compare</h2>
 <p>Railing quotes are only comparable if they price the same job. Give two or three installers the same measurements and specification, and ask for an itemised quote covering:</p>
 <ul>
 <li>The total length of railing, split into level runs and stair runs.</li>
@@ -82,7 +88,7 @@ return [
 </ul>
 <p>If one quote is much lower than the rest, check which of these items it leaves out.</p>
 
-<h2 id="keeping-costs-down">Ways to keep the cost down</h2>
+<h2 id="keeping-costs-down">11. Ways to keep the cost down</h2>
 <ul>
 <li>Keep the layout simple: fewer corners, levels and curves mean fewer posts and less hardware.</li>
 <li>Mix materials, for example timber posts and top rail with metal balusters, for a modern look without the cost of a full metal or cable system.</li>

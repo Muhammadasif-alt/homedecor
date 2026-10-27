@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Common deck railing mistakes and how to avoid them: guarding rules, materials, fixings, post attachment, baluster spacing, design and DIY, plus FAQs.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'finished-house-exterior-dusk',
+    'image' => 'deck-glass-railing-forest-house',
     'body' => <<<'HTML'
 <p>A deck is more than an extension of your living space; it is a significant investment in your home. Yet the railing is often the most closely examined part of it, by building inspectors and by anyone viewing the house. While homeowners tend to focus on the deck boards, the railing is where safety, appearance and structural strength all meet.</p>
 <p>Unfortunately, many homeowners fall into expensive traps at the design and installation stage. From choosing the wrong material for their climate to misreading the local building rules, these errors can lead to failed inspections, early rot or, at worst, a railing that gives way. Understanding the pitfalls is the first step to a deck that stays safe and good value for years to come.</p>
@@ -21,6 +21,8 @@ return [
 <li><strong>United States:</strong> many local codes are based on the International Residential Code (IRC), which typically requires guards on decks more than about 76 cm (30 in) above grade, at least 91 cm (36 in) high, with openings that a 4 in (100 mm) sphere cannot pass through and a concentrated load requirement for the top rail. Some areas adopt amendments, so confirm the version your local department uses.</li>
 </ul>
 <p>The sphere rule is a frequent point of failure. It exists to stop small children slipping through or getting their heads stuck. If an inspector finds your balusters slightly too far apart, you may have to take down the whole railing and start again, which wastes materials, adds labour and delays the project. Agree the guarding height and spacing with your building control body or building department before the first post goes in.</p>
+
+<!--figure:glass-balustrade-deck-stairs|Railing height and strength are set by building regulations, especially on stairs.-->
 
 <h2 id="material-selection">2. Choosing the wrong material</h2>
 <p>Choosing a material that does not suit your climate can become costly within a few years. Pressure-treated timber is usually the cheapest option upfront, but it needs regular maintenance. In damp or coastal conditions, timber can warp, crack and rot if it is not looked after, and replacing it can end up costing more than a better material would have.</p>
@@ -41,6 +43,8 @@ return [
 <h2 id="baluster-spacing">6. Uneven baluster spacing</h2>
 <p>Beyond the safety rule, spacing is where many DIY railings lose their professional finish. Uneven gaps are noticeable straight away. A common cause is forgetting to allow for the thickness of the balusters when measuring, which leaves odd-sized gaps at the end of each section. Work out the spacing for each run before you cut, and use a spacer block or template so every gap is the same.</p>
 <p>Cable railings need particular care. If the cables are spaced incorrectly or the posts are not strong enough for the tension, the cables sag, which looks untidy and can let a child through. Follow the system manufacturer's requirements for cable spacing, tension and post size. Pre-drilled kits and spacing templates help avoid mistakes that otherwise need a professional to put right.</p>
+
+<!--figure:railed-timber-stairs-woodland|Balusters must be close enough together that a child cannot squeeze through.-->
 
 <h2 id="design-consistency">7. A design that does not suit the house</h2>
 <p>A railing that clashes with the house is an easy mistake to make. A deck should look like part of the home's architecture, not an afterthought. An ultra-modern glass and steel railing on a rustic timber cabin, or a chunky treated-timber railing on a sleek contemporary house, creates visual friction.</p>

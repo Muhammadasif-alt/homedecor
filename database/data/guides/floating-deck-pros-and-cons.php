@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Floating deck pros and cons: simple building, fewer permits, rot risk, sloping ground and lifespan, plus who a freestanding deck suits and a quick FAQ.',
     'categories' => ['budget-home-decor', 'small-space-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'garden-lawn-planting',
+    'image' => 'low-garden-deck-under-tree',
     'body' => <<<'HTML'
 <p>A floating deck, also known as a freestanding deck, is an outdoor platform that sits on the ground or just above it, rather than being fixed to the house or set on deep concrete footings like a traditional deck. Because it needs no dug foundations and no ledger board bolted to the wall, it has become a favourite with DIYers and homeowners who want to transform an outdoor space quickly. Like any home improvement project, though, it comes with trade-offs you should weigh before you start.</p>
 
@@ -29,8 +29,12 @@ return [
 <h2 id="versatility">5. Versatile placement</h2>
 <p>"Floating" describes placement as well as structure. Because it is not tied to the house, a floating deck can go anywhere on the plot: a destination deck at the far end of the garden, a sunny corner, or a level platform beside an above-ground pool. It is a good way to reclaim an awkward or muddy corner by levelling it with gravel and turning it into a dining spot, a yoga platform or somewhere to read. Its low, simple shape also suits modern gardens, and you can use several small platforms to create separate zones for cooking, lounging and socialising. For layout ideas, see our <a href="/blog/floating-deck-ideas-small-yards">floating deck ideas for small yards</a>.</p>
 
+<!--figure:timber-deck-in-woodland-garden|Because it is freestanding, a floating deck can go wherever the garden works best.-->
+
 <h2 id="low-height-safety">6. Low height, lower fall risk</h2>
 <p>Most floating decks are only a step or two above the ground, so the risk of a serious fall is much lower than on a raised deck, which is reassuring with young children or older relatives. Many are built without railings, which keeps the view open and lets the deck run straight onto the lawn. Keep edges and steps clearly visible, with a contrasting edge board or low lighting, so nobody trips at night.</p>
+
+<!--figure:low-deck-with-rail-garden|Kept low to the ground, a floating deck carries less fall risk and often needs no railing.-->
 
 <h2 id="easy-repairs">7. Easy repairs</h2>
 <p>If part of a floating deck starts to dip as the ground settles, the fix is usually simple: lift that corner, re-level or pack the block, and lower it back down. Adjustable pedestals make this even easier. Compare that with repairing a sunken footing on a raised deck, which is a much bigger job.</p>
@@ -44,6 +48,8 @@ return [
 <li>Leave small gaps between deck boards, about 3–6 mm (1/8–1/4 in) or as the board manufacturer advises, and keep the sides partly open so air can circulate.</li>
 </ul>
 
+<!--figure:weathered-dark-deck-boards|Boards close to the ground dry out slowly, so drainage and airflow underneath matter.-->
+
 <h2 id="terrain-sensitivity">9. Terrain sensitivity</h2>
 <p>Floating decks are best on flat, level ground. If your garden has a noticeable slope, a floating deck is much harder to keep stable. A traditional deck uses posts of different heights to cope with uneven ground, whereas a floating deck relies on the surface beneath it. Adjustable pedestals or a little excavation can correct small dips, but a steep slope will almost always need a properly anchored deck designed for the site.</p>
 
@@ -53,15 +59,13 @@ return [
 <h2 id="maintenance">11. More cleaning</h2>
 <p>Low decks are more exposed to splash-back, where rain hits the ground and throws soil and moisture onto the edge boards and frame. That means a floating deck may need cleaning more often than a raised one. Sweep off leaves and debris regularly, keep gravel or stone borders clear so water drains away, and clean and re-treat timber when the finish starts to wear, following the product's instructions. If you use a pressure washer, use a low setting and a fan nozzle, and follow the decking manufacturer's guidance.</p>
 
-<h2 id="who-is-it-right-for">Who is it right for?</h2>
+<h2 id="who-is-it-right-for">12. Who is it right for?</h2>
 <p>A floating deck is a good solution for:</p>
 <ul>
 <li><strong>DIYers on a budget:</strong> it usually costs less than a raised deck because it needs fewer materials and no concrete work.</li>
 <li><strong>Renters:</strong> a small, modular floating deck can sometimes be taken apart when you move. Get your landlord's written permission first, as changes to the garden may still be covered by your tenancy agreement.</li>
 <li><strong>Separate zones:</strong> if you want a quiet seating area in a far corner of the garden, away from the house, a freestanding deck is often the simplest way to create it.</li>
 </ul>
-<!--figure:garden-lawn-pergola-dusk|A landscaped lawn with lit planting and a covered seating area: a freestanding deck can create a similar destination zone away from the house-->
-
 <blockquote><p><strong>Tip:</strong> Before you buy materials, mark out the deck's footprint with string and pegs and leave it for a few days. Put your outdoor chairs or table inside it to check the size works and that you still have room to walk around.</p></blockquote>
 
 <h2 id="faq">FAQ</h2>
