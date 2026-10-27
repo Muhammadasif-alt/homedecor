@@ -9,13 +9,13 @@ return [
     'meta_description' => 'Wood deck pros and cons: natural beauty, lower upfront cost, cooler surface and easy customisation versus maintenance, rot and pests, plus an FAQ.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'garden-water-feature-lighting',
+    'image' => 'timber-deck-pergola-dining',
     'body' => <<<'HTML'
 <p>There is a reason wood remains a classic choice for outdoor living spaces. Despite the rise of composite and PVC alternatives, the natural appeal of real timber keeps it popular in gardens everywhere. A wood deck is not just a platform; it is an extension of the garden, with a warm, tactile feel that synthetic materials find hard to match. Choosing wood should not be a decision made on looks alone, though. It needs a clear understanding of how timber ages, the work involved in its upkeep and how that fits your lifestyle.</p>
 
 <h2 id="natural-beauty">1. Natural beauty</h2>
 <p>The main draw of a wood deck is its looks. Whether you choose the honey tones of pressure-treated softwood once it has been stained, the deep reds of redwood or the rich browns of ipe, real timber has a depth and character that is unique to every board. Unlike manufactured boards, which can show repeating patterns, every piece of wood has its own grain, knots and colour variation. That authenticity creates a natural link between your home and the garden, so the deck feels part of the landscape rather than an add-on.</p>
-<!--figure:garden-lawn-pergola-dusk|A landscaped garden with lawn, lit planting and a covered pergola at dusk: natural materials help outdoor structures sit comfortably in planting like this-->
+<!--figure:house-deck-overlooking-lawn|A timber deck brings warmth and natural texture to the back of a house.-->
 
 <h2 id="initial-affordability">2. Initial affordability</h2>
 <p>For many homeowners, budget is the deciding factor, and this is where wood, especially pressure-treated timber, does well. Wood decks are generally cheaper to install upfront than composite or plastic alternatives. Pressure-treated softwood is usually the most budget-friendly option, and mid-range woods such as cedar are often more affordable than premium capped composites. A lower starting cost can leave more of your budget for a larger deck or for railings, lighting and furniture. Remember to weigh that against the ongoing cost and time of maintenance.</p>
@@ -26,13 +26,17 @@ return [
 <h2 id="maintenance-demands">4. Maintenance demands</h2>
 <p>The biggest drawback of a wood deck is the commitment to maintenance. To keep it looking good and protect it from damage, wood needs regular cleaning and periodic re-sealing or re-staining; how often depends on the timber, the product you use, your climate and how much sun and foot traffic the deck gets, so follow the finish manufacturer's guidance. Without protection, moisture gets in, which leads to warping, cupping and eventually rot. Over time, UV light bleaches wood to a silvery-grey patina. Some people find this charming; others see it as neglect. If you use a pressure washer, follow the decking manufacturer's guidance and use a low setting with a fan nozzle, as too much pressure can damage the surface. If you are not prepared to set aside a weekend every so often for cleaning and finishing, wood may disappoint you in the long run.</p>
 
+<!--figure:weathered-deck-rainwater|Without regular cleaning and sealing, timber weathers grey and holds water in its grain.-->
+
 <h2 id="biological-sensitivity">5. Biological sensitivity</h2>
 <p>Because it is a natural material, wood is vulnerable to the weather and to biological attack. Wood-boring insects, and in some regions termites and carpenter ants, can damage untreated or decaying timber. In damp or shaded spots, wood can also grow mould, mildew, algae and fungi, which can lead to rot if not dealt with promptly. Pressure-treated timber is treated to resist these threats, and dense hardwoods such as ipe are naturally resistant, but no wood is entirely "set and forget". Inspect your deck at least once a year for soft spots, loose boards or signs of insects, and pay particular attention to the frame and anywhere water collects.</p>
+
+<!--figure:old-weathered-deck-house|Damp, shade and age leave timber open to rot, mould and insects.-->
 
 <h2 id="customisation-potential">6. Customisation potential</h2>
 <p>One of the greatest advantages of wood is its versatility. Composite boards come in fixed colours, whereas wood can be changed. If you redecorate the outside of your home years later, you can sand the deck back and apply a different stain. Wood is also easy to work for custom designs. Whether you want built-in planters, curved benches or patterned board layouts such as herringbone, a skilled carpenter can shape wood in ways that are harder to achieve with many synthetic boards.</p>
 
-<h2 id="who-is-it-right-for">Who is a wood deck right for?</h2>
+<h2 id="who-is-it-right-for">7. Who is a wood deck right for?</h2>
 <p>A wood deck is a strong choice for:</p>
 <ul>
 <li><strong>The natural-materials purist:</strong> someone who will not compromise on the look and feel of real timber and enjoys the way it changes over time.</li>

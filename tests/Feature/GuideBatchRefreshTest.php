@@ -103,4 +103,23 @@ class GuideBatchRefreshTest extends TestCase
             $this->assertMatchesRegularExpression('/<h2 id="[a-z-]+">1\. /', $post->body, $slug);
         }
     }
+
+    public function test_deck_batch_replaces_office_and_villa_photos(): void
+    {
+        $old = $this->media('proposal-cost-estimate-laptop');
+        $slugs = ['composite-deck-cost', 'composite-deck-maintenance-by-season', 'composite-deck-mistakes', 'wood-deck-cost', 'wood-deck-pros-and-cons', 'small-yard-wood-deck-ideas'];
+        foreach ($slugs as $slug) {
+            $this->blogPost(['slug' => $slug, 'title' => 'Old', 'body' => '<p>Old</p>', 'featured_media_id' => $old->id]);
+        }
+
+        (require database_path('migrations/2026_10_27_073345_refresh_composite_and_wood_deck_guides_with_matching_photos.php'))->up();
+
+        foreach ($slugs as $slug) {
+            $post = BlogPost::where('slug', $slug)->with('featuredMedia')->firstOrFail();
+            $this->assertNotSame($old->id, $post->featured_media_id, $slug);
+            $this->assertGreaterThanOrEqual(2, substr_count($post->body, '<figure>'), $slug);
+            $this->assertDoesNotMatchRegularExpression('/landscape-|site-plan|balcony-lounge|garden-lawn/', $post->body, $slug);
+        }
+        $this->assertStringContainsString('best kept off a timber deck', BlogPost::where('slug', 'small-yard-wood-deck-ideas')->value('body'));
+    }
 }

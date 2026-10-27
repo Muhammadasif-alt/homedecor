@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Wood deck cost explained: how timber, size, shape, height and permits affect the price, how to compare quotes and practical ways to keep costs down.',
     'categories' => ['budget-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'cost-estimate-plans-review',
+    'image' => 'cedar-deck-railings-forest',
     'body' => <<<'HTML'
 <p>Adding a wooden deck is one of the most rewarding changes you can make to a home. It turns an underused garden into somewhere to relax, eat outside and gather with family and friends. Before you pick up a hammer or call a builder, though, the first question is always the same: how much is this going to cost?</p>
 <p>The honest answer is that it depends on a handful of decisions you control, plus a few things about your site that you do not. Prices also vary a great deal by region and by year, so rather than quote figures that will quickly go out of date, this guide explains what actually moves the price up or down, so you can plan a deck that fits your vision and your budget, and read quotes with confidence.</p>
@@ -22,8 +22,12 @@ return [
 <li><strong>Tropical hardwoods such as ipe</strong> are at the top of the scale. They are extremely dense and long-lasting, but they cost considerably more, are harder to cut and fix (which adds labour), and you should check they come from a certified, responsibly managed source.</li>
 </ul>
 
+<!--figure:wide-hardwood-deck-house|Hardwoods cost more than treated softwood but last longer and need less frequent replacing.-->
+
 <h2 id="deck-size">2. Deck size</h2>
 <p>A larger deck needs more timber, more fixings and more labour, so cost rises with area. There is a "sweet spot", though. Joists and boards come in standard lengths, commonly around 2.4 m, 3.6 m and 4.8 m (8, 12 and 16 ft). A deck that is 3.4 m (11 ft) wide can cost almost as much as one that is 3.7 m (12 ft) wide, because you pay for the full board lengths and throw away the off-cuts. Before you fix the dimensions, ask your builder or supplier which sizes make the best use of standard lengths.</p>
+
+<!--figure:large-grey-deck-backyard|Cost rises with area, but large simple decks cost less per square metre than small complex ones.-->
 
 <h2 id="structural-complexity">3. Structural complexity</h2>
 <p>A simple rectangle fixed against a flat wall of the house is the most economical deck to build. As soon as you add curves, angled corners, multiple levels, built-in planters or wrap-around benches, labour rises sharply. Complex shapes need more intricate framing, more cutting and more waste, and they take a carpenter much longer to get right. If budget is tight, keep the frame simple and add character with furniture, planting and lighting instead.</p>
@@ -31,11 +35,11 @@ return [
 <h2 id="elevation-height">4. Height</h2>
 <p>Height matters. A low platform deck is relatively simple: short supports, often no steps and, in many places, no legal requirement for a railing. Once a deck is raised, especially to reach a first-floor door, you need stairs, guarding that meets your local building regulations and a much stronger structure with proper footings and bracing. Railings alone add noticeably to the bill, and the cost depends heavily on the material, from timber balusters to metal or glass. For raised decks, have the design checked by a qualified builder or structural engineer.</p>
 
+<!--figure:raised-deck-with-railings|Raised decks need bigger posts, bracing, stairs and railings, which add to the cost.-->
+
 <h2 id="permit-fees">5. Permits and paperwork</h2>
 <p>Rules vary by country and council, so check before the first post goes in. In England, decking is generally permitted development if it is no more than 30 cm (12 in) above the ground and, together with other outbuildings, covers no more than half the garden. Many US building codes exempt small, low, freestanding decks. Raised decks, decks attached to the house, flats, listed buildings and conservation areas often need permission or building control approval, so check with your local planning or building authority. Some projects also need a survey, structural calculations or drawings, and these "soft costs" belong in your budget from the start.</p>
-<!--figure:site-plan-review-desk|Site plan drawings, a tablet and a laptop on a desk during planning: drawings and approvals are part of the cost of a raised or attached deck-->
-
-<h2 id="comparing-quotes">How to get quotes you can compare</h2>
+<h2 id="comparing-quotes">6. How to get quotes you can compare</h2>
 <p>Quotes only mean something if they describe the same deck. Ask at least two or three builders to price the same specification, and ask each for an itemised quote covering:</p>
 <ul>
 <li>The timber species and grade for both the frame and the boards, and board size, for example 47 × 150 mm (2×6) joists.</li>
@@ -49,7 +53,7 @@ return [
 </ul>
 <p>If one quote is much lower than the others, check which of these items it leaves out.</p>
 
-<h2 id="keeping-costs-down">Ways to keep the cost down</h2>
+<h2 id="keeping-costs-down">7. Ways to keep the cost down</h2>
 <ul>
 <li>Keep the shape simple and the deck low where your site allows.</li>
 <li>Size the deck to suit standard board lengths to cut waste.</li>

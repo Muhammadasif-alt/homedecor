@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Composite deck maintenance through the year: spring cleaning, summer protection, autumn leaves, winter snow and ice, furniture and barbecue care and FAQs.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'modern-villa-exterior-dusk',
+    'image' => 'composite-deck-modern-house',
     'body' => <<<'HTML'
 <p>A composite deck gives you much of the warmth of natural wood without the constant worry about rot, splinters or annual staining. A common misconception, though, is that "low maintenance" means "no maintenance". To keep your deck looking its best for years, a simple seasonal care routine makes all the difference.</p>
 <p>Composite decking is made from a blend of wood fibres and plastic, and most modern boards have a protective plastic cap. That cap shields the core from the weather, but the surface can still suffer from pollen, sunlight, tannins from leaves and grit. Following a structured seasonal plan keeps your deck attractive, safe underfoot and durable. Always read your decking manufacturer's care guide too, as products differ.</p>
@@ -29,19 +29,19 @@ return [
 <h2 id="summer">2. Summer</h2>
 <p>Summer is when your deck gets the most use and the most sun. Care now is less about deep cleaning and more about protection and prevention.</p>
 <p>Composite boards expand in the heat, so keep the gaps between them clear so they have room to move. Sunlight can also gradually fade even good capped boards. If you have rugs or large planters, move them now and then so the deck weathers evenly.</p>
-<!--figure:balcony-lounge-string-lights|A covered balcony lounge with bench seating, cushions, wall planters and string lights: move rugs and planters on a deck from time to time so the boards weather evenly-->
 <p>Summer is also barbecue season, and grease and food spills are among the biggest enemies of composite surfaces. Capped boards are stain-resistant, not stain-proof, so wipe up oil, sauces and food straight away and keep washing-up liquid or a deck-safe degreaser handy. If the boards get too hot for bare feet in strong sun, add an outdoor rug (check the backing is safe for composite) or some shade, such as an awning or large parasol.</p>
 
 <h2 id="autumn">3. Autumn</h2>
 <p>As leaves fall, the focus shifts to moisture. Wet leaves left on a deck release tannins, which can leave dark stains that are difficult to shift with soap and water alone.</p>
 <p>Sweep the deck regularly, ideally weekly while leaves are falling, and do not let leaves pile up in corners or under furniture. This is also a good time to check drainage underneath: make sure soil, gravel or debris is not mounded against the joists and that water can drain away from the house.</p>
-<!--figure:garden-lawn-planting|A garden lawn bordered by hydrangeas and ornamental grasses: generous planting near a deck looks lovely but means more leaves to sweep in autumn-->
 <p>In damp climates, autumn is when mould and mildew are most likely to appear. If you spot green or black patches, deal with them promptly using a cleaner your decking manufacturer approves; some recommend a diluted vinegar solution. Do not use bleach unless the manufacturer specifically allows it, as it can discolour the boards.</p>
 
 <h2 id="winter">4. Winter</h2>
 <p>Winter care is about safety and avoiding physical damage. The key rule is to put away the metal shovel: metal blades can scratch, gouge or chip the protective cap. Use a plastic shovel without a metal edge.</p>
 <p>When clearing snow, push it along the length of the boards rather than across them, so the shovel is less likely to catch on board edges. If you need to deal with ice, check your decking manufacturer's list of approved de-icers before you buy anything, as products vary and the wrong one could mark the surface or affect your warranty.</p>
 <p>Avoid spreading sand for grip. Sand is abrasive and acts like sandpaper under your boots, dulling the surface over time. Once the cold weather ends, rinse away any de-icer residue, which can leave a white film that attracts dirt.</p>
+
+<!--figure:frost-on-deck-boards|Clear snow with a plastic shovel and avoid rock salt, which can mark the boards.-->
 
 <h2 id="furniture">5. Furniture</h2>
 <p>Deck care is not only about the boards; it is also about what you put on them. Composite is durable, but heavy furniture dragged across it can scratch the surface.</p>
@@ -50,6 +50,8 @@ return [
 <li>Fit felt or rubber protectors to the feet of chairs, tables and benches.</li>
 <li>Be careful with rugs and mats: avoid latex- or rubber-backed products unless they are labelled as safe for composite decking, as some backings can react with the surface and cause discolouration.</li>
 </ul>
+
+<!--figure:composite-deck-dining-table|Use pads under furniture legs and lift, rather than drag, heavy pieces.-->
 
 <h2 id="grilling">6. Barbecues and heat</h2>
 <p>The barbecue is often the heart of the deck, but it is also a major source of potential damage. As well as grease, heat is a risk: a barbecue placed too close to the boards or to the house can soften or mark composite materials.</p>
@@ -62,6 +64,8 @@ return [
 </ul>
 
 <blockquote><p><strong>Tip:</strong> Put a reminder in your calendar for the start of each season with a three-line checklist: clear the gaps, wash or sweep, check underneath. Ten minutes of regular care is far easier than tackling stains that have had months to set.</p></blockquote>
+
+<!--figure:barbecue-on-small-deck|A heat-resistant mat under the barbecue protects the boards from heat and grease.-->
 
 <h2 id="faq">FAQ</h2>
 <h3>Can I use a pressure washer on my composite deck?</h3>

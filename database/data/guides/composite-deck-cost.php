@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Composite deck cost explained: board tiers, solid vs hollow boards, hidden fixings, frames, railings, complexity and how it compares with wood over time.',
     'categories' => ['budget-home-decor', 'luxury-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'proposal-cost-estimate-laptop',
+    'image' => 'light-composite-deck-lounge-furniture',
     'body' => <<<'HTML'
 <p>Homeowners planning a new deck often reach the same crossroads: the classic appeal of wood or the low-maintenance promise of composite. Composite usually costs more at the start, but needs much less ongoing work. So what should you plan for?</p>
 <p>Prices vary widely by region, product and year, so this guide does not quote figures. Instead it explains what makes one composite deck cost more than another, so you can make informed choices and compare quotes like for like. For general advice on deck size, height and permits, which apply to any material, see our guide to <a href="/blog/wood-deck-cost">wood deck cost</a>.</p>
@@ -23,12 +23,16 @@ return [
 </ul>
 <p>Compare the warranty wording, not just the headline term: check what is covered (fading, staining, structural failure) and whether labour is included.</p>
 
+<!--figure:grey-composite-deck-boards-grain|Higher-tier boards have a thicker cap and a more convincing wood grain, and cost more.-->
+
 <h2 id="solid-vs-hollow">2. Solid or hollow boards</h2>
 <p>Hollow (sometimes called scalloped or grooved) boards have material removed from the underside or core. They are lighter and usually cheaper. Solid boards feel sturdier, sound less hollow underfoot and are often preferred for longer spans or a more premium feel, but they cost more and are heavier to handle. Check the manufacturer's joist spacing for each type, as it affects the cost of the frame too.</p>
 
 <h2 id="labour-and-fixings">3. Labour and hidden fixings</h2>
 <p>Labour is a large part of any composite deck. Installing composite can take longer than wood because most boards use hidden clip systems that let them expand and contract, and the gaps must be set precisely. The clips themselves also add to the materials bill compared with simple face screws.</p>
 <p>Layout has a big effect. A straight-laid deck is the quickest. Picture-framing (a border of boards around the edge), diagonal boards or herringbone patterns need more cutting, extra joists or noggins and more waste, and can add noticeably to labour.</p>
+
+<!--figure:builders-framing-new-deck|Labour covers the frame as well as the boards, and hidden fixings take longer to fit.-->
 
 <h2 id="substructure">4. The frame</h2>
 <p>Unless you are resurfacing an existing deck whose frame is sound, you will need a new substructure. Most composite decks still sit on a pressure-treated timber frame. Its cost depends on the deck's height, the ground conditions and the footings your local rules require.</p>
@@ -38,15 +42,15 @@ return [
 <h2 id="railings">5. Railings</h2>
 <p>Railings are the most visible safety feature and a major cost driver on raised decks, where guarding must meet local building regulations. Timber railings are usually the cheapest, but they need regular treatment, which undercuts the low-maintenance point of composite. Most people choose composite, aluminium or other powder-coated metal railings. Glass panels and cable infills give a sleek, modern look but are typically the most expensive options and can add significantly to the total.</p>
 
+<!--figure:grey-deck-metal-railing-pool|Railings can add a large share of the cost, especially in metal or glass.-->
+
 <h2 id="complexity">6. Complexity</h2>
 <p>A simple rectangle is the most cost-effective shape. Every extra corner, curve or level pushes the price up, because it means more framing, cutting and waste. Curves in composite often need special boards or heat-bending, which is specialist work. Steps add a surprising amount, as each one needs its own framing and careful cutting. Built-in benches, planters and integrated lighting add to both materials and labour, and lighting will need a qualified electrician.</p>
-<!--figure:landscape-design-presentation|Landscape design boards and a laptop presentation on a garden table: settling the layout and details early makes quotes easier to compare-->
-
-<h2 id="composite-vs-wood-over-time">Composite vs wood over time</h2>
+<h2 id="composite-vs-wood-over-time">7. Composite vs wood over time</h2>
 <p>Composite usually costs more to buy and install than a pressure-treated softwood deck, and can be similar to or more than some hardwoods. The difference narrows over the years because composite does not need sanding, staining or sealing, only regular cleaning. Wood needs re-treating every few years, which means either your time or a professional's.</p>
 <p>Which works out better for you depends on how long you plan to stay, how much maintenance you are willing to do and which products you compare. If you want the lowest starting cost, treated softwood usually wins. If you want the least ongoing work, composite often makes more sense over the life of the deck.</p>
 
-<h2 id="comparing-quotes">Comparing composite quotes</h2>
+<h2 id="comparing-quotes">8. Comparing composite quotes</h2>
 <p>Ask each builder to price the same specification, itemised, including the board range and whether boards are solid or hollow, the fixing system, joist spacing and frame material, joist tape, fascia boards, railings, steps, waste removal and any permits or drawings. Two quotes using different board tiers or joist spacing are not comparable.</p>
 
 <h2 id="faq">FAQ</h2>
