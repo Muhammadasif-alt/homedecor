@@ -8,9 +8,17 @@ use Illuminate\Http\UploadedFile;
 
 class MediaUploadTest extends AdminTestCase
 {
+    /** Starts each test with an empty table; rows only, so the committed library files stay on disk. */
+    protected function setUp(): void
+    {
+        parent::setUp();
+        Media::query()->toBase()->delete();
+    }
+
+    /** Removes only the files these tests upload; library rows registered by migrations point at committed photos. */
     protected function tearDown(): void
     {
-        foreach (Media::all() as $media) {
+        foreach (Media::where('path', 'like', 'media/uploads/%')->get() as $media) {
             app(ImageOptimizer::class)->delete($media);
         }
         parent::tearDown();

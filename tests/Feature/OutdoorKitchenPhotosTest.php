@@ -35,4 +35,13 @@ class OutdoorKitchenPhotosTest extends TestCase
 
         $this->assertSame(1, Media::where('path', 'media/library/outdoor-grill-station-garden')->count());
     }
+
+    public function test_chiminea_guide_photos_are_registered_from_committed_files(): void
+    {
+        (require database_path('migrations/2026_10_27_060130_register_chiminea_guide_library_photos.php'))->up();
+
+        $this->assertSame(1, Media::where('path', 'media/library/patio-fire-pit-adirondack-chairs')->count());
+        $hero = Media::where('path', 'media/library/chiminea-fire-at-dusk')->firstOrFail();
+        $this->assertSame([2400, 1081], [$hero->width, $hero->height]);
+    }
 }
