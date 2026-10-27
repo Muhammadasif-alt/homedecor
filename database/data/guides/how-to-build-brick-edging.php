@@ -9,7 +9,7 @@ return [
     'meta_description' => 'How to build brick edging: choose frost-resistant bricks, pick a laying pattern, calculate bricks per metre, cut with a bolster and finish corners neatly.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-pool-terrace-finishing',
+    'image' => 'laid-red-bricks-pattern',
     'body' => <<<'HTML'
 <p>Planting is only half of a good garden; the other half is definition. When nothing marks where the lawn stops, grass wanders into the borders, mulch drifts onto the grass and even generous planting starts to look untidy. A brick edge solves that with a clear, solid line. Bricks are heavy enough to stay where you put them, they suit both cottage and formal gardens, and they weather in gracefully rather than looking tired.</p>
 <p>This guide concentrates on what makes brick different from other edging: choosing a brick that will survive in wet ground, deciding which way to lay it, working out how many you need, and cutting and turning corners by hand. The groundwork underneath is the same as for block paving, so those steps are kept short here; our guide on <a href="/blog/how-to-build-paver-edging">how to build paver edging</a> covers the base, sand and jointing in more detail.</p>
@@ -41,6 +41,8 @@ return [
 <li><strong>Sawtooth:</strong> bricks set at an angle, half buried, so their corners form a zigzag. A traditional Victorian look that is best kept for borders you do not mow against.</li>
 </ul>
 <p>As a rule, the more of the brick you bury, the steadier the edge. Upright bricks such as soldiers should have at least half their height in the ground.</p>
+
+<!--figure:red-brick-path-open-joints|Bricks can be laid flat, on edge or on end; each gives a different look and strength.-->
 
 <h2 id="quantities">3. Work out how many bricks you need</h2>
 <p>Measure the full length of the edge in metres, following any curves with a tape or a length of string. Then work out how many bricks fit in one metre for the orientation you have chosen.</p>

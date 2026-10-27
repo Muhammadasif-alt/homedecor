@@ -9,12 +9,10 @@ return [
     'meta_description' => 'How to build paver edging step by step: plan the line, dig the trench, compact the base, set and cut the blocks, fit restraints and fill the joints safely.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'site-plan-review-desk',
+    'image' => 'paved-path-with-edge-restraint',
     'body' => <<<'HTML'
 <p>Paver edging is one of the details that makes a garden look finished. It is both a structural and a visual boundary, separating the soft parts of the garden (plants, mulch and soil) from the lawn or hard landscaping. A well-laid edge also does a practical job: it slows grass creeping into your borders and helps stop mulch washing onto the lawn in heavy rain.</p>
 <p>For a keen DIYer, lawn edging in block paving is a rewarding weekend project. It takes physical effort and care, but no heavy machinery. If you prepare the ground methodically, set the levels carefully and finish the joints properly, you can get a result that looks like a professional job. This guide takes you through each stage.</p>
-<!--figure:garden-lawn-planting|A lawn bordered by hydrangeas and ornamental grasses: the line where lawn meets border is exactly where paver edging does its work-->
-
 <h2 id="safety">Before you start: safety</h2>
 <p>Even a shallow trench can hit something you did not expect, so take a few precautions before the spade goes in:</p>
 <ul>
@@ -37,6 +35,8 @@ return [
 <li><strong>Jointing sand:</strong> kiln-dried sand or polymeric sand, which contains binders that help lock the blocks together and discourage weeds in the joints.</li>
 <li><strong>Tools:</strong> a spade and half-moon edging iron, pegs and string line, a spirit level, a rubber mallet, a hand tamper (or a hired plate compactor) and a small straight board for screeding.</li>
 </ul>
+
+<!--figure:grey-interlocking-concrete-pavers|Concrete block pavers are the usual choice for paths and edges.-->
 
 <h2 id="layout">3. Layout</h2>
 <p>Now transfer your design to the ground. For straight lines, knock a wooden peg in at each end and pull a string line tight between them. The line guides both the alignment and the finished height of the blocks. For curves, follow the hose you laid out at the planning stage with line-marking paint.</p>
@@ -66,6 +66,8 @@ return [
 <h2 id="restraints">9. Restraints</h2>
 <p>Even on a good base, blocks can creep or lean outwards over time, pushed by the soil or by mowers running along them. To stop this, fit an edge restraint along the outer side of the blocks, usually the side facing the lawn. Another common approach is to haunch the outer side with a sloping bead of concrete; ask your supplier which suits your blocks.</p>
 <p>Purpose-made restraints are usually L-shaped strips of heavy-duty plastic or aluminium that sit tight against the base of the blocks. Fix them with the spikes and at the spacing specified by the edging manufacturer. Once the soil and turf are back in place, the restraint is hidden, but it holds the blocks in a tight line.</p>
+
+<!--figure:hexagon-paver-path-through-grass|A firm edge restraint stops the outer pavers from creeping into the lawn.-->
 
 <h2 id="filling">10. Filling the joints</h2>
 <p>Next, fill the joints. Ordinary kiln-dried sand works, but many DIYers prefer polymeric sand, which contains binders that harden when wetted and help hold the joint together.</p>

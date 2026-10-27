@@ -9,12 +9,12 @@ return [
     'meta_description' => 'Brick edging pros and cons: durability, colours and laying patterns, mowing strips, cost, labour, weeds, settling and frost, plus dry-laid vs mortared.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'landscape-plan-samples',
+    'image' => 'brick-edging-between-lawn-and-path',
     'body' => <<<'HTML'
 <p>Edging is the frame of a garden: the line between lawn and border that keeps soil, mulch and grass where they belong and makes the whole space look looked after. Of all the materials you can use, from plastic coil and steel strip to natural stone, brick is one of the most enduring. It has a long history in garden walls, paths and kerbs, and it sits comfortably beside most house styles.</p>
 <p>Choosing brick is not only about looks, though. It takes more labour than most edging, it has its own maintenance quirks, and not every brick is suitable for the ground. This guide sets out the strengths and weaknesses of brick specifically, so you can decide whether it is right for your garden. If you are still comparing brick with other materials, our overview of <a href="/blog/landscape-edging-pros-and-cons">landscape edging pros and cons</a> covers the wider field.</p>
 
-<h2 id="pros">The pros of brick edging</h2>
+<h2 id="pros">1. The pros of brick edging</h2>
 
 <h3>Durability</h3>
 <p>Good-quality clay bricks are fired to cope with rain, sun and changing temperatures. Unlike plastic, they do not go brittle in sunlight, and unlike timber, they do not rot where they sit against damp soil. How long a brick edge lasts depends on the bricks, the base, your soil and climate, and how it is looked after, but a well-laid edge in suitable bricks is generally one of the longer-lasting options.</p>
@@ -35,9 +35,7 @@ return [
 <h3>Versatility for curves and mowing strips</h3>
 <p>Because each brick is a small unit, brick follows curves well: kidney-shaped beds, circles around trees and sweeping borders are all achievable by fanning the joints slightly on the outside of the bend. A flat-laid double row set level with the lawn makes an excellent mowing strip, letting the mower wheels run along the bricks so you need far less strimming. Brick edging can also be continued into a low raised bed, a step or a path in the same brick, which gives the garden a joined-up look.</p>
 
-<!--figure:garden-lawn-planting|A lawn bordered by hydrangeas and ornamental grasses: the kind of lawn-to-border line a flush, flat-laid brick edge would define-->
-
-<h2 id="cons">The cons of brick edging</h2>
+<h2 id="cons">2. The cons of brick edging</h2>
 
 <h3>Cost, relative to other edging</h3>
 <p>Brick generally sits in the middle to upper part of the range. It usually costs noticeably more than plastic coil or thin metal strip, but it can be less than natural stone or a professionally poured concrete edge. A soldier course uses roughly twice as many bricks per metre as a single row laid lengthways, so the pattern you choose affects the materials bill. Reclaimed bricks can be a good-value option, provided they are the right kind (see the FAQ below).</p>
@@ -55,7 +53,9 @@ return [
 <h3>Frost damage to unsuitable bricks</h3>
 <p>Not every brick belongs in the ground. Soft or interior bricks absorb water, and when that water freezes the faces can flake or crumble, a problem known as spalling. Use bricks sold as suitable for paving or for ground contact in your climate, and avoid soft, low-fired bricks for edging.</p>
 
-<h2 id="dry-laid-vs-mortared">Dry-laid vs mortared brick edging</h2>
+<!--figure:weeds-between-weathered-bricks|Weeds can root in the joints of dry-laid bricks unless the joints are kept filled.-->
+
+<h2 id="dry-laid-vs-mortared">3. Dry-laid vs mortared brick edging</h2>
 <p>There are two main ways to lay a brick edge:</p>
 <ul>
 <li><strong>Dry-laid:</strong> bricks bedded on compacted crushed stone and sand, with sand-filled joints and usually a restraint behind them. It is the most DIY-friendly method, it copes with slight ground movement, and individual bricks are easy to lift and reset.</li>
@@ -65,7 +65,9 @@ return [
 
 <blockquote><p><strong>Tip:</strong> Before you commit to a pattern, dry-lay a metre of it on the lawn with a few loose bricks and look at it from the house. Upright soldiers, flat bricks and dogtooth points read very differently at a distance, and the bricks are easy to rearrange at this stage.</p></blockquote>
 
-<h2 id="who-its-right-for">Who brick edging is right for</h2>
+<!--figure:brick-path-beside-stone-wall|Mortared bricks stay put in high-traffic spots; dry-laid bricks are easier to lift and relay.-->
+
+<h2 id="who-its-right-for">4. Who brick edging is right for</h2>
 <p>Brick edging suits you if:</p>
 <ul>
 <li>You see your borders as a long-term feature and are happy with the layout you have.</li>

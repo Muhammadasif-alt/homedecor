@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Paver edging pros and cons: plastic, aluminium, concrete haunching, steel and brick edge restraints for block paving compared, plus who each suits.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'concrete-frame-construction',
+    'image' => 'stone-paver-path-flower-border',
     'body' => <<<'HTML'
 <p>When homeowners or contractors start a hard landscaping project, the attention usually goes on the main material: the pavers themselves. Whether it is the earthy tones of clay brick, the clean lines of concrete slabs or the character of natural stone, the surface gets all the glory. Yet the component that decides whether a paved surface stays tight and level is one you barely see once the job is finished: the paver edging.</p>
 <p>This guide is about edge restraints, the structural perimeter that holds a block-paved patio, path or driveway in place. In the UK this is usually called a block paving edge restraint, and it may be a plastic or metal strip, a line of kerb edging or a sloping bead of concrete known as haunching. Without one, foot traffic, vehicle weight and freeze-thaw cycles push the outer blocks outwards, the joints open up and the surface starts to fail. If you are looking for a decorative border between lawn and planting instead, read our guide to <a href="/blog/landscape-edging-pros-and-cons">landscape edging pros and cons</a>. Here we compare the main types of restraint, the benefits and drawbacks of each, and who each one suits.</p>
@@ -34,21 +34,23 @@ return [
 <p>Using bricks or pavers themselves as the edging is a classic look. The two common arrangements are a soldier course, where the bricks stand upright on their ends side by side, and a row of bricks laid flat, end to end, along the edge. To make these decorative borders work as restraints, they are usually bedded on concrete or mortar and haunched behind.</p>
 <p>This method gives a cohesive, finished look because the edging can match or complement the main paving. It is durable and has a traditional, crafted feel. The drawback is the complexity of installation: getting the heights consistent while working with a mortar bed takes skill, and over time mortar joints can crack and need repointing. For more on brick borders specifically, see our guide to <a href="/blog/brick-edging-pros-and-cons">brick edging pros and cons</a>.</p>
 
-<h2 id="pros">The pros of paver edging</h2>
+<!--figure:brick-pavers-meeting-concrete-edge|Brick pavers need a solid edge, such as concrete haunching, to stay in line.-->
+
+<h2 id="pros">6. The pros of paver edging</h2>
 <ul>
 <li><strong>Structural stability.</strong> This is the main advantage. Without a restraint, the outer blocks gradually drift into the lawn or borders, the jointing sand washes out, and the gaps widen. Wide gaps become trip hazards and give weeds a foothold.</li>
 <li><strong>A clean finish.</strong> Edging defines the space and gives a clear boundary between hard and soft landscaping. It also makes lawn care easier, giving the mower and strimmer a firm line to follow without chipping the pavers.</li>
 <li><strong>Protecting the paving you have paid for.</strong> A paved patio or driveway is a significant project, and the edging is usually a small part of the total. Getting it right helps the surface stay level and good-looking for much longer than it would without a restraint.</li>
 </ul>
 
-<h2 id="cons">The cons of paver edging</h2>
+<h2 id="cons">7. The cons of paver edging</h2>
 <ul>
 <li><strong>Installation effort.</strong> Edging must sit on the same compacted sub-base as the paving, so you need to dig down to that level. Edging simply laid on topsoil will fail. That adds labour and time.</li>
 <li><strong>It can become visible.</strong> In cold winters, frost heave can push edging upwards. If the spikes are too short or too far apart, or the base drains poorly, plastic or metal edging can end up poking above the grass in spring, which looks untidy and can catch a mower blade.</li>
 <li><strong>Cost.</strong> Plastic is inexpensive, but aluminium and steel add noticeably to the materials bill on a large project, and concrete haunching adds labour.</li>
 </ul>
 
-<h2 id="who-its-right-for">Who is it right for?</h2>
+<h2 id="who-its-right-for">8. Who is it right for?</h2>
 <h3>The perfectionist homeowner</h3>
 <p>If you value clean lines and want your patio to keep its crisp shape for as long as possible, good-quality aluminium or steel edging is the right choice.</p>
 <h3>The DIY enthusiast</h3>

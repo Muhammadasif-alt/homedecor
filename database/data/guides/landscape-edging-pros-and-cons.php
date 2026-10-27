@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Landscape edging pros and cons: plastic, metal, stone, wood, concrete and cut lawn edges compared on looks, upkeep, cost and installation, plus an FAQ.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'landscape-plan-samples',
+    'image' => 'brick-path-with-raised-stone-beds',
     'body' => <<<'HTML'
 <p>In garden design, the difference between a garden that looks unfinished and one that looks considered often comes down to the details. Healthy planting and a green lawn matter, but it is the frame around them that gives the finishing touch. Landscape edging is that frame: it creates clear boundaries that improve how the garden looks and does useful work at the same time.</p>
 <p>Landscape edging means installing a physical barrier between two parts of the garden, most often between the lawn and a border, or between a path and the grass. It helps keep grass out of planting, stops mulch washing away in heavy rain and gives your mower and strimmer a clean line to follow. In the UK you will also hear it called lawn edging or border edging. Choosing the right material is not a one-size-fits-all decision, though. From simple plastic to permanent poured concrete, each option has its own advantages and drawbacks.</p>
@@ -34,13 +34,14 @@ return [
 
 <h2 id="stone">3. Stone</h2>
 <p>Stone edging gives a classic, timeless look that blends naturally into the garden. It ranges from flagstone and slate to rounded cobbles and granite setts.</p>
-<!--figure:garden-stone-path|A curved stone path through flowering beds: natural stone sits comfortably beside informal, cottage-style planting-->
 <h3>Pros</h3>
 <p>Natural stone is extremely hard-wearing. It does not rot, rust or bend, and it brings a texture and natural character that synthetic materials struggle to match. It is versatile too: you can stack it into a low wall around a raised border, or lay it flat as a mowing strip so the mower wheels run along it and you need far less strimming.</p>
 <h3>Cons</h3>
 <p>The main drawback is the labour. Stone is heavy, awkward to move and slow to lay. To keep it neat, you usually need to dig a trench and lay a base of sand or gravel so the stones do not sink or shift. Because it is not one continuous piece, weeds can grow in the gaps unless the joints are mortared or filled.</p>
 <h3>Who it's right for</h3>
 <p>Stone suits traditional, cottage-style and rustic gardens. It is best for people who value longevity and a natural look over quick installation and are prepared to do the heavy work themselves or hire a professional.</p>
+
+<!--figure:stone-slab-edge-beside-lawn|Natural stone looks permanent and suits informal gardens, but costs more to lay.-->
 
 <h2 id="wood">4. Wood</h2>
 <p>Timber edging gives a warm, natural border and is especially popular in vegetable gardens and rustic designs.</p>
@@ -60,6 +61,8 @@ return [
 <h3>Who it's right for</h3>
 <p>Concrete suits long-term homeowners who have settled on their garden layout and want a custom, high-end edge that needs very little maintenance.</p>
 
+<!--figure:concrete-kerb-edging-planting-bed|Concrete kerbs are hard-wearing and hold a bed firmly in place.-->
+
 <h2 id="trench">6. Cut edge</h2>
 <p>A cut or trench edge, sometimes called Victorian edging, means cutting a clean, sharp V-shaped or vertical edge into the turf to separate the lawn from the border.</p>
 <h3>Pros</h3>
@@ -69,7 +72,9 @@ return [
 <h3>Who it's right for</h3>
 <p>A cut edge is for the purist and the keen gardener who enjoys time outdoors. It suits anyone who wants a classic, well-groomed look without the cost of materials.</p>
 
-<h2 id="benefits">The benefits of proper edging</h2>
+<!--figure:clean-lawn-edge-beside-path|A cut edge costs nothing but needs re-cutting several times a year.-->
+
+<h2 id="benefits">7. The benefits of proper edging</h2>
 <p>Beyond the visual lift, edging does three useful jobs:</p>
 <ul>
 <li><strong>Containment:</strong> it keeps mulch, decorative gravel and soil in the borders and off the lawn, path or driveway, especially in heavy rain.</li>
@@ -78,7 +83,7 @@ return [
 </ul>
 <p>Whichever material you choose, check for buried irrigation pipes and garden lighting cables before you dig the trench. Our guide to <a href="/blog/how-to-build-paver-edging">how to build paver edging</a> covers this, and the rest of the installation, step by step.</p>
 
-<h2 id="making-the-final-decision">Making the final decision</h2>
+<h2 id="making-the-final-decision">8. Making the final decision</h2>
 <p>When you choose your edging, ask yourself three questions:</p>
 <ul>
 <li><strong>What is my budget?</strong> Plastic and a cut edge cost least; concrete and stone usually cost the most.</li>

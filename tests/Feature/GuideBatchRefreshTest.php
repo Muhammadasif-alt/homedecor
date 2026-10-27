@@ -160,4 +160,23 @@ class GuideBatchRefreshTest extends TestCase
         }
         $this->assertStringContainsString('">1. The pros', BlogPost::where('slug', 'patio-deck-combo-pros-and-cons')->value('body'));
     }
+
+    public function test_edging_batch_replaces_plan_and_construction_photos(): void
+    {
+        $old = $this->media('floor-plan-drawings-desk');
+        $slugs = ['how-to-build-landscape-edging', 'landscape-edging-pros-and-cons', 'how-to-build-paver-edging', 'paver-edging-pros-and-cons', 'brick-edging-pros-and-cons', 'how-to-build-brick-edging'];
+        foreach ($slugs as $slug) {
+            $this->blogPost(['slug' => $slug, 'title' => 'Old', 'body' => '<p>Old</p>', 'featured_media_id' => $old->id]);
+        }
+
+        (require database_path('migrations/2026_10_27_095540_refresh_landscape_paver_and_brick_edging_guides.php'))->up();
+
+        foreach ($slugs as $slug) {
+            $post = BlogPost::where('slug', $slug)->with('featuredMedia')->firstOrFail();
+            $this->assertNotSame($old->id, $post->featured_media_id, $slug);
+            $this->assertGreaterThanOrEqual(1, substr_count($post->body, '<figure>'), $slug);
+            $this->assertDoesNotMatchRegularExpression('/garden-lawn|garden-stone-path/', $post->body, $slug);
+        }
+        $this->assertStringContainsString('">1. The pros of brick edging', BlogPost::where('slug', 'brick-edging-pros-and-cons')->value('body'));
+    }
 }

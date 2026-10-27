@@ -9,7 +9,7 @@ return [
     'meta_description' => 'How to install landscape edging step by step: mark the line, dig the trench, fit metal, plastic, timber, stone or brick edging, then backfill and mulch.',
     'categories' => ['budget-home-decor', 'small-space-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'floor-plan-drawings-desk',
+    'image' => 'edged-flower-bed-in-lawn',
     'body' => <<<'HTML'
 <p>Landscape edging is the unsung hero of a tidy garden. It draws a crisp line between lawn and border, stops grass creeping into your flower beds and keeps mulch or gravel from washing out in a heavy downpour. For a DIYer, it is one of the most affordable ways to make a garden look finished and professionally designed.</p>
 <p>Whether you prefer the rustic charm of timber, the sleek look of steel or the classic feel of natural stone, the groundwork is much the same: plan the line, dig a clean trench, fit the edging and backfill it firmly. This guide walks through those shared steps, then explains how to install each common type of edging. If you are still deciding which material suits your garden, read our guide to <a href="/blog/landscape-edging-pros-and-cons">landscape edging pros and cons</a> first.</p>
@@ -25,8 +25,9 @@ return [
 <h2 id="plan-the-line">1. Plan the line</h2>
 <p>The first step in any edging project is deciding on the shape. Lay a garden hose or a long rope on the lawn and experiment with different curves. Avoid tight angles that are awkward to mow around; long, sweeping curves usually look more natural and are much easier to maintain. For straight edges, use pegs and a string line.</p>
 <p>When you are happy with the shape, trace it onto the grass with line-marking paint so you have a clear guide for digging. Then step back and look at the layout from the patio and from the windows you look out of most. A line that looks right at ground level can feel awkward from upstairs.</p>
-<!--figure:garden-lawn-planting|A garden lawn bordered by hydrangeas and ornamental grasses: a clean edge keeps the line between lawn and planting crisp-->
 <p>While you are planning, measure the full length of the line, including curves, so you can order enough material. Allow a little extra for cutting, joints and mistakes.</p>
+
+<!--figure:curved-path-through-garden-borders|Lay out the line with a hose or rope first, and keep curves long and gentle.-->
 
 <h2 id="dig-the-trench">2. Dig the trench</h2>
 <p>Excavation is the most labour-intensive part of the job. For most materials the trench is commonly 10–15 cm (4–6 in) deep, deep enough to stop grass roots creeping underneath into the border. Check the edging manufacturer's guidance for the exact depth your product needs, and dig slightly deeper for stone, brick and timber so there is room for a base layer.</p>
@@ -53,6 +54,8 @@ return [
 <h3>Brick</h3>
 <p>Brick suits traditional and formal gardens, and laid flat and flush with the lawn it can form a mowing strip that lets the mower wheels run along the edge. Bricks can also be set upright for a taller border or at an angle for a sawtooth effect. They need a firm, level base to stop them sinking, and the technique has a lot in common with laying paving. For full step-by-step detail, read our guide on <a href="/blog/how-to-build-paver-edging">how to build paver edging</a>.</p>
 
+<!--figure:mulch-meeting-white-stone-border|Edging keeps different surfaces, such as mulch and gravel, from mixing.-->
+
 <h2 id="levelling">5. Level and secure</h2>
 <p>As you place the edging, check it frequently with a spirit level. Even if the garden slopes, you want individual units, such as bricks, stones or timbers, to sit level with each other. On a slope, step the edging down in short level sections rather than running it diagonally. If a stone or brick sits low, lift it and add a little sand underneath; if it sits high, tap it down gently with a rubber mallet.</p>
 <p>For flexible edging, drive stakes at a slight angle towards the border side for better holding power, which stops the edging leaning towards the lawn over time. Make sure the stake heads finish flush with or just below the top of the edging so they are not visible and will not catch a mower blade.</p>
@@ -62,6 +65,8 @@ return [
 <h2 id="backfill-and-mulch">6. Backfill and mulch</h2>
 <p>Once the edging is in position and level, lock it in by backfilling both sides of the trench. On the lawn side, use the soil and turf you removed, packing it firmly against the edging for support. On the border side, use good topsoil. Firm it down with your heel to remove air pockets so the edging will not lean or shift after the first heavy rain.</p>
 <p>Finally, spread mulch, bark or decorative gravel across the border. Keep the finished surface about 1 cm (½ in) below the top of the edging so it does not spill over onto the lawn. Water the area thoroughly to settle the soil and sand around the edging, then top up any spots that sink.</p>
+
+<!--figure:wood-chip-mulch-closeup|Finish with a layer of mulch on the bed side, kept just below the top of the edge.-->
 
 <h2 id="faq">FAQ</h2>
 <h3>How deep should landscape edging be?</h3>
