@@ -25,7 +25,7 @@ class OutdoorKitchenPhotosTest extends TestCase
         $this->assertSame([2400, 1800], [$media->width, $media->height]);
         $this->assertSame('outdoor', $media->category);
         $this->assertStringContainsString('outdoor kitchen', $media->alt);
-        $this->assertSame(4, Media::where('path', 'like', 'media/library/%outdoor%kitchen%')->orWhere('path', 'media/library/outdoor-grill-station-garden')->count());
+        $this->assertSame(4, Media::whereIn('path', ['media/library/outdoor-kitchen-island-bar-stools', 'media/library/outdoor-kitchen-gas-hob-pool', 'media/library/outdoor-grill-station-garden', 'media/library/covered-outdoor-kitchen-vent-hood'])->count());
     }
 
     public function test_migration_does_not_duplicate_existing_rows(): void

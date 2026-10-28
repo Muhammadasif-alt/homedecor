@@ -23,9 +23,20 @@ class GuidePostSeeder extends Seeder
 
     public function run(): void
     {
+        $this->createMissing(array_column(self::guides(), 'slug'));
+    }
+
+    /**
+     * Creates the guides with these slugs that do not exist yet, so a migration can publish new
+     * guides without needing every other guide's photos to be in the library.
+     *
+     * @param  array<int, string>  $slugs
+     */
+    public function createMissing(array $slugs): void
+    {
         $authorId = User::where('role', 'admin')->orderBy('id')->value('id');
 
-        foreach (self::guides() as $data) {
+        foreach (array_filter(self::guides(), fn (array $guide) => in_array($guide['slug'], $slugs, true)) as $data) {
             if (BlogPost::withTrashed()->where('slug', $data['slug'])->exists()) {
                 continue;
             }

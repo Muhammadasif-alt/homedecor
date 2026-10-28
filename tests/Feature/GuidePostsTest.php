@@ -32,6 +32,11 @@ class GuidePostsTest extends TestCase
             ServiceSeeder::class, BlogCategorySeeder::class, BlogPostSeeder::class,
             ExtendedServiceSeeder::class, ExtendedBlogPostSeeder::class, GuidePostSeeder::class,
         ]);
+
+        // Pasted through the admin, so they exist only in the live database, but guides link to them.
+        foreach (['how-to-build-an-outdoor-pizza-oven', 'outdoor-pizza-oven-pros-and-cons'] as $slug) {
+            $this->blogPost(['slug' => $slug, 'title' => $slug]);
+        }
     }
 
     public function test_guides_render_with_library_photos_and_working_links(): void

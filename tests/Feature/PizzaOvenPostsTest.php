@@ -91,6 +91,26 @@ class PizzaOvenPostsTest extends TestCase
         $this->assertSame(1, Redirect::count());
     }
 
+    public function test_small_yard_and_outdoor_bar_guides_are_published_with_their_photos(): void
+    {
+        $category = BlogCategory::create(['name' => 'Outdoor Living', 'slug' => 'outdoor-living']);
+        $this->service(['name' => 'Balcony & Terrace Decoration', 'slug' => 'balcony-terrace-decoration']);
+
+        $migration = require database_path('migrations/2026_10_28_105419_add_small_yard_pizza_oven_and_outdoor_bar_guides.php');
+        $migration->up();
+        $migration->up();
+
+        $pizza = BlogPost::where('slug', 'outdoor-pizza-oven-small-yards')->sole();
+        $bar = BlogPost::where('slug', 'how-to-build-an-outdoor-bar')->sole();
+        $this->assertSame('media/library/narrow-courtyard-string-lights-planters', $pizza->featuredMedia->path);
+        $this->assertSame('media/library/wooden-outdoor-bar-thatched-roof', $bar->featuredMedia->path);
+        $this->assertSame(7, substr_count($pizza->body, '<figure>'));
+        $this->assertSame(10, substr_count($bar->body, '<figure>'));
+        $this->assertStringContainsString('/media/library/man-laying-pavers-on-sand-1600.jpg', $bar->body);
+        $this->assertContains($category->id, $bar->categories()->pluck('blog_categories.id')->all());
+        $this->assertTrue($pizza->isLive());
+    }
+
     public function test_headings_flattened_by_the_visual_editor_are_restored_before_photos_go_in(): void
     {
         $editorBody = '<div>The backyard has evolved.<br><br></div><div><br>But there is a lot to consider.<br><br></div>'
