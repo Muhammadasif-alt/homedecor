@@ -1,4 +1,9 @@
-@php $editing = $post->exists; @endphp
+@php
+    $editing = $post->exists;
+    // The visual editor cannot hold headings, paragraphs or photos and flattens them on save,
+    // so articles that carry them are edited as HTML instead.
+    $editAsHtml = $editing && preg_match('/<(h2|h3|p|figure|img|table)\b/i', (string) $post->body);
+@endphp
 
 <x-admin.layout :title="$editing ? 'Edit article' : 'New article'">
     <x-admin.page-header :title="$editing ? $post->title : 'New article'" :back="route('admin.blog-posts.index')"
@@ -20,7 +25,12 @@
                     <x-admin.input name="title" label="Title" :value="$post->title" required />
                     <x-admin.input name="slug" label="Slug" :value="$post->slug" hint="Generated from the title when empty. Changing it on a live article breaks old links — add a redirect." />
                     <x-admin.textarea name="excerpt" label="Excerpt" :value="$post->excerpt" rows="3" :counter="500" required hint="Shown on article cards and as a fallback meta description." />
-                    <x-admin.rich-text name="body" label="Body" :value="$post->body" required hint="Use “Heading” for section titles. To add photos inside the article, use “Replace by pasting” or “Paste article”." />
+                    @if ($editAsHtml)
+                        <x-admin.textarea name="body" label="Body (HTML)" :value="$post->body" rows="24" required class="font-mono text-xs"
+                                          hint="This article has headings and photos that the visual editor would remove, so it opens as HTML. Change the words between the tags and keep the tags as they are. To rewrite it, use “Replace by pasting”." />
+                    @else
+                        <x-admin.rich-text name="body" label="Body" :value="$post->body" required hint="Use “Heading” for section titles. To add photos inside the article, use “Replace by pasting” or “Paste article”." />
+                    @endif
                 </div>
             </x-admin.card>
 

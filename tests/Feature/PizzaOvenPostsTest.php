@@ -90,4 +90,25 @@ class PizzaOvenPostsTest extends TestCase
         $this->assertSame(1, substr_count($post->body, 'step-by-step pizza oven build guide'));
         $this->assertSame(1, Redirect::count());
     }
+
+    public function test_headings_flattened_by_the_visual_editor_are_restored_before_photos_go_in(): void
+    {
+        $editorBody = '<div>The backyard has evolved.<br><br></div><div><br>But there is a lot to consider.<br><br></div>'
+            .'<div><strong><br>Wood-Fired<br></strong><br></div><div>For the purists.<br><br></div><div><br>Thermal mass.<br><br></div>'
+            .'<div><strong><br>Who It’s Right For<br></strong><br></div>'
+            .'<div><strong>The Culinary Hobbyist:</strong> Sourdough fans.<br><br></div>'
+            .'<div><strong><br>The Frequent Host:</strong> Party people.<br><br></div>'
+            .'<div><strong><br>FAQ<br></strong><br></div><div><strong>Can I use it in winter?<br></strong><br></div><div>Yes.<br><br></div>';
+        $this->blogPost(['slug' => 'outdoor-pizza-oven-pros-and-cons', 'title' => 'Pros', 'body' => $editorBody]);
+
+        (require database_path('migrations/2026_10_28_075730_restore_pizza_oven_post_headings.php'))->up();
+
+        $body = BlogPost::where('slug', 'outdoor-pizza-oven-pros-and-cons')->value('body');
+        $this->assertStringStartsWith("<p>The backyard has evolved.</p>\n<p>But there is a lot to consider.</p>\n<h2 id=\"wood-fired\">Wood-Fired</h2>\n<figure>", $body);
+        $this->assertStringContainsString('<h2 id="who-its-right-for">Who It’s Right For</h2>', $body);
+        $this->assertStringContainsString('<p><strong>The Frequent Host:</strong> Party people.</p>', $body);
+        $this->assertStringContainsString("<h2 id=\"faq\">FAQ</h2>\n<h3>Can I use it in winter?</h3>\n<p>Yes.</p>", $body);
+        $this->assertStringNotContainsString('<div>', $body);
+        $this->assertSame(2, substr_count($body, '<figure>'));
+    }
 }

@@ -45,4 +45,27 @@ class BlogPostTest extends AdminTestCase
 
         $this->assertTrue(BlogPost::sole()->isLive());
     }
+
+    public function test_articles_with_headings_and_photos_open_as_html_and_keep_them_on_save(): void
+    {
+        $editor = $this->editor();
+        $body = "<h2 id=\"stand\">2. Stand</h2>\n<figure><img src=\"/media/library/blocks-1600.jpg\" alt=\"Blocks\" width=\"1200\" height=\"900\"></figure>\n<p>Lay the blocks.</p>";
+        $structured = BlogPost::create(['slug' => 'oven', 'title' => 'Oven', 'excerpt' => 'x', 'body' => $body, 'status' => 'published', 'published_at' => now()]);
+        $plain = BlogPost::create(['slug' => 'plain', 'title' => 'Plain', 'excerpt' => 'x', 'body' => '<div>Text</div>', 'status' => 'draft']);
+
+        $this->actingAs($editor)->get(route('admin.blog-posts.edit', $structured))->assertOk()
+            ->assertSee('Body (HTML)')->assertDontSee('<trix-editor', false);
+        $this->actingAs($editor)->get(route('admin.blog-posts.edit', $plain))->assertOk()
+            ->assertSee('<trix-editor', false);
+
+        $this->actingAs($editor)->put(route('admin.blog-posts.update', $structured), [
+            'title' => 'Oven', 'slug' => 'oven', 'excerpt' => 'x', 'status' => 'published',
+            'body' => str_replace('Lay the blocks.', 'Lay the blocks level.', $body),
+        ])->assertSessionHasNoErrors();
+
+        $saved = $structured->refresh()->body;
+        $this->assertStringContainsString('<h2 id="stand">2. Stand</h2>', $saved);
+        $this->assertStringContainsString('<figure><img src="/media/library/blocks-1600.jpg"', $saved);
+        $this->assertStringContainsString('<p>Lay the blocks level.</p>', $saved);
+    }
 }
