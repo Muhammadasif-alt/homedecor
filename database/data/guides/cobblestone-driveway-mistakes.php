@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Cobblestone driveway mistakes to avoid: a weak sub-base, the wrong setts, poor drainage, rigid jointing, no edge restraint, poor laying and harsh cleaning.',
     'categories' => ['luxury-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'garden-stone-path',
+    'image' => 'cobbled-courtyard-historic-house',
     'body' => <<<'HTML'
 <p>The appeal of a cobblestone driveway is easy to see. It recalls old European streets and courtyards, and natural stone setts, the squared blocks most people mean when they say "cobbles", can be extremely hard-wearing. In the UK, granite setts are a familiar sight on older streets and period driveways; in the US the same kind of squared stone is often sold as "Belgian block". Because cobblestone is a premium material, mistakes in planning or laying do not just spoil the look: putting them right usually means lifting and relaying stone you have already paid for.</p>
 <p>It is tempting to think of a driveway as a surface job, but a cobblestone installation is really a series of layers, from the ground underneath to the joints between the stones, and each one has to be right. If you are considering this kind of investment, knowing the most common mistakes is the first step towards a driveway that lasts.</p>
@@ -17,6 +17,8 @@ return [
 <h2 id="foundation">1. Skimping on the foundation</h2>
 <p>The most expensive mistake is neglecting the part of the driveway you never see. A cobblestone surface is only as stable as the ground beneath it, and some contractors keep their quote down by using a shallower sub-base or not compacting it properly.</p>
 <p>Where winters bring repeated freezing and thawing, a shallow or poorly compacted base causes trouble. Water gets into the ground under the driveway, freezes and expands, and pushes the stones upwards; this is frost heave. Without a well-built base of compacted crushed stone that drains and spreads the load, even good granite setts will shift, rock or sink into ruts. There is no single correct depth: your installer or an engineer should set it for your soil and how the driveway will be used, and clay or soft ground generally needs more. Fixing a failed foundation means lifting the stones, rebuilding the base and relaying everything, which costs far more than doing it properly the first time.</p>
+
+<!--figure:broken-paving-stones-in-sand|Without a deep, compacted sub-base, stones settle, rock and break.-->
 
 <h2 id="material">2. Choosing the wrong stone</h2>
 <p>Not all stone is suitable for a driveway. A common error is choosing setts on price or colour alone without checking how they behave outdoors under load. Some softer sandstones and lower-grade limestones look lovely when new but can spall, with the surface flaking away as moisture and temperature changes work on it.</p>
@@ -57,7 +59,9 @@ return [
 </ul>
 <p>Dealing with a loose sett or a cracked joint promptly is far cheaper than waiting until whole areas have shifted.</p>
 
-<h2 id="cost-over-time">Cost over time</h2>
+<!--figure:weed-between-stone-pavers|Keep joints topped up and weeds out, but avoid harsh pressure washing.-->
+
+<h2 id="cost-over-time">8. Cost over time</h2>
 <p>A cobblestone driveway usually costs more upfront than asphalt (tarmac), concrete or gravel, mainly because of the stone itself and the hand labour. In return, a well-laid one can be very long-lasting, and individual setts can be lifted and relaid rather than the whole surface replaced. How long it actually lasts depends on the installation, the ground, the vehicles using it and how it is looked after. Most of the mistakes above shorten that life considerably, which is why getting the base, drainage, edges and jointing right matters more than saving on any one of them.</p>
 
 <h2 id="faq">FAQ</h2>

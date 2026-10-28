@@ -215,4 +215,21 @@ class GuideBatchRefreshTest extends TestCase
             $this->assertStringNotContainsString('landscape-plan-samples', $post->body, $slug);
         }
     }
+
+    public function test_last_driveway_batch_replaces_villa_and_plan_photos(): void
+    {
+        $old = $this->media('floor-plan-sketching');
+        $slugs = ['cobblestone-driveway-cost', 'cobblestone-driveway-mistakes', 'driveway-apron-cost', 'driveway-apron-maintenance-by-season', 'driveway-apron-mistakes', 'how-to-build-a-permeable-paver-driveway', 'permeable-paver-driveway-pros-and-cons'];
+        foreach ($slugs as $slug) {
+            $this->blogPost(['slug' => $slug, 'title' => 'Old', 'body' => '<p>Old</p>', 'featured_media_id' => $old->id]);
+        }
+
+        (require database_path('migrations/2026_10_28_052940_refresh_cobblestone_apron_and_permeable_driveway_guides.php'))->up();
+
+        foreach ($slugs as $slug) {
+            $post = BlogPost::where('slug', $slug)->with('featuredMedia')->firstOrFail();
+            $this->assertNotSame($old->id, $post->featured_media_id, $slug);
+            $this->assertGreaterThanOrEqual(1, substr_count($post->body, '<figure>'), $slug);
+        }
+    }
 }

@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Driveway apron cost explained: how material, thickness, groundwork, drainage, labour, permits and location affect the price, and how to compare quotes.',
     'categories' => ['budget-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-frame-construction',
+    'image' => 'paver-driveway-meeting-street',
     'body' => <<<'HTML'
 <p>A driveway apron, sometimes called the approach, is the entrance section where your drive meets the road, usually running from the kerb or pavement to the main body of the driveway. "Apron" is a US term; in the UK the part that crosses the pavement or verge is the dropped kerb or vehicle crossover. It is a small area, but it carries the heaviest loads the drive will see, and because it links private land to the public highway, it comes with its own rules, construction and costs.</p>
 <p>Prices vary a great deal with where you live, the contractor, the year and the site, so rather than quote figures that will quickly date, this guide explains what makes one apron cost more than another. That helps you plan, read quotes properly and avoid paying twice.</p>
@@ -30,13 +30,19 @@ return [
 <p>Concrete is popular for aprons because of its strength. Councils and cities often specify a thicker, reinforced construction for the crossing than for the rest of the drive, so that bin lorries, delivery vans and emergency vehicles can use the entrance; your local specification sets it.</p>
 <p>A concrete quote covers more than the concrete itself: the formwork that holds it in shape, the reinforcement (usually steel mesh or bars), the joints and the finish. A brushed finish is common on aprons because it gives tyres grip in rain and snow. Also allow for the time you cannot use the drive while the concrete cures; follow your contractor's advice, but cars usually wait at least a week and heavier vehicles longer, so plan parking elsewhere.</p>
 
+<!--figure:concrete-apron-to-garage|Concrete is the most common apron material and usually the most economical.-->
+
 <h2 id="asphalt-options">3. Asphalt options</h2>
 <p>Asphalt suits homeowners who want a lower upfront cost and a quick installation. How long it lasts depends on the base, the traffic, the climate and the maintenance. Its price tends to follow the price of oil, because the binder is made from it, so quotes can move between seasons.</p>
 <p>If your main drive is already asphalt, matching it gives a seamless look. At the mouth of the drive, though, tyres turning sharply can scuff the surface, so contractors often recommend a deeper, well-compacted stone base underneath, which adds to the cost but helps it last.</p>
 
+<!--figure:asphalt-driveway-large-house|Asphalt costs less to lay than concrete but needs resealing every few years.-->
+
 <h2 id="paver-aesthetics">4. Paving and setts</h2>
 <p>Block paving and setts give the most character, and the cost is driven mainly by labour: each unit has to be placed, levelled and cut by hand, over a compacted base and bedding layer that stops it shifting.</p>
 <p>A hidden cost is the edge restraint. Paving at the entrance needs a firm edge, often kerbs or a concrete haunch along the sides, to stop the blocks creeping outwards under turning wheels. On the plus side, paving is easier to repair: if a section sinks or a pipe underneath needs attention, the blocks can be lifted and relaid without a visible patch. If you cut pavers yourself, use a wet saw, eye and ear protection and a suitable respirator, as cutting produces silica dust.</p>
+
+<!--figure:paved-driveway-beside-hedge|Block paving or setts cost more but match a paved driveway beyond.-->
 
 <h2 id="installation-labour">5. Labour</h2>
 <p>Labour is usually a large part of the bill. It covers breaking out the old apron, digging and levelling, setting forms or edges, building the base and laying the surface. What pushes it up:</p>
@@ -69,7 +75,7 @@ return [
 <h2 id="long-term-maintenance">11. Long-term upkeep</h2>
 <p>Budget for looking after the part that is yours. Asphalt benefits from a sealer made for asphalt every few years, as the label advises; avoid coal-tar sealers, which are restricted in some areas. Concrete benefits from occasional cleaning and a penetrating sealer to help keep salt out. Paved aprons need their joints topped up with the jointing material your installer recommends. These small jobs cost far less than an early rebuild; our <a href="/blog/driveway-apron-maintenance-by-season">seasonal driveway apron maintenance</a> guide sets out what to do and when.</p>
 
-<h2 id="comparing-quotes">How to get apron quotes you can compare</h2>
+<h2 id="comparing-quotes">12. How to get apron quotes you can compare</h2>
 <p>Quotes only compare if they price the same job. Give two or three contractors (or your council's approved list) the same measurements and specification, and ask for an itemised quote covering:</p>
 <ul>
 <li>Area and shape, including any flares.</li>
@@ -85,7 +91,7 @@ return [
 </ul>
 <p>If one quote is much lower than the rest, check which of these it leaves out, especially the base, thickness, reinforcement and drainage.</p>
 
-<h2 id="keeping-costs-down">Ways to keep the cost down</h2>
+<h2 id="keeping-costs-down">13. Ways to keep the cost down</h2>
 <ul>
 <li>Check the council's or city's requirements first, so you do not pay for a design that will be rejected.</li>
 <li>Keep the shape simple; generous flares and curves add cutting and time.</li>

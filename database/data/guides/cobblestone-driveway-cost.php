@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Cobblestone driveway cost explained: how stone type, hand-laying, sub-base, pattern, delivery, jointing and edging affect price, and how to compare quotes.',
     'categories' => ['luxury-home-decor', 'budget-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'villa-courtyard-finishing',
+    'image' => 'cobbled-drive-lined-with-trees',
     'body' => <<<'HTML'
 <p>The appeal of a cobblestone driveway is easy to understand. It recalls old European streets and courtyards, and natural stone setts, the squared blocks most people mean when they say "cobbles", can be extremely hard-wearing. In the UK, granite setts are a familiar sight on older streets and period homes; in the US the same kind of squared stone is often sold as "Belgian block". It gives a front garden a texture and sense of permanence that tarmac or plain concrete cannot match.</p>
 <p>That character comes at a price: cobblestone is usually one of the most expensive driveway surfaces you can choose. What it actually costs varies so much with your region, the supplier, the stone and the site that any figure would quickly date, so this guide explains what makes one cobblestone driveway cost more than another. With that in mind, you can plan sensibly, read quotes with confidence and decide where it is worth spending.</p>
@@ -23,6 +23,8 @@ return [
 <li><strong>Concrete cobble-effect blocks:</strong> manufactured blocks shaped and coloured to look like setts. They are usually the cheapest option, quicker to lay because they are uniform, and widely available, though they do not have the depth of colour and texture of natural stone, and the finish can wear over time.</li>
 </ul>
 <p>The finish matters too. Sawn setts with flat tops are usually dearer than cropped (split) setts, and tumbled setts with softened edges sit somewhere between, depending on the supplier. Thicker setts for heavier vehicles cost more than thinner ones.</p>
+
+<!--figure:rounded-cobblestones-closeup|Natural rounded cobbles cost more than sawn setts or concrete cobble-effect blocks.-->
 
 <h2 id="labour">2. Labour and hand-laying</h2>
 <p>Labour is usually the largest part of a cobblestone driveway's cost. Unlike tarmac, which is spread and rolled, or concrete, which is poured and levelled, setts are laid by hand. Each stone is selected, placed and tapped down to line and level by a skilled layer.</p>
@@ -47,6 +49,8 @@ return [
 </ul>
 <p>Borders, inset bands in a contrasting stone and curves in the driveway's outline all add cutting time too.</p>
 
+<!--figure:hexagonal-paving-pattern|Fans, arcs and other patterns take longer to lay than simple straight courses.-->
+
 <h2 id="delivery">5. Distance from the supplier</h2>
 <p>Stone is heavy, so delivery is a real part of the cost. Setts quarried or stocked relatively close to you are generally cheaper to get to site than stone hauled a long way or imported. Large orders may arrive on a lorry with a crane offload, and if a lorry cannot get close to the driveway, the stone has to be moved by hand or with smaller machinery, which adds time.</p>
 <p>Local labour markets matter as well: installers in areas with higher living costs tend to charge more, and specialist sett layers may travel further for a job, which can be reflected in the quote.</p>
@@ -59,6 +63,8 @@ return [
 <li><strong>Mortar joints:</strong> a neat, solid finish that suits a rigid (bound) construction designed for it. It is the most labour-intensive option, and on the wrong base it tends to crack. Mortar-jointed setts are not permeable.</li>
 </ul>
 
+<!--figure:wet-stone-setts-joints|Joints can be sand-filled or mortared; mortar costs more but holds up to heavy traffic.-->
+
 <h2 id="edging">7. Edge haunching and kerbs</h2>
 <p>A cobbled driveway needs a firm edge to stop the setts creeping outwards under traffic. That usually means an edge course of setts or kerbs bedded on concrete, with a concrete haunch along the outside. It is easy to forget when budgeting, but a long or curving edge adds materials and skilled time, and it is not something to drop to save money.</p>
 
@@ -66,7 +72,7 @@ return [
 <p>Site access affects almost every line of the quote. A narrow entrance, steps or no room for a skip means more barrowing and more time. Excavated soil, an old surface and offcuts all have to be removed, so skips or grab lorries are usually priced separately.</p>
 <p>Permissions can add to the cost and the timetable. In England, a new or replacement hard surface over 5 m² in a front garden generally needs planning permission unless it is permeable or drains to a permeable area, such as a lawn or soakaway, within the property. Sand- or grit-jointed setts on a free-draining base can be designed to qualify; mortar joints usually will not. A new dropped kerb needs your council's permission, and the council or its approved contractor normally carries out the work on the pavement. In the US, check local permits and any HOA rules. Wherever you are, check with your local authority before work starts.</p>
 
-<h2 id="comparing-quotes">How to get quotes you can compare</h2>
+<h2 id="comparing-quotes">9. How to get quotes you can compare</h2>
 <p>Quotes are only comparable if they price the same job. Give two or three installers the same measurements and specification, and ask each for an itemised quote covering:</p>
 <ul>
 <li>The area, and the depth and material of each layer: sub-base, bedding and any drainage layer.</li>
@@ -82,7 +88,7 @@ return [
 </ul>
 <p>If one quote is much lower than the others, check which of these items it leaves out or scales back, especially the depth of the sub-base, the sett thickness and the edge restraint.</p>
 
-<h2 id="keeping-costs-down">Ways to keep the cost down</h2>
+<h2 id="keeping-costs-down">10. Ways to keep the cost down</h2>
 <ul>
 <li>Choose a simple stretcher bond and keep the fan or circle pattern for a small feature area, such as a turning circle or the entrance.</li>
 <li>Use natural setts only where they are seen most, such as a border, the apron at the entrance or a band across the drive, with concrete cobble-effect blocks or a gravel surface elsewhere.</li>
@@ -95,7 +101,7 @@ return [
 
 <blockquote><p><strong>Tip:</strong> Ask each installer to price the setts as a separate line, with a second line for a cobble-effect concrete block in the same pattern. You can then see exactly what natural stone adds to your quote before you decide.</p></blockquote>
 
-<h2 id="long-term-value">Long-term value vs upfront cost</h2>
+<h2 id="long-term-value">11. Long-term value vs upfront cost</h2>
 <p>Against tarmac or plain concrete, the upfront difference is large. The fairer comparison is over the life of the driveway. Well-laid natural setts on a sound base need relatively little day-to-day care: occasional weeding, topping up sand joints and a gentle clean. A sealed surface may need resealing or resurfacing over time, while an individual damaged sett can usually be lifted and replaced without disturbing the rest. How long any driveway lasts depends on the installation, the use it gets, your climate and how well it is maintained.</p>
 
 <h2 id="faq">FAQ</h2>

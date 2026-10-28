@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Driveway apron mistakes to avoid: skipping council or city consent, poor base and drainage, the wrong material, missing joints, utilities and neglect.',
     'categories' => ['budget-home-decor', 'luxury-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'grey-structure-house-street',
+    'image' => 'garage-entrance-from-street',
     'body' => <<<'HTML'
 <p>The driveway apron is the entrance section of a drive, where your private driveway joins the public road. "Apron" is a US term; in the UK the part that crosses the pavement or grass verge is usually called the dropped kerb or vehicle crossover. It is easy to overlook, yet it is one of the hardest-working surfaces on the property. It takes the weight of delivery vans and bin lorries, the salt and slush thrown up from the road in winter, and the rainwater running along the gutter line.</p>
 <p>For many homeowners the apron is an afterthought until a crack appears, water starts pooling near the garage or the council or city gets in touch about non-compliant work. Replacing or repairing it is a significant job, and doing it wrong can mean paying for it twice, along with any enforcement or damage that follows. Here are the most common, and most costly, mistakes and how to avoid them.</p>
@@ -26,6 +26,8 @@ return [
 <h2 id="drainage-management">3. Getting the drainage wrong</h2>
 <p>Water is the main enemy of any paved surface. An apron with the wrong fall lets water stand at the road edge or, worse, sends it back up the drive towards the garage and the house. Water that gets under the surface softens the base, lifts concrete and breaks up asphalt.</p>
 <p>The apron needs to keep its fall towards the road and the gutter or drainage channel, as your local specification and installer set it. Where the property sits lower than the road, a channel (trench) drain across the drive, rated for vehicle loads, or another drainage solution may be needed to stop water running towards the building; in some places a pipe under the entrance keeps a roadside ditch flowing, and that usually needs the highway authority's agreement. In England, also remember that a new or replacement hard surface over 5 m² in a front garden generally needs planning permission unless it is permeable or drains to a permeable area. Check with your local authority, and ask your contractor to confirm the levels with a laser or optical level rather than by eye.</p>
+
+<!--figure:clogged-drain-rainy-street|An apron that sheds water towards a blocked drain soon floods the pavement.-->
 
 <h2 id="material-choice">4. Choosing the wrong material</h2>
 <p>Choosing a surface on upfront price alone is a frequent mistake. Asphalt (tarmac) is usually cheaper to lay, but at the entrance it takes the scuffing of tyres turning tightly, which can scar and loosen the surface over time.</p>

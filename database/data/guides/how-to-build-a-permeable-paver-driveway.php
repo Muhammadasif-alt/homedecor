@@ -9,7 +9,7 @@ return [
     'meta_description' => 'How to build a permeable paver driveway: test the soil, dig out, add geotextile and open-graded stone, edge, lay and joint the blocks, compact, maintain.',
     'categories' => ['home-decor-trends', 'budget-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'site-master-plan-markup',
+    'image' => 'permeable-grass-paver-area',
     'body' => <<<'HTML'
 <p>More homeowners now want a driveway that looks good and manages rain responsibly. Permeable paver driveways, known in the UK as permeable block paving, do both. Unlike tarmac or solid concrete, which shed water into drains and onto the street, a permeable system lets rain pass through the joints into a specially built stone base, where it is stored and then soaks slowly into the ground. That eases the load on drains and helps reduce surface-water flooding.</p>
 <p>Building one is a significant project. It takes physical stamina, precision and a good understanding of how the drainage layers work together. It is also a drainage-engineered system, not just a deeper version of ordinary paving: the paving system manufacturer's design guidance should set the depths and stone grades, and for anything beyond a small, simple drive, an experienced installer or designer should do the design. This guide explains each stage so you understand what is involved, whether you build it yourself or oversee a contractor. For the general steps of laying block paving, see our guide to <a href="/blog/how-to-build-a-paver-driveway">building a paver driveway</a>; this one focuses on what is different about the permeable kind.</p>
@@ -48,6 +48,8 @@ return [
 <p>For driveways, a herringbone pattern laid at 45 or 90 degrees is the usual choice, as it gives the best interlock and spreads the load from tyres across many blocks, which helps prevent shifting and rutting. Check the manufacturer's recommended patterns for vehicle use.</p>
 <p>Start from a straight, fixed edge such as the garage threshold or a kerb line, and work outwards, standing on the blocks you have already laid rather than the bedding. Permeable blocks usually have spacer nibs on their sides that create the wider joints water needs, so place them against each other and drop them straight down rather than sliding them. Check your lines with a string every few rows.</p>
 
+<!--figure:interlocking-paver-pattern|Lay the blocks to the manufacturer’s pattern so the joints line up for drainage.-->
+
 <h2 id="cutting">9. Cutting</h2>
 <p>Few layouts fit without cuts at the edges, around covers and along curves. A wet masonry saw is the best tool and can be hired. Measure each gap, allow for the joint width, and mark the block with a crayon or pencil.</p>
 <p>Cutting concrete or stone releases silica dust, which is harmful to breathe. Cut wet wherever possible, and always wear eye and ear protection and a suitable respirator. Follow the saw's instructions and the hire company's safety guidance.</p>
@@ -55,6 +57,8 @@ return [
 <h2 id="jointing">10. Jointing</h2>
 <p>Unlike ordinary block paving, permeable paving is never jointed with sand or polymeric sand, which would wash into the stone below or clog the joints. Instead, the joints are filled with the small angular jointing grit the manufacturer specifies, which lets water drain straight through.</p>
 <p>Spread the grit over the surface and sweep it into the joints with a stiff broom, working in several directions until the joints are full. The grit locks the blocks together through friction, so full joints matter for strength as well as drainage.</p>
+
+<!--figure:grass-growing-through-paver-grid|Open-cell grids can be filled with gravel or soil and grass.-->
 
 <h2 id="compaction">11. Compaction</h2>
 <p>Finally, run a plate compactor over the whole drive to bed the blocks into the grit. Always fit a protective pad to the base of the compactor, as recommended by the paving manufacturer, so it does not scuff or crack the block surfaces.</p>

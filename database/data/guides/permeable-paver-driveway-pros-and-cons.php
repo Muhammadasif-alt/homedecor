@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Permeable paver driveway pros and cons: how permeable block paving handles rain, what it costs relative to other drives, upkeep, clogging and who it suits.',
     'categories' => ['home-decor-trends', 'budget-home-decor'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'garden-water-feature-lighting',
+    'image' => 'grass-strip-between-pavers',
     'body' => <<<'HTML'
 <p>A driveway is no longer just a strip of tarmac or concrete to park on. It is a large part of a home's kerb appeal, and a big hard surface that decides where rainwater goes. As councils deal with more surface water and homeowners look for ways to combine good looks with a lighter environmental footprint, permeable paver driveways, known in the UK as permeable block paving, have become a popular choice.</p>
 <p>Unlike solid surfaces, permeable paving is designed to let water pass through the surface and into the ground below, much as soil and planting would. It is a considered alternative to cracked concrete and heat-absorbing tarmac, but it is also a bigger project than ordinary paving, so it pays to understand how it works, where it shines and where it falls short. For the general pros and cons of block paving, see our guide to <a href="/blog/paver-driveway-pros-and-cons">paver driveway pros and cons</a>; this guide focuses on what is different about the permeable kind.</p>
@@ -26,6 +26,8 @@ return [
 <h2 id="aesthetics">3. Aesthetics</h2>
 <p>Permeable blocks come in a wide range of shapes, sizes, textures and colours, from cobble-effect setts with a rustic, European look to large, crisp contemporary units and classic brick-style blocks in herringbone. Because the joints are a visible feature, the colour of the stone chips in them becomes part of the design too.</p>
 <p>Some systems use open cells or wide joints that can be planted with grass or low-growing plants for a softer, greener drive that blends into a lawn. These suit lightly used drives and parking bays better than busy ones, as planted joints need watering, mowing and time to establish.</p>
+
+<!--figure:grey-block-paved-driveway|Permeable blocks look much like ordinary block paving once laid.-->
 
 <h2 id="durability">4. Durability</h2>
 <p>Permeable paving is built to carry vehicles when it is designed and installed properly. Like other block paving, it is a flexible surface: the individual blocks are held together by the joints and the edging, so they can cope with slight ground movement without cracking the way a concrete slab can.</p>
@@ -49,7 +51,7 @@ return [
 <p>The weak spot of any permeable driveway is clogging. Under trees, falling leaves and needles break down into fine organic matter that plugs the joints. If the drive sits at the bottom of a slope or next to bare soil, mud and silt can wash onto it and do the same. Keeping borders planted or mulched, and edging them so soil cannot spill onto the paving, makes a real difference.</p>
 <p>Be careful what you put on the surface, too. Never use sand for grip in winter, as it washes straight into the joints and clogs them. Use fine grit or angular chips that the paving manufacturer approves instead, ideally the same chips used in the joints. Do not store topsoil, sand or garden waste on the drive during building or garden work.</p>
 
-<h2 id="who-is-it-right-for">Who is it right for?</h2>
+<h2 id="who-is-it-right-for">9. Who is it right for?</h2>
 <p>Permeable block paving is a good choice for:</p>
 <ul>
 <li><strong>Eco-minded households:</strong> those who want to manage rainwater on their own plot and reduce runoff to drains.</li>

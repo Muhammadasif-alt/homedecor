@@ -9,7 +9,7 @@ return [
     'meta_description' => 'Driveway apron maintenance through the year: spring cleaning and checks, summer sealing, autumn drainage, winter de-icers and who handles repairs.',
     'categories' => ['budget-home-decor', 'home-decor-trends'],
     'service' => 'balcony-terrace-decoration',
-    'image' => 'floor-plan-sketching',
+    'image' => 'asphalt-drive-meeting-road',
     'body' => <<<'HTML'
 <p>The driveway apron is the entrance section of a drive: the short stretch where your driveway meets the road. "Apron" is mainly a US term; in the UK you will more often hear about the dropped kerb or vehicle crossover, the part that crosses the pavement or grass verge. However you name it, this small area takes more punishment than the rest of the drive. Every car turns, brakes and accelerates across it, water running along the road gutter collects at its edge, and in winter it catches the salt and slush thrown up by gritters and passing traffic.</p>
 <p>Before you start any work, find out who owns which part. In the UK, the section that crosses the pavement or verge usually belongs to the highway authority, so if the dropped kerb or crossover is cracked, sunken or broken, report it to your council rather than repairing it yourself; your responsibility normally starts at your boundary. In the US, the apron may sit partly in the public right of way, so check with your city or county who is responsible for it and whether you need a permit before repairing or replacing it. The seasonal routine below applies to the part that is yours, and the checks help you spot problems worth reporting on the part that is not.</p>
@@ -41,6 +41,8 @@ return [
 <li>Check the shoulders, the soil along the sides of the apron. It should be firm and sit slightly below the paving so water runs off the edge instead of soaking under it. Top up and firm any soil that has washed away.</li>
 </ul>
 
+<!--figure:leaves-blocking-street-drain|Keep leaves off the apron and clear of nearby drains so water can get away.-->
+
 <h2 id="winter">4. Winter: clear gently and choose de-icers carefully</h2>
 <p>The edge of the apron is where shovels and plough blades most often catch, chipping concrete and tearing the edge of asphalt. Use a plastic shovel or one with a rubber edge, and push snow rather than chopping at ice. If someone clears your drive with a plough, ask them to raise the blade slightly or use a rubber or poly edge, and to take care at the lip where the apron meets the road.</p>
 <p>Avoid shovelling snow from the drive into the road or the gutter; it blocks drainage, and in many places it is not allowed. The bank of slush left by snowploughs or gritters across the entrance is heavy and salty, so clear it promptly once it is safe to do so.</p>
@@ -53,6 +55,8 @@ return [
 <p>Asphalt is flexible, but the sun dries and greys it over time, and a dry, brittle surface cracks more easily. A fine web of cracks that looks like crocodile skin, often called alligator cracking, usually means the base underneath is failing. Surface sealing will not fix that; it needs a contractor.</p>
 <h3>Block paving and setts</h3>
 <p>For paved aprons, the joints do the work. Check each year for sunken blocks, rocking setts and empty joints. Re-sand or refill joints with the jointing material your installer recommends, following its instructions, and avoid aiming a pressure washer straight into the joints.</p>
+
+<!--figure:drain-grate-concrete|Check that channel drains and grates at the apron are clear and intact.-->
 
 <h2 id="structural-health">6. Structural health and when to call a professional</h2>
 <p>The apron is a short ramp that takes the full weight of every vehicle turning into the drive, so problems in its base show up quickly. Keep an eye on the overall fall. The drive should shed water away from the house. If the apron or the drive behind it has started to tilt towards the garage or house, so that rainwater runs towards the building, have it assessed by a driveway contractor or surveyor promptly, as water directed at the house can cause damp and damage to the foundations.</p>
