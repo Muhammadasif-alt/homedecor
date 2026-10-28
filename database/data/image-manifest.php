@@ -376,4 +376,13 @@ return [
     ['unsplash-interlocking-pavers-philipp-torres', 'interlocking-paver-pattern', 'outdoor', 'Interlocking concrete pavers laid in a regular pattern'],
     ['unsplash-grass-strip-pavers-alexey', 'grass-strip-between-pavers', 'outdoor', 'Strip of grass between bands of grey block paving'],
     ['unsplash-paved-driveway-shadows-phil-hearing', 'grey-block-paved-driveway', 'outdoor', 'Grey block-paved driveway with long shadows'],
+    ['unsplash-outdoor-kitchen-pergola-brian-wangenheim', 'outdoor-grill-island-under-pergola', 'outdoor', 'Outdoor kitchen island with a built-in grill under a timber pergola on a sunny patio'],
+    ['unsplash-scrubbing-brush-luigy-ghost', 'stiff-scrubbing-brush-on-paving', 'outdoor', 'Scrubbing brush with natural bristles resting on paving'],
+    ['unsplash-hose-brass-fitting-jah-mc', 'hand-checking-hose-brass-fitting', 'outdoor', 'Hand holding a brass fitting on the end of a flexible hose'],
+    ['unsplash-grilled-vegetables-amit-daruka', 'vegetable-skewers-corn-on-grill', 'outdoor', 'Vegetable skewers and corn cobs cooking on a grill'],
+    ['unsplash-leaves-on-grate-artem-lozina', 'dry-leaves-on-grill-grate', 'outdoor', 'Dry autumn leaves caught on a metal grill grate'],
+    ['unsplash-grill-in-snow-andrus-lukas', 'grill-in-winter-snow', 'outdoor', 'Grill steaming outside in a snowy garden'],
+    ['unsplash-wiping-metal-toon-lambrechts', 'gloved-hand-wiping-metal-surface', 'outdoor', 'Gloved hand wiping a metal surface with a soft cloth'],
+    ['unsplash-granite-closeup-brian-wangenheim', 'granite-worktop-closeup', 'outdoor', 'Close-up of a speckled granite worktop'],
+    ['unsplash-utensils-on-rack-yunshuo-qu', 'stainless-utensils-hanging-rack', 'outdoor', 'Stainless steel cooking utensils hanging on a rack'],
 ];

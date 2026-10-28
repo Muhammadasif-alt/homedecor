@@ -232,4 +232,16 @@ class GuideBatchRefreshTest extends TestCase
             $this->assertGreaterThanOrEqual(1, substr_count($post->body, '<figure>'), $slug);
         }
     }
+
+    public function test_grill_island_guide_gets_a_photo_in_every_main_section(): void
+    {
+        $old = $this->media('outdoor-kitchen-island-bar-stools');
+        $this->blogPost(['slug' => 'grill-island-maintenance-by-season', 'title' => 'Old', 'body' => '<p>Old</p>', 'featured_media_id' => $old->id]);
+
+        (require database_path('migrations/2026_10_28_070248_refresh_grill_island_guide_with_brief_photos.php'))->up();
+
+        $post = BlogPost::where('slug', 'grill-island-maintenance-by-season')->with('featuredMedia')->firstOrFail();
+        $this->assertSame('media/library/outdoor-grill-island-under-pergola', $post->featuredMedia->path);
+        $this->assertSame(9, substr_count($post->body, '<figure>'));
+    }
 }
