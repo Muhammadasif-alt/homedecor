@@ -3,9 +3,12 @@
 <x-admin.layout :title="$editing ? 'Edit article' : 'New article'">
     <x-admin.page-header :title="$editing ? $post->title : 'New article'" :back="route('admin.blog-posts.index')"
                          :description="$editing ? 'By '.($post->author?->name ?? 'unknown author').' · last updated '.$post->updated_at->diffForHumans() : null">
-        @if ($editing && $post->isLive() && Route::has('blog.show'))
+        @if ($editing)
             <x-slot:actions>
-                <x-admin.button variant="secondary" icon="external" :href="route('blog.show', $post)" target="_blank" rel="noopener">View</x-admin.button>
+                <x-admin.button variant="secondary" icon="upload" :href="route('admin.blog-posts.import', ['post' => $post->id])">Replace by pasting</x-admin.button>
+                @if ($post->isLive() && Route::has('blog.show'))
+                    <x-admin.button variant="secondary" icon="external" :href="route('blog.show', $post)" target="_blank" rel="noopener">View</x-admin.button>
+                @endif
             </x-slot:actions>
         @endif
     </x-admin.page-header>
@@ -17,7 +20,7 @@
                     <x-admin.input name="title" label="Title" :value="$post->title" required />
                     <x-admin.input name="slug" label="Slug" :value="$post->slug" hint="Generated from the title when empty. Changing it on a live article breaks old links — add a redirect." />
                     <x-admin.textarea name="excerpt" label="Excerpt" :value="$post->excerpt" rows="3" :counter="500" required hint="Shown on article cards and as a fallback meta description." />
-                    <x-admin.rich-text name="body" label="Body" :value="$post->body" required hint="Use “Heading” for section titles. Images are not embedded here — use the featured image." />
+                    <x-admin.rich-text name="body" label="Body" :value="$post->body" required hint="Use “Heading” for section titles. To add photos inside the article, use “Replace by pasting” or “Paste article”." />
                 </div>
             </x-admin.card>
 

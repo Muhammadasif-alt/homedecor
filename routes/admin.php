@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Admin\BlogCategoryController;
+use App\Http\Controllers\Admin\BlogImportController;
 use App\Http\Controllers\Admin\BlogPostController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\FaqController;
@@ -62,6 +63,11 @@ Route::middleware('web')->prefix('admin')->name('admin.')->group(function () {
         Route::post('media/{media}/replace', [MediaController::class, 'replace'])->name('media.replace');
         Route::resource('media', MediaController::class)
             ->except(['create', 'show'])->parameters(['media' => 'media']);
+
+        // Paste a whole article (Markdown from a brief) and publish it with photos
+        Route::get('blog-posts/import', [BlogImportController::class, 'create'])->name('blog-posts.import');
+        Route::post('blog-posts/import/preview', [BlogImportController::class, 'preview'])->name('blog-posts.import.preview');
+        Route::post('blog-posts/import', [BlogImportController::class, 'store'])->name('blog-posts.import.store');
 
         Route::resource('blog-posts', BlogPostController::class)
             ->except('show')->parameters(['blog-posts' => 'blogPost']);

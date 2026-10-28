@@ -1,6 +1,10 @@
 <x-admin.layout title="Blog posts">
     <x-admin.page-header title="Blog posts" description="Articles and guides. Future publish dates are scheduled automatically."
-                         :action="route('admin.blog-posts.create')" action-label="New article" />
+                         :action="route('admin.blog-posts.create')" action-label="New article">
+        <x-slot:actions>
+            <x-admin.button variant="secondary" icon="upload" :href="route('admin.blog-posts.import')">Paste article</x-admin.button>
+        </x-slot:actions>
+    </x-admin.page-header>
 
     <x-admin.filters :action="route('admin.blog-posts.index')" placeholder="Search titles…">
         <x-admin.filter-select name="status" :options="['published' => 'Published', 'scheduled' => 'Scheduled', 'draft' => 'Draft']" placeholder="Any status" />

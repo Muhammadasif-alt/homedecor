@@ -7,6 +7,7 @@ use App\Models\BlogPost;
 use App\Models\Media;
 use App\Models\Service;
 use App\Models\User;
+use App\Support\ArticleFigure;
 use Database\Seeders\Concerns\SeedsMedia;
 use Illuminate\Database\Seeder;
 
@@ -97,13 +98,10 @@ class GuidePostSeeder extends Seeder
     /** Swaps each <!--figure:slug|caption--> marker for a responsive library image. */
     private function withFigures(string $html): string
     {
-        return preg_replace_callback('/<!--figure:([a-z0-9-]+)\|(.+?)-->/', function ($m) {
-            $media = Media::findOrFail($this->media($m[1]));
-            $src = parse_url($media->url(1200), PHP_URL_PATH);
-            $alt = e($media->alt ?: $m[2]);
-
-            return '<figure><img src="'.$src.'" alt="'.$alt.'" width="1200" height="'.$media->heightFor(1200).'" loading="lazy" decoding="async">'
-                .'<figcaption>'.e($m[2]).'</figcaption></figure>';
-        }, $html);
+        return preg_replace_callback(
+            '/<!--figure:([a-z0-9-]+)\|(.+?)-->/',
+            fn ($m) => ArticleFigure::html(Media::findOrFail($this->media($m[1])), $m[2]),
+            $html,
+        );
     }
 }
