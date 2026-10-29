@@ -133,6 +133,18 @@ export function htmlToBrief(html) {
     return { text: blocks.join('\n\n').replace(/\n{3,}/g, '\n\n').trim(), images };
 }
 
+/** Markdown copied from a chat tool: "![alt](https://…)" image links become image notes with photos to fetch. */
+export function markdownImages(markdown) {
+    const images = [];
+    const text = (markdown ?? '').replace(/!\[([^\]]*)\]\(\s*<?((?:https?|data):[^\s)>]+)>?(?:\s+"[^"]*")?\s*\)/gi, (match, alt, src) => {
+        const note = clean(alt).trim().replace(/[[\]]/g, '') || `Photo ${images.length + 1}`;
+        images.push({ src, alt: note, caption: '' });
+        return `\n\n[IMAGE: ${note}]\n\n`;
+    });
+
+    return { text: text.replace(/\n{3,}/g, '\n\n').trim(), images };
+}
+
 const extensionFor = (type) => ({ 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp' })[type] ?? 'jpg';
 
 async function sendJson(url, body) {
@@ -162,20 +174,24 @@ export const articlePaste = () => ({
         if (!data) return;
 
         const html = data.getData('text/html');
+        const plain = data.getData('text/plain');
         const files = [...data.files].filter((file) => file.type.startsWith('image/'));
-        // Plain text (a brief typed in the house format) pastes as normal.
-        if (!html && !files.length) return;
+        let result = html ? htmlToBrief(html) : markdownImages(plain);
+
+        // Plain text with no photos (a brief typed in the house format) pastes as normal.
+        if (!result.images.length && !files.length && (!html || !result.text)) return;
         event.preventDefault();
 
-        let result = html ? htmlToBrief(html) : { text: '', images: [] };
-        if (!result.text && !result.images.length) {
-            const plain = data.getData('text/plain').trim();
-            const offset = this.images.length;
-            const pastedFiles = files.map((file, i) => ({ src: '', file, alt: `Photo ${offset + i + 1}`, caption: '' }));
-            result = { text: [plain, ...pastedFiles.map((image) => `[IMAGE: ${image.alt}]`)].filter(Boolean).join('\n\n'), images: pastedFiles };
+        // Only a photo was copied ("Copy image"): it fills the next image note that has no photo yet.
+        const photoOnly = !result.text.replace(/^\[IMAGE:.*\]$/gm, '').trim();
+        if (photoOnly) {
+            const photos = files.length
+                ? files.map((file) => ({ src: '', file, caption: '' }))
+                : result.images.map(({ src, caption }) => ({ src, caption, file: null }));
+            return this.place(photos);
         }
 
-        const textarea = event.target;
+        const textarea = this.$refs.text;
         const before = textarea.value.slice(0, textarea.selectionStart).trim();
         const after = textarea.value.slice(textarea.selectionEnd).trim();
         textarea.value = [before, result.text, after].filter(Boolean).join('\n\n');
@@ -183,11 +199,46 @@ export const articlePaste = () => ({
 
         // A copied single image arrives as both an <img> and a file; only then do the two line up.
         const filesMatch = files.length === result.images.length;
-        const added = result.images.map((image, i) => ({ ...image, file: image.file ?? (filesMatch ? files[i] : null), status: 'uploading', media: null, error: '' }));
+        await this.uploadAll(result.images.map((image, i) => ({ ...image, file: image.file ?? (filesMatch ? files[i] : null) })), 'Pasted the text and');
+    },
+
+    /** Photos chosen, dropped or pasted on their own go to the image notes still waiting for one, in order. */
+    async place(photos) {
+        const textarea = this.$refs.text;
+        const added = photos.map((photo) => {
+            let alt = this.nextOpenNote(photos);
+            if (!alt) {
+                alt = `Photo ${this.images.length + photos.indexOf(photo) + 1}`;
+                textarea.value = [textarea.value.trim(), `[IMAGE: ${alt}]`].filter(Boolean).join('\n\n');
+            }
+            photo.alt = alt;
+            return photo;
+        });
+        textarea.dispatchEvent(new Event('input', { bubbles: true }));
+        await this.uploadAll(added, 'Adding');
+    },
+
+    addFiles(fileList) {
+        const photos = [...(fileList ?? [])].filter((file) => file.type.startsWith('image/')).map((file) => ({ src: '', file, caption: '' }));
+        if (photos.length) this.place(photos);
+    },
+
+    /** The first image note in the text without a photo, counting repeats of the same wording. */
+    nextOpenNote(pending = []) {
+        const taken = new Map();
+        [...this.images, ...pending].forEach((image) => image.alt && taken.set(image.alt, (taken.get(image.alt) ?? 0) + 1));
+        for (const [, note] of this.$refs.text.value.matchAll(/^\s*\[IMAGE:\s*(.*?)\]\s*$/gim)) {
+            const count = taken.get(note) ?? 0;
+            if (count === 0) return note;
+            taken.set(note, count - 1);
+        }
+        return null;
+    },
+
+    async uploadAll(photos, verb) {
+        const added = photos.map((photo) => ({ ...photo, status: 'uploading', media: null, error: '' }));
         this.images.push(...added);
-        this.notice = added.length
-            ? `Pasted the text and ${added.length} photo(s). They are being added to the media library…`
-            : 'Pasted the text. No photos came with it.';
+        this.notice = added.length ? `${verb} ${added.length} photo(s). Adding them to the media library…` : 'Pasted the text. No photos came with it.';
 
         // Upload through the reactive copies so each thumbnail and hidden field updates as it lands.
         const queued = this.images.slice(this.images.length - added.length);
@@ -197,7 +248,7 @@ export const articlePaste = () => ({
         if (added.length) {
             const failed = queued.filter((image) => image.status === 'failed').length;
             this.notice = failed
-                ? `${added.length - failed} photo(s) added. ${failed} could not be added; choose those on the next step.`
+                ? `${added.length - failed} photo(s) added. ${failed} could not be added: right-click the photo, choose "Copy image" and paste it here, or add it on the next step.`
                 : `All ${added.length} photo(s) added to the media library and placed in the article.`;
         }
     },

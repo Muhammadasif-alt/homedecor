@@ -125,6 +125,8 @@ class PastedPhotosTest extends AdminTestCase
         $this->actingAs($this->editor())->get(route('admin.blog-posts.import'))->assertOk()
             ->assertSee('x-data="articlePaste()"', false)
             ->assertSee('x-on:paste="paste($event)"', false)
+            ->assertSee('x-ref="text"', false)
+            ->assertSee('Drop photos here, or click to choose them')
             ->assertSee(route('admin.media.import-url'), false);
     }
 

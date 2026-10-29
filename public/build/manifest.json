@@ -4,12 +4,12 @@
     "name": "module.esm"
   },
   "resources/css/app.css": {
-    "file": "assets/app-C-asFfKB.css",
+    "file": "assets/app-CllB-yU4.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/admin.js": {
-    "file": "assets/admin-Du9rgQcs.js",
+    "file": "assets/admin-CiIRDz8B.js",
     "name": "admin",
     "src": "resources/js/admin.js",
     "isEntry": true,

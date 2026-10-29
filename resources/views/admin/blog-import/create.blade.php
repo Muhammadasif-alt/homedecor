@@ -8,8 +8,16 @@
                 <x-admin.select name="post_id" label="Publish as" :options="$postOptions" :value="$post?->id"
                                 placeholder="— A new article —"
                                 hint="Choose an existing article to replace its text and photos, or leave as a new article." />
-                <x-admin.textarea name="text" label="Paste the article" rows="22" required x-on:paste="paste($event)"
-                                  hint="Pasted photos are uploaded to the media library and placed where they were. Headings, lists, bold text and FAQ questions are converted automatically." />
+                <x-admin.textarea name="text" label="Paste the article" rows="22" required x-ref="text" x-on:paste="paste($event)"
+                                  hint="Pasted photos are uploaded to the media library and placed where they were. A photo pasted on its own (right-click it, “Copy image”, then Ctrl+V here) fills the next [IMAGE: …] note that has no photo yet." />
+
+                <label x-on:dragover.prevent x-on:drop.prevent="addFiles($event.dataTransfer.files)"
+                       class="flex cursor-pointer flex-col items-center gap-1 rounded border-2 border-dashed border-charcoal/15 px-4 py-6 text-center text-sm text-charcoal-soft hover:border-walnut">
+                    <span class="font-semibold text-charcoal">Drop photos here, or click to choose them</span>
+                    <span>Saved photos from ChatGPT or anywhere else fill the image notes in order: the first goes to the first note, and so on.</span>
+                    <input type="file" accept="image/jpeg,image/png,image/webp" multiple class="sr-only"
+                           x-on:change="addFiles($event.target.files); $event.target.value = ''">
+                </label>
 
                 <p x-show="notice" x-text="notice" x-cloak role="status" class="rounded bg-walnut/5 px-4 py-3 text-sm text-charcoal"></p>
 
