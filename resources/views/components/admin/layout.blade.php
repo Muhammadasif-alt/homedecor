@@ -13,6 +13,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="media-library-url" content="{{ route('admin.media.library') }}">
     <meta name="media-upload-url" content="{{ route('admin.media.store') }}">
+    <meta name="media-import-url" content="{{ route('admin.media.import-url') }}">
     <title>{{ $title }} · Admin · {{ $siteName }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -13,9 +13,9 @@
                         <div class="grid gap-3 rounded border border-charcoal/10 p-4">
                             <p class="text-xs font-semibold uppercase tracking-wide text-walnut">{{ $i === 0 ? 'Featured photo' : 'Photo '.$i }}</p>
                             <p class="text-sm text-charcoal-soft">{{ $description }}</p>
-                            <x-admin.media-picker :name="'slots['.$i.'][media_id]'" :value="$i === 0 ? $defaults['featured_media_id'] : null" />
+                            <x-admin.media-picker :name="'slots['.$i.'][media_id]'" :value="$prefill[$i]['media']->id ?? ($i === 0 ? $defaults['featured_media_id'] : null)" />
                             @if ($i > 0)
-                                <x-admin.input :name="'slots['.$i.'][caption]'" label="Caption (optional)" />
+                                <x-admin.input :name="'slots['.$i.'][caption]'" label="Caption (optional)" :value="$prefill[$i]['caption'] ?? null" />
                             @endif
                         </div>
                     @empty
@@ -34,7 +34,7 @@
                 </div>
             </x-admin.card>
 
-            <x-admin.card title="Preview" description="How the text will read on the site, without the photos.">
+            <x-admin.card title="Preview" description="How the article will read on the site, with the photos it has so far.">
                 <div class="prose prose-sm max-w-none">{!! $html !!}</div>
             </x-admin.card>
 

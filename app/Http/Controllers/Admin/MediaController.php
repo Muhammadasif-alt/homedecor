@@ -6,8 +6,10 @@ use App\Http\Controllers\Admin\Support\MediaPresenter;
 use App\Http\Controllers\Admin\Support\MediaUsage;
 use App\Http\Requests\Admin\MediaRequest;
 use App\Http\Requests\Admin\MediaUploadRequest;
+use App\Http\Requests\Admin\MediaUrlImportRequest;
 use App\Models\Media;
 use App\Services\ImageOptimizer;
+use App\Services\RemoteImageFetcher;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -29,6 +31,7 @@ class MediaController extends ResourceController
         return [
             ...parent::middleware(),
             new Middleware('can:viewAny,'.Media::class, only: ['library']),
+            new Middleware('can:create,'.Media::class, only: ['importUrl']),
             new Middleware('can:update,media', only: ['replace']),
         ];
     }
@@ -75,11 +78,39 @@ class MediaController extends ResourceController
             return response()->json([
                 'data' => array_map(fn (Media $m) => MediaPresenter::item($m), $created),
                 'message' => $message,
-                'errors' => $failed ? ['files' => ["Could not read: ".implode(', ', $failed)]] : [],
+                'errors' => $failed ? ['files' => ['Could not read: '.implode(', ', $failed)]] : [],
             ], $created ? 201 : 422);
         }
 
         return redirect()->route('admin.media.index')->with($created ? 'success' : 'error', $message);
+    }
+
+    /** An image pasted as a web address (from another site or a writing tool), stored like an upload. */
+    public function importUrl(MediaUrlImportRequest $request, RemoteImageFetcher $fetcher): JsonResponse
+    {
+        $url = $request->validated('url');
+        $alt = $request->validated('alt');
+
+        try {
+            $path = $fetcher->fetch($url);
+        } catch (RuntimeException $e) {
+            return response()->json(['message' => $e->getMessage()], 422);
+        }
+
+        try {
+            $name = pathinfo((string) parse_url($url, PHP_URL_PATH), PATHINFO_FILENAME) ?: 'pasted-image';
+            $media = $this->optimizer->store($path, 'media/uploads/'.date('Y/m'), array_filter([
+                'title' => $alt ? Str::limit($alt, 80, '') : Str::headline($name),
+                'alt' => $alt,
+                'original_name' => Str::limit(basename((string) parse_url($url, PHP_URL_PATH)) ?: 'pasted-image', 200, ''),
+            ]));
+        } catch (RuntimeException) {
+            return response()->json(['message' => 'That address did not give a readable JPG, PNG or WebP image.'], 422);
+        } finally {
+            @unlink($path);
+        }
+
+        return response()->json(['data' => MediaPresenter::item($media)], 201);
     }
 
     public function edit(Media $media, MediaUsage $usage): View

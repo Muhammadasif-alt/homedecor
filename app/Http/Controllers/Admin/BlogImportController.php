@@ -46,12 +46,14 @@ class BlogImportController extends Controller implements HasMiddleware
     {
         $post = $this->target($request->validated('post_id'));
         $article = PastedArticle::parse($request->validated('text'));
+        $prefill = $this->pastedPhotos($article, $request->validated('pasted') ?? []);
 
         return view('admin.blog-import.preview', [
             'post' => $post,
             'text' => $request->validated('text'),
             'article' => $article,
-            'html' => AdminRequest::purify($article->html()),
+            'prefill' => $prefill,
+            'html' => AdminRequest::purify($article->html($prefill)),
             'defaults' => [
                 'title' => $article->title,
                 'slug' => $post?->slug ?? Str::slug($article->title),
@@ -111,6 +113,31 @@ class BlogImportController extends Controller implements HasMiddleware
         $message = $post->isLive() ? 'Article published and live.' : 'Article saved as a draft.';
 
         return $this->done('admin.blog-posts.edit', $post, $message);
+    }
+
+    /**
+     * Matches photos uploaded while pasting to the image notes they produced, by their text, so a
+     * note the owner edited or added by hand simply stays empty for them to fill.
+     *
+     * @param  array<int, array{media_id: int, alt: string, caption?: ?string}>  $pasted
+     * @return array<int, array{media: Media, caption: ?string}>
+     */
+    private function pastedPhotos(PastedArticle $article, array $pasted): array
+    {
+        $media = Media::whereIn('id', array_column($pasted, 'media_id'))->get()->keyBy('id');
+        $slots = [];
+
+        foreach ($article->images as $i => $description) {
+            foreach ($pasted as $key => $photo) {
+                if (trim($photo['alt']) === trim($description) && $media->has($photo['media_id'])) {
+                    $slots[$i] = ['media' => $media[$photo['media_id']], 'caption' => $photo['caption'] ?? null];
+                    unset($pasted[$key]);
+                    break;
+                }
+            }
+        }
+
+        return $slots;
     }
 
     private function target(?int $id): ?BlogPost

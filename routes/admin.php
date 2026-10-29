@@ -60,6 +60,7 @@ Route::middleware('web')->prefix('admin')->name('admin.')->group(function () {
 
         // Media library (+ JSON feed for the picker)
         Route::get('media/library', [MediaController::class, 'library'])->name('media.library');
+        Route::post('media/import-url', [MediaController::class, 'importUrl'])->name('media.import-url');
         Route::post('media/{media}/replace', [MediaController::class, 'replace'])->name('media.replace');
         Route::resource('media', MediaController::class)
             ->except(['create', 'show'])->parameters(['media' => 'media']);
